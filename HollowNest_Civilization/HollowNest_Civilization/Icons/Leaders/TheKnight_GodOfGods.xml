@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TheKnight_GodOfGods -->
+<!-- Author: wldcmzy -->
+<!-- DateCreated: 7/18/2023 10:23:33 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_LEADER_GOD_OF_GODS" IconSize="32" Filename="ICON_LEADER_GOD_OF_GODS_32"/>
+		<Row Name="ATLAS_ICON_LEADER_GOD_OF_GODS" IconSize="45" Filename="ICON_LEADER_GOD_OF_GODS_45"/>
+		<Row Name="ATLAS_ICON_LEADER_GOD_OF_GODS" IconSize="48" Filename="ICON_LEADER_GOD_OF_GODS_48"/>
+		<Row Name="ATLAS_ICON_LEADER_GOD_OF_GODS" IconSize="50" Filename="ICON_LEADER_GOD_OF_GODS_50"/>
+		<Row Name="ATLAS_ICON_LEADER_GOD_OF_GODS" IconSize="55" Filename="ICON_LEADER_GOD_OF_GODS_55"/>
+		<Row Name="ATLAS_ICON_LEADER_GOD_OF_GODS" IconSize="64" Filename="ICON_LEADER_GOD_OF_GODS_64"/>
+		<Row Name="ATLAS_ICON_LEADER_GOD_OF_GODS" IconSize="80" Filename="ICON_LEADER_GOD_OF_GODS_80"/>
+		<Row Name="ATLAS_ICON_LEADER_GOD_OF_GODS" IconSize="256" Filename="ICON_LEADER_GOD_OF_GODS_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_GOD_OF_GODS" Atlas="ATLAS_ICON_LEADER_GOD_OF_GODS" Index="0"/>
+	</IconDefinitions>
+</GameData>

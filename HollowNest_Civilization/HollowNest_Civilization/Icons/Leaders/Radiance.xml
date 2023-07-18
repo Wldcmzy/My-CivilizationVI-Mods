@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Radiance -->
+<!-- Author: wldcmzy -->
+<!-- DateCreated: 7/18/2023 10:12:03 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_LEADER_RADIANCE" IconSize="32" Filename="ICON_LEADER_RADIANCE_32"/>
+		<Row Name="ATLAS_ICON_LEADER_RADIANCE" IconSize="45" Filename="ICON_LEADER_RADIANCE_45"/>
+		<Row Name="ATLAS_ICON_LEADER_RADIANCE" IconSize="48" Filename="ICON_LEADER_RADIANCE_48"/>
+		<Row Name="ATLAS_ICON_LEADER_RADIANCE" IconSize="50" Filename="ICON_LEADER_RADIANCE_50"/>
+		<Row Name="ATLAS_ICON_LEADER_RADIANCE" IconSize="55" Filename="ICON_LEADER_RADIANCE_55"/>
+		<Row Name="ATLAS_ICON_LEADER_RADIANCE" IconSize="64" Filename="ICON_LEADER_RADIANCE_64"/>
+		<Row Name="ATLAS_ICON_LEADER_RADIANCE" IconSize="80" Filename="ICON_LEADER_RADIANCE_80"/>
+		<Row Name="ATLAS_ICON_LEADER_RADIANCE" IconSize="256" Filename="ICON_LEADER_RADIANCE_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_RADIANCE" Atlas="ATLAS_ICON_LEADER_RADIANCE" Index="0"/>
+	</IconDefinitions>
+</GameData>

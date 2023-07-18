@@ -14,7 +14,8 @@
 	<Buildings>
 		<Row 
 			BuildingType="BUILDING_TEACHERS_ARCHIVES" 
-			Name="LOC_BUILDING_TEACHERS_ARCHIVES_NAME" 
+			Name="LOC_BUILDING_TEACHERS_ARCHIVES_NAME"
+			Description="LOC_BUILDING_TEACHERS_ARCHIVES_DESCRIPTION"
 			PrereqTech="TECH_WRITING" 
 			PrereqDistrict="DISTRICT_CAMPUS" 
 			PurchaseYield="YIELD_GOLD" 
@@ -37,7 +38,7 @@
 	</Building_GreatPersonPoints>
 
 	<Building_GreatWorks>
-		<Row BuildingType="BUILDING_AMPHITHEATER" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="2"/>
+		<Row BuildingType="BUILDING_TEACHERS_ARCHIVES" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="2"/>
 	</Building_GreatWorks>
 
 </GameData>

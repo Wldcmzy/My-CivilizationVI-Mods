@@ -15,7 +15,7 @@
 				拥有一次性技能“封印”，可以消除一座己方城市中所有非你创立的宗教的公民信仰，
 				并根据封印量提升战斗力，每改变一名公民信仰+1战斗力，使用技能“封印”后，
 				失去能力“纯粹”。
-				不需要任何战略资源。
+				不需要任何战略资源，维护费0金币[ICON_Gold]。
 			</Text>
 		</Replace>
 
@@ -27,10 +27,10 @@
 			<Text>
 				代替竞技场。只有最勇猛的强者，才可以在炼狱般的试炼中活下来，
 				并获得大量金币奖励，这也导致了其高昂的维护费用。
-				需要更少的产能进行建造()，作为娱乐区域，提供+3宜居度。维护费8金币（
-				基础2金币，斗兽场的三种试炼分别对应1、2、3金币）。
-				此城生产军事单位增加100%的产能，若此城还拥有军营，改为增加300%。
-				此城购买军事单位所需金币-50%。
+				需要更少的产能进行建造，作为娱乐区域，提供+3宜居度。维护费8金币[ICON_Gold]（
+				基础2金币[ICON_Gold]，斗兽场的三种试炼分别对应1、2、3金币[ICON_Gold]）。
+				此城生产军事单位增加100%的产能[ICON_Production]，若此城还拥有军营，改为增加300%产能[ICON_Production]。
+				此城购买军事单位所需金币[ICON_Gold]-50%。
 			</Text>
 		</Replace>
 
@@ -41,8 +41,8 @@
 		<Replace Tag="LOC_BUILDING_TEACHERS_ARCHIVES_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>
 				代替图书馆，需要花费更高的生产力。存有教师莫诺蒙的手稿，
-				提供+2科技值，+2文化值，+1大科学家点数，+1大作家点数，+2巨作槽位。
-				维护费1金币。
+				提供+2科技值[ICON_Science]，+2文化值[ICON_Culture]，+1大科学家点数，+1大作家点数，+2巨作槽位。
+				维护费1金币[ICON_Gold]。
 			</Text>
 		</Replace>
 
@@ -52,9 +52,24 @@
 
 		<Replace Tag="LOC_DISTRICT_PALACE_GROUNDS_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>
-				代替圣地，维护费1金币。
+				代替圣地，维护费1金币[ICON_Gold]。
 				国王神像伫立于广场中央，使得宫殿广场从相邻区域获得的加成提升至1，
-				由公民工作提供信仰产出由2升级为4。
+				由公民工作提供信仰[ICON_Faith]产出由2升级为4。
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_FLOURISHING_CROSSROADS_NAME" Language="zh_Hans_CN">
+			<Text>繁华十字路</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_FLOURISHING_CROSSROADS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				代替商业中心。十字路作为重要的交通枢纽，每日虫山虫海，把圣巢文明的经济文化
+				繁荣推上了新高度。区域相邻加成+1，
+				提供先当与该地区金币产出的文化值[ICON_Culture]和生产力[ICON_Production]。
+				可以通过国内贸易获得更多的食物[ICON_Food]、产能[ICON_Production]和金币[ICON_Gold]，
+				可以通过国际贸易获得更多的金币[ICON_Gold]。
+				建造完成时，商人容量+1，提供一个商人单位。
 			</Text>
 		</Replace>
 
@@ -71,11 +86,15 @@
 		</Replace>
 
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_HOLLOWNEST_NAME" Language="zh_Hans_CN">
-			<Text>平凡者们的祝福</Text>
+			<Text>繁荣记忆与平凡者的祝福</Text>
 		</Replace>
 
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_HOLLOWNEST_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>己方战斗单位死亡后会留下如同护符般的祝福，可以为周围的己方战斗单位+2战斗力，且有概率掉落遗物。</Text>
+			<Text>
+				繁荣记忆：圣巢迎来空前的繁荣，在诸多领域有所建树，圣巢文明拥有大量特色区域。
+				平凡者的祝福：己方战斗单位死亡后会留下护符，可以为周围的己方战斗单位+2战斗力，
+				且有概率掉落遗物。
+			</Text>
 		</Replace>
 
 		<Replace Tag="LOC_LEADER_RADIANCE_NAME" Language="zh_Hans_CN">
@@ -83,7 +102,7 @@
 		</Replace>
 
 		<Replace Tag="LOC_TRAIT_LEADER_RADIANCE_NAME" Language="zh_Hans_CN">
-			<Text>感染</Text>
+			<Text>瘟疫之光</Text>
 		</Replace>
 
 		<Replace Tag="LOC_TRAIT_LEADER_RADIANCE_DESCRIPTION" Language="zh_Hans_CN">
@@ -108,7 +127,7 @@
 				小骑士经历数以亿计的战斗，死亡无数，完成了无能力0钉r45、辐辉速杀any辐光3.0、
 				苦痛之路1分40秒，any速通24分钟等壮举，最终晋升虚空神，成为圣巢诸神之神。
 				军事单位获得经验+300%且受伤的单位不会减少战斗力。
-				军事单位每有一次升级，永久获得+1战斗力。
+				军事单位每有一次升级，永久获得+2战斗力。
 			</Text>
 		</Replace>
 
@@ -125,7 +144,7 @@
 				灵活的圣巢一哥可以游刃有余地在圣巢的任意一处地点穿梭。
 				所有单位+1移动力，可以无视丘陵和雨林，可以攀登悬崖。
 				自然灾害无法对你的单位造成伤害。
-				生产平民单位+50%产能。
+				生产平民单位+50%产能[ICON_Production]。
 			</Text>
 		</Replace>
 
@@ -142,7 +161,7 @@
 				苍白之王沃姆善于利用锋利的锯武装城市的各个角落，
 				不熟悉地形的人来到它的城市只有受苦的份。
 				在己方领土内，非己方单位需要消耗全部移动力才能移动一格。
-				所有改良设施额外+2产能。
+				所有改良设施额外+2产能[ICON_Production]。
 				在己方领土内，军队战斗力+5.
 			</Text>
 		</Replace>
