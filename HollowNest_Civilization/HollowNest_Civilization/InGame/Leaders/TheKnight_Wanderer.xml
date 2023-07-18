@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TheKnight_Wanderer -->
+<!-- Author: wldcmzy -->
+<!-- DateCreated: 7/17/2023 9:50:09 PM -->
+<GameData>
+	<Types>
+		<Row Type="LEADER_WANDERER" Kind="KIND_LEADER"/>
+	</Types>
+	<Leaders>
+		<Row
+			LeaderType="LEADER_WANDERER"
+			Name="LOC_LEADER_WANDERER_NAME"
+			InheritFrom="LEADER_DEFAULT"
+			SceneLayers="4"
+		/>
+	</Leaders>
+
+	<LeaderQuotes>
+		<Row
+			LeaderType="LEADER_WANDERER"
+			Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_WANDERER_QUOTE"
+			QuoteAudio="Play_LEADER_WANDERER_QUOTES"
+		/>
+	</LeaderQuotes>
+</GameData>

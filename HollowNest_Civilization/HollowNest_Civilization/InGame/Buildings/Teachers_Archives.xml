@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Teachers_Archives -->
+<!-- Author: wldcmzy -->
+<!-- DateCreated: 7/17/2023 11:50:08 PM -->
+<GameData>
+	<Types>
+		<Row Type="BUILDING_TEACHERS_ARCHIVES" Kind="KIND_BUILDING"/>
+	</Types>
+
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_TEACHERS_ARCHIVES" ReplacesBuildingType="BUILDING_LIBRARY"/>
+	</BuildingReplaces>
+
+	<Buildings>
+		<Row 
+			BuildingType="BUILDING_TEACHERS_ARCHIVES" 
+			Name="LOC_BUILDING_TEACHERS_ARCHIVES_NAME" 
+			PrereqTech="TECH_WRITING" 
+			PrereqDistrict="DISTRICT_CAMPUS" 
+			PurchaseYield="YIELD_GOLD" 
+			Cost="120" 
+			AdvisorType="ADVISOR_TECHNOLOGY" 
+			Maintenance="1" 
+			CitizenSlots="1"
+			TraitType="TRAIT_CIVILIZATION_BUILDING_TEACHERS_ARCHIVES"
+		/>
+	</Buildings>
+
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_TEACHERS_ARCHIVES" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_TEACHERS_ARCHIVES" YieldType="YIELD_CULTURE" YieldChange="2"/>
+	</Building_YieldChanges>
+	
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_TEACHERS_ARCHIVES" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_TEACHERS_ARCHIVES" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="1"/>
+	</Building_GreatPersonPoints>
+
+	<Building_GreatWorks>
+		<Row BuildingType="BUILDING_AMPHITHEATER" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="2"/>
+	</Building_GreatWorks>
+
+</GameData>

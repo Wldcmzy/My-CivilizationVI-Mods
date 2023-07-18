@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zh_Hans_CN -->
+<!-- Author: wldcmzy -->
+<!-- DateCreated: 7/17/2023 10:09:33 PM -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNIT_HOLLOW_KNIGHT_NAME" Language="zh_Hans_CN">
+			<Text>空洞骑士</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UNIT_HOLLOW_KNIGHT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				障目之光之容器，战斗力50，移动力6，
+				拥有能力“纯粹”，使战斗的双方都无法受到任何额外战斗力加成。
+				拥有一次性技能“封印”，可以消除一座己方城市中所有非你创立的宗教的公民信仰，
+				并根据封印量提升战斗力，每改变一名公民信仰+1战斗力，使用技能“封印”后，
+				失去能力“纯粹”。
+				不需要任何战略资源。
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_COLOSSEUM_OF_FOOLS_NAME" Language="zh_Hans_CN">
+			<Text>愚人斗兽场</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_COLOSSEUM_OF_FOOLS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				代替竞技场。只有最勇猛的强者，才可以在炼狱般的试炼中活下来，
+				并获得大量金币奖励，这也导致了其高昂的维护费用。
+				需要更少的产能进行建造()，作为娱乐区域，提供+3宜居度。维护费8金币（
+				基础2金币，斗兽场的三种试炼分别对应1、2、3金币）。
+				此城生产军事单位增加100%的产能，若此城还拥有军营，改为增加300%。
+				此城购买军事单位所需金币-50%。
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_TEACHERS_ARCHIVES_NAME" Language="zh_Hans_CN">
+			<Text>教师档案馆</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_TEACHERS_ARCHIVES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				代替图书馆，需要花费更高的生产力。存有教师莫诺蒙的手稿，
+				提供+2科技值，+2文化值，+1大科学家点数，+1大作家点数，+2巨作槽位。
+				维护费1金币。
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_PALACE_GROUNDS_NAME" Language="zh_Hans_CN">
+			<Text>宫殿广场</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_PALACE_GROUNDS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				代替圣地，维护费1金币。
+				国王神像伫立于广场中央，使得宫殿广场从相邻区域获得的加成提升至1，
+				由公民工作提供信仰产出由2升级为4。
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CIVILIZATION_HOLLOWNEST_NAME" Language="zh_Hans_CN">
+			<Text>圣巢</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CIVILIZATION_HOLLOWNEST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>圣巢文明</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CIVILIZATION_HOLLOWNEST_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>圣巢的</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_HOLLOWNEST_NAME" Language="zh_Hans_CN">
+			<Text>平凡者们的祝福</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_HOLLOWNEST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>己方战斗单位死亡后会留下如同护符般的祝福，可以为周围的己方战斗单位+2战斗力，且有概率掉落遗物。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_RADIANCE_NAME" Language="zh_Hans_CN">
+			<Text>辐光</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_RADIANCE_NAME" Language="zh_Hans_CN">
+			<Text>感染</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_RADIANCE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				辐光以操控梦境感染生灵的心智。
+				所有城市释放宗教压力均与圣城相同，
+				传教士和使徒效率提升50%，宗教战争传教效率提升50%。
+				使徒自动获得辩论者升级。
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_GOD_OF_GODS_NAME" Language="zh_Hans_CN">
+			<Text>小骑士（诸神之神）</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_GOD_OF_GODS_NAME" Language="zh_Hans_CN">
+			<Text>百炼成钢</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_GOD_OF_GODS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				小骑士经历数以亿计的战斗，死亡无数，完成了无能力0钉r45、辐辉速杀any辐光3.0、
+				苦痛之路1分40秒，any速通24分钟等壮举，最终晋升虚空神，成为圣巢诸神之神。
+				军事单位获得经验+300%且受伤的单位不会减少战斗力。
+				军事单位每有一次升级，永久获得+1战斗力。
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_WANDERER_NAME" Language="zh_Hans_CN">
+			<Text>小骑士（漫游者）</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_WANDERER_NAME" Language="zh_Hans_CN">
+			<Text>跑酷圣巢</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_WANDERER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				灵活的圣巢一哥可以游刃有余地在圣巢的任意一处地点穿梭。
+				所有单位+1移动力，可以无视丘陵和雨林，可以攀登悬崖。
+				自然灾害无法对你的单位造成伤害。
+				生产平民单位+50%产能。
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_WYRMS_NAME" Language="zh_Hans_CN">
+			<Text>沃姆</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_WYRMS_NAME" Language="zh_Hans_CN">
+			<Text>装修鬼才</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_WYRMS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				苍白之王沃姆善于利用锋利的锯武装城市的各个角落，
+				不熟悉地形的人来到它的城市只有受苦的份。
+				在己方领土内，非己方单位需要消耗全部移动力才能移动一格。
+				所有改良设施额外+2产能。
+				在己方领土内，军队战斗力+5.
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_THE_ABYSS" Language="zh_Hans_CN">
+			<Text>深渊</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_ANCIENT_BASIN" Language="zh_Hans_CN">
+			<Text>古老盆地</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_CITY_OF_TEARS" Language="zh_Hans_CN">
+			<Text>泪水之城</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_CRYSTAL_PEAK" Language="zh_Hans_CN">
+			<Text>水晶山峰</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_DEEPNEST" Language="zh_Hans_CN">
+			<Text>深巢</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_DIRTMOUTH" Language="zh_Hans_CN">
+			<Text>泥口</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_FOG_CANYON" Language="zh_Hans_CN">
+			<Text>雾之峡谷</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_FUNGAL_WASTES" Language="zh_Hans_CN">
+			<Text>真菌荒地</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_GODHOME" Language="zh_Hans_CN">
+			<Text>神居</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_GREENPATH" Language="zh_Hans_CN">
+			<Text>苍绿之径</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_THE_HIVE" Language="zh_Hans_CN">
+			<Text>蜂巢</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_KINDOM_S_EDGE" Language="zh_Hans_CN">
+			<Text>王国边缘</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_QUEEN_S_GARDENS" Language="zh_Hans_CN">
+			<Text>王后花园</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_RESTING_GROUNDS" Language="zh_Hans_CN">
+			<Text>安息之地</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_ROYAL_WATERWAYS" Language="zh_Hans_CN">
+			<Text>皇家水道</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_WHITE_PALACE" Language="zh_Hans_CN">
+			<Text>白色宫殿</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_SOUL_DUALISM" Language="zh_Hans_CN">
+			<Text>灵魂池沼</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_HOWLING_CLIFFS" Language="zh_Hans_CN">
+			<Text>呼啸悬崖</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_DREAM_REALM" Language="zh_Hans_CN">
+			<Text>梦境</Text>
+		</Replace>
+
+	</LocalizedText>
+
+</GameData>

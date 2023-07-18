@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Hollow_Knight -->
+<!-- Author: wldcmzy -->
+<!-- DateCreated: 7/17/2023 10:07:57 PM -->
+<GameData>
+	<Types>
+		<Row Type="UNIT_HOLLOW_KNIGHT" Kind="KIND_UNIT"/>
+	</Types>
+
+	<UnitAiInfos>
+		<Row UnitType="UNIT_HOLLOW_KNIGHT" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HOLLOW_KNIGHT" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_HOLLOW_KNIGHT" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_HOLLOW_KNIGHT" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_HOLLOW_KNIGHT" ReplacesUnitType="UNIT_KNIGHT"/>
+	</UnitReplaces>
+
+	<TypeTags>
+		<Row Type="UNIT_HOLLOW_KNIGHT" Tag="CLASS_HEAVY_CAVALRY"/>
+	</TypeTags>
+
+	<Units>
+		<Row
+			UnitType="UNIT_HOLLOW_KNIGHT"
+			Cost="90"
+			Maintenance="0"
+			BaseMoves="6"
+			BaseSightRange="3"
+			ZoneOfControl="true"
+			Domain="DOMAIN_LAND"
+			Combat="50"
+			FormationClass="FORMATION_CLASS_LAND_COMBAT"
+			PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"
+			AdvisorType="ADVISOR_CONQUEST"
+			Name="LOC_UNIT_HOLLOW_KNIGHT_NAME"
+			Description="LOC_UNIT_HOLLOW_KNIGHT_DESCRIPTION"
+			PurchaseYield="YIELD_GOLD"
+			MandatoryObsoleteTech="TECH_COMPOSITES"
+			PrereqTech="TECH_STIRRUPS"
+			TraitType="TRAIT_UNIT_HOLLOW_KNIGHT"
+		/>
+	</Units>
+
+	<UnitUpgrades>
+		<Row Unit="UNIT_HOLLOW_KNIGHT" UpgradeUnit="UNIT_TANK"/>
+	</UnitUpgrades>
+
+</GameData>

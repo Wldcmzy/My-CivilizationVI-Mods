@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Teachers_Archives -->
+<!-- Author: wldcmzy -->
+<!-- DateCreated: 7/17/2023 11:48:32 PM -->
+<GameData>
+	<PlayerItems>
+		<!--Radiance-->
+		<Row
+			Domain="Players:Expansion2_Players"
+			CivilizationType="CIVILIZATION_HOLLOWNEST"
+			LeaderType="LEADER_RADIANCE"
+			Type="BUILDING_TEACHERS_ARCHIVES"
+			Icon="ICON_BUILDING_TEACHERS_ARCHIVES"
+			Name="LOC_BUILDING_TEACHERS_ARCHIVES_NAME"
+			Description="LOC_BUILDING_TEACHERS_ARCHIVES_DESCRIPTION"
+			SortIndex="10"
+		/>
+		<!--God of Gods-->
+		<Row
+			Domain="Players:Expansion2_Players"
+			CivilizationType="CIVILIZATION_HOLLOWNEST"
+			LeaderType="LEADER_GOD_OF_GODS"
+			Type="BUILDING_TEACHERS_ARCHIVES"
+			Icon="ICON_BUILDING_TEACHERS_ARCHIVES"
+			Name="LOC_BUILDING_TEACHERS_ARCHIVES_NAME"
+			Description="LOC_BUILDING_TEACHERS_ARCHIVES_DESCRIPTION"
+			SortIndex="10"
+		/>
+		<!--Wanderer-->
+		<Row
+			Domain="Players:Expansion2_Players"
+			CivilizationType="CIVILIZATION_HOLLOWNEST"
+			LeaderType="LEADER_WANDERER"
+			Type="BUILDING_TEACHERS_ARCHIVES"
+			Icon="ICON_BUILDING_TEACHERS_ARCHIVES"
+			Name="LOC_BUILDING_TEACHERS_ARCHIVES_NAME"
+			Description="LOC_BUILDING_TEACHERS_ARCHIVES_DESCRIPTION"
+			SortIndex="10"
+		/>
+		<!--Wyrms-->
+		<Row
+			Domain="Players:Expansion2_Players"
+			CivilizationType="CIVILIZATION_HOLLOWNEST"
+			LeaderType="LEADER_WYRMS"
+			Type="BUILDING_TEACHERS_ARCHIVES"
+			Icon="ICON_BUILDING_TEACHERS_ARCHIVES"
+			Name="LOC_BUILDING_TEACHERS_ARCHIVES_NAME"
+			Description="LOC_BUILDING_TEACHERS_ARCHIVES_DESCRIPTION"
+			SortIndex="10"
+		/>
+	</PlayerItems>
+
+</GameData>

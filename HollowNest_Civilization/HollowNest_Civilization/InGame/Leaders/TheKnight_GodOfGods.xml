@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TheKnight_VoidGod -->
+<!-- Author: wldcmzy -->
+<!-- DateCreated: 7/17/2023 9:45:55 PM -->
+<GameData>
+	<Types>
+		<Row Type="LEADER_GOD_OF_GODS" Kind="KIND_LEADER"/>
+	</Types>
+	<Leaders>
+		<Row
+			LeaderType="LEADER_GOD_OF_GODS"
+			Name="LOC_LEADER_GOD_OF_GODS_NAME"
+			InheritFrom="LEADER_DEFAULT"
+			SceneLayers="4"
+		/>
+	</Leaders>
+
+	<LeaderQuotes>
+		<Row
+			LeaderType="LEADER_GOD_OF_GODS"
+			Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_GOD_OF_GODS_QUOTE"
+			QuoteAudio="Play_LEADER_GOD_OF_GODS_QUOTES"
+		/>
+	</LeaderQuotes>
+</GameData>

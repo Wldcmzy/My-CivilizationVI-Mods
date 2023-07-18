@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Colosseum_of_Fools -->
+<!-- Author: wldcmzy -->
+<!-- DateCreated: 7/17/2023 10:06:31 PM -->
+<GameData>
+	<Types>
+		<Row Type="BUILDING_COLOSSEUM_OF_FOOLS" Kind="KIND_BUILDING"/>
+	</Types>
+
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_COLOSSEUM_OF_FOOLS" ReplacesBuildingType="BUILDING_ARENA"/>
+	</BuildingReplaces>
+
+	<Buildings>
+		<Row
+			BuildingType="BUILDING_COLOSSEUM_OF_FOOLS"
+			Name="LOC_BUILDING_COLOSSEUM_OF_FOOLS_NAME"
+			PrereqCivic="CIVIC_GAMES_RECREATION"
+			PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX"
+			PurchaseYield="YIELD_GOLD"
+			Cost="50"
+			AdvisorType="ADVISOR_GENERIC"
+			Maintenance="8"
+			Entertainment="3"
+			TraitType="TRAIT_CIVILIZATION_BUILDING_COLOSSEUM_OF_FOOLS"
+		/>
+	</Buildings>
+</GameData>

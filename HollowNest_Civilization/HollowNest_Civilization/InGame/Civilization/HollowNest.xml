@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- HollowNest -->
+<!-- Author: wldcmzy -->
+<!-- DateCreated: 7/17/2023 9:54:03 PM -->
+<GameData>
+	<Types>
+		<Row Type="CIVILIZATION_HOLLOWNEST" Kind="KIND_CIVILIZATION"/>
+		<Row Type="TRAIT_UNIT_HOLLOW_KNIGHT" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_COLOSSEUM_OF_FOOLS" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_TEACHERS_ARCHIVES" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_PALACE_GROUNDS" Kind="KIND_TRAIT"/>
+	</Types>
+
+	<Civilizations>
+		<Row
+			CivilizationType="CIVILIZATION_HOLLOWNEST"
+			Name="LOC_CIVILIZATION_HOLLOWNEST_NAME"
+			Description="LOC_CIVILIZATION_HOLLOWNEST_DESCRIPTION"
+			Adjective="LOC_CIVILIZATION_HOLLOWNEST_ADJECTIVE"
+			StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV"
+			RandomCityNameDepth="10"
+			Ethnicity="ETHNICITY_MEDIT"
+		/>
+	</Civilizations>
+
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" LeaderType="LEADER_RADIANCE" CapitalName="LOC_CITY_NAME_DREAM_REALM"/>
+		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" LeaderType="LEADER_GOD_OF_GODS" CapitalName="LOC_CITY_NAME_GODHOME"/>
+		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" LeaderType="LEADER_WANDERER" CapitalName="LOC_CITY_NAME_DIRTMOUTH"/>
+		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" LeaderType="LEADER_WYRMS" CapitalName="LOC_CITY_NAME_WHITE_PALACE"/>
+	</CivilizationLeaders>
+
+	<Traits>
+		<!--Units-->
+		<Row
+			TraitType="TRAIT_UNIT_HOLLOW_KNIGHT"
+			Name="LOC_UNIT_HOLLOW_KNIGHT_NAME"
+			Description="LOC_UNIT_HOLLOW_KNIGHT_DESCRIPTION"
+		/>
+		<!--Buildings-->
+		<Row
+			TraitType="TRAIT_CIVILIZATION_BUILDING_COLOSSEUM_OF_FOOLS"
+			Name="LOC_BUILDING_COLOSSEUM_OF_FOOLS_NAME"
+			Description="LOC_BUILDING_COLOSSEUM_OF_FOOLS_DESCRIPTION"
+		/>
+		<Row
+			TraitType="TRAIT_CIVILIZATION_BUILDING_TEACHERS_ARCHIVES"
+			Name="LOC_BUILDING_TEACHERS_ARCHIVES_NAME"
+			Description="LOC_BUILDING_TEACHERS_ARCHIVES_DESCRIPTION"
+		/>
+		<!--Districts-->
+		<Row 
+			TraitType="TRAIT_CIVILIZATION_DISTRICT_PALACE_GROUNDS" 
+			Name="LOC_TRAIT_CIVILIZATION_DISTRICT_PALACE_GROUNDS_NAME"
+			Description="LOC_TRAIT_CIVILIZATION_DISTRICT_PALACE_GROUNDS_DESCRIPTION"
+		/>
+	</Traits>
+
+	<CivilizationTraits>
+		<!--Units-->
+		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" TraitType="TRAIT_UNIT_HOLLOW_KNIGHT"/>
+		<!--Buildings-->
+		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" TraitType="TRAIT_CIVILIZATION_BUILDING_COLOSSEUM_OF_FOOLS"/>
+		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" TraitType="TRAIT_CIVILIZATION_BUILDING_TEACHERS_ARCHIVES"/>
+		<!--Districts-->
+		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" TraitType="TRAIT_CIVILIZATION_DISTRICT_PALACE_GROUNDS"/>
+	</CivilizationTraits>
+
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_THE_ABYSS"/>
+		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_ANCIENT_BASIN"/>
+		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_CITY_OF_TEARS"/>
+		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_CRYSTAL_PEAK"/>
+		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_DEEPNEST"/>
+		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_DIRTMOUTH"/>
+		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_FOG_CANYON"/>
+		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_FUNGAL_WASTES"/>
+		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_GODHOME"/>
+		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_GREENPATH"/>
+		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_THE_HIVE"/>
+		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_KINDOM_S_EDGE"/>
+		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_QUEEN_S_GARDENS"/>
+		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_RESTING_GROUNDS"/>
+		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_ROYAL_WATERWAYS"/>
+		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_WHITE_PALACE"/>
+		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_SOUL_DUALISM"/>
+		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_HOWLING_CLIFFS"/>
+		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_DREAM_REALM"/>
+
+	</CityNames>
+
+	<Colors>
+		<Row>
+			<Type>COLOR_CIVILIZATION_HOLLOWNEST_WHITE</Type>
+			<Color>248,248,255,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_CIVILIZATION_HOLLOWNEST_BLACK</Type>
+			<Color>28,28,28,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_CIVILIZATION_HOLLOWNEST_YELLOW</Type>
+			<Color>255,215,0,255</Color>
+		</Row>
+	</Colors>
+
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_RADIANCE</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_CIVILIZATION_HOLLOWNEST_YELLOW</PrimaryColor>
+			<SecondaryColor>COLOR_CIVILIZATION_HOLLOWNEST_BLACK</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+		<Row>
+			<Type>LEADER_GOD_OF_GODS</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_CIVILIZATION_HOLLOWNEST_BLACK</PrimaryColor>
+			<SecondaryColor>COLOR_CIVILIZATION_HOLLOWNEST_WHITE</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+		<Row>
+			<Type>LEADER_WANDERER</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_CIVILIZATION_HOLLOWNEST_WHITE</PrimaryColor>
+			<SecondaryColor>COLOR_CIVILIZATION_HOLLOWNEST_BLACK</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+		<Row>
+			<Type>LEADER_WYRMS</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_CIVILIZATION_HOLLOWNEST_WHITE</PrimaryColor>
+			<SecondaryColor>COLOR_CIVILIZATION_HOLLOWNEST_BLACK</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+
+</GameData>

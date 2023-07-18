@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Wyrms -->
+<!-- Author: wldcmzy -->
+<!-- DateCreated: 7/17/2023 9:47:15 PM -->
+<GameData>
+	<Types>
+		<Row Type="LEADER_WYRMS" Kind="KIND_LEADER"/>
+	</Types>
+	
+	<Leaders>
+		<Row
+			LeaderType="LEADER_WYRMS"
+			Name="LOC_LEADER_WYRMS_NAME"
+			InheritFrom="LEADER_DEFAULT"
+			SceneLayers="4"
+		/>
+	</Leaders>
+
+	<LeaderQuotes>
+		<Row
+			LeaderType="LEADER_WYRMS"
+			Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_WYRMS_QUOTE"
+			QuoteAudio="Play_LEADER_WYRMS_QUOTES"
+		/>
+	</LeaderQuotes>
+	
+</GameData>

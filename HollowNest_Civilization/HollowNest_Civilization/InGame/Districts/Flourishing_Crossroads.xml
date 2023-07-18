@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Flourishing_Crossroads -->
+<!-- Author: wldcmzy -->
+<!-- DateCreated: 7/18/2023 11:40:45 AM -->
+<GameData>
+	<Types>
+		<Row Type="DISTRICT_FLOURISHING_CROSSROADS" Kind="KIND_DISTRICT"/>
+	</Types>
+
+	<DistrictReplaces>
+		<Row CivUniqueDistrictType="DISTRICT_FLOURISHING_CROSSROADS" ReplacesDistrictType="DISTRICT_HOLY_SITE"/>
+	</DistrictReplaces>
+
+	未完成
+</GameData>
