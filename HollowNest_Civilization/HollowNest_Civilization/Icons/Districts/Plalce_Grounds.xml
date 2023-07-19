@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Plalce_Grounds -->
+<!-- Author: wldcmzy -->
+<!-- DateCreated: 7/19/2023 9:54:47 AM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_DISTRICT_PALACE_GROUNDS" IconSize="22" Filename="ICON_DISTRICT_PALACE_GROUNDS_22"/>
+		<Row Name="ATLAS_ICON_DISTRICT_PALACE_GROUNDS" IconSize="32" Filename="ICON_DISTRICT_PALACE_GROUNDS_32"/>
+		<Row Name="ATLAS_ICON_DISTRICT_PALACE_GROUNDS" IconSize="38" Filename="ICON_DISTRICT_PALACE_GROUNDS_38"/>
+		<Row Name="ATLAS_ICON_DISTRICT_PALACE_GROUNDS" IconSize="50" Filename="ICON_DISTRICT_PALACE_GROUNDS_50"/>
+		<Row Name="ATLAS_ICON_DISTRICT_PALACE_GROUNDS" IconSize="80" Filename="ICON_DISTRICT_PALACE_GROUNDS_80"/>
+		<Row Name="ATLAS_ICON_DISTRICT_PALACE_GROUNDS" IconSize="128" Filename="ICON_DISTRICT_PALACE_GROUNDS_128"/>
+		<Row Name="ATLAS_ICON_DISTRICT_PALACE_GROUNDS" IconSize="256" Filename="ICON_DISTRICT_PALACE_GROUNDS_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_DISTRICT_PALACE_GROUNDS" Atlas="ATLAS_ICON_DISTRICT_PALACE_GROUNDS" Index="0"/>
+	</IconDefinitions>
+</GameData>

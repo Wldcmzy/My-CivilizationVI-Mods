@@ -39,12 +39,24 @@
 	</Districts>
 	
 	<District_Adjacencies>
-		<Row DistrictType="DISTRICT_FLOURISHING_CROSSROADS" YieldChangeId="District_Gold"/>
+		<Row DistrictType="DISTRICT_FLOURISHING_CROSSROADS" YieldChangeId="District_Flourishing_Crossroads_Gold"/>
 		<Row DistrictType="DISTRICT_FLOURISHING_CROSSROADS" YieldChangeId="Government_Gold"/>
 		<Row DistrictType="DISTRICT_FLOURISHING_CROSSROADS" YieldChangeId="River_Gold"/>
 		<Row DistrictType="DISTRICT_FLOURISHING_CROSSROADS" YieldChangeId="Harbor_Gold"/>
 		<Row DistrictType="DISTRICT_FLOURISHING_CROSSROADS" YieldChangeId="RoyalDock_Gold"/>
 	</District_Adjacencies>
+
+	<!--New YieldChanges: +1 Adjacency(GOLD) per District for DISTRICT_FLOURISHING_CROSSROADS-->
+	<Adjacency_YieldChanges>
+		<Row
+			ID="District_Flourishing_Crossroads_Gold"
+			Description="LOC_DISTRICT_FLOURISHING_CROSSROADS_GOLD"
+			YieldType="YIELD_GOLD"
+			YieldChange="1"
+			TilesRequired="1"
+			OtherDistrictAdjacent="1"
+		/>
+	</Adjacency_YieldChanges>
 
 	<District_GreatPersonPoints>
 		<Row DistrictType="DISTRICT_FLOURISHING_CROSSROADS" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="2"/>
@@ -55,9 +67,113 @@
 		<Row DistrictType="DISTRICT_FLOURISHING_CROSSROADS" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="0"/>
 		<Row DistrictType="DISTRICT_FLOURISHING_CROSSROADS" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="6"/>
 	</District_TradeRouteYields>
+	
 
 	<District_CitizenYieldChanges>
 		<Row DistrictType="DISTRICT_FLOURISHING_CROSSROADS" YieldType="YIELD_GOLD" YieldChange="4"/>
 	</District_CitizenYieldChanges>
+
+
+	<!--Trade Route +1-->
+	<DistrictModifiers>
+		<Row>
+			<DistrictType>DISTRICT_FLOURISHING_CROSSROADS</DistrictType>
+			<ModifierId>DISTRICT_FLOURISHING_CROSSROADS_ADDTRADEROUTE</ModifierId>
+		</Row>
+	</DistrictModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>DISTRICT_FLOURISHING_CROSSROADS_ADDTRADEROUTE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>DISTRICT_FLOURISHING_CROSSROADS_ADDTRADEROUTE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!--Trader Unit +1-->
+	<DistrictModifiers>
+		<Row>
+			<DistrictType>DISTRICT_FLOURISHING_CROSSROADS</DistrictType>
+			<ModifierId>DISTRICT_FLOURISHING_CROSSROADS_GRANT_TRADER</ModifierId>
+		</Row>
+	</DistrictModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>DISTRICT_FLOURISHING_CROSSROADS_GRANT_TRADER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType>
+			<RunOnce>True</RunOnce>
+			<Permanent>True</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>DISTRICT_FLOURISHING_CROSSROADS_GRANT_TRADER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>DISTRICT_FLOURISHING_CROSSROADS_GRANT_TRADER</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_TRADER</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!--Mirror Flourishing Crossroads's Gold Adjacency to Production-->
+	<DistrictModifiers>
+		<Row>
+			<DistrictType>DISTRICT_FLOURISHING_CROSSROADS</DistrictType>
+			<ModifierId>DISTRICT_FLOURISHING_CROSSROADS_ADJACENCY_AS_PRODUCTION</ModifierId>
+		</Row>
+	</DistrictModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>DISTRICT_FLOURISHING_CROSSROADS_ADJACENCY_AS_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>DISTRICT_FLOURISHING_CROSSROADS_ADJACENCY_AS_PRODUCTION</ModifierId>
+			<Name>YieldTypeToGrant</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>DISTRICT_FLOURISHING_CROSSROADS_ADJACENCY_AS_PRODUCTION</ModifierId>
+			<Name>YieldTypeToMirror</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!--Mirror Flourishing Crossroads's Gold Adjacency to Culture-->
+	<DistrictModifiers>
+		<Row>
+			<DistrictType>DISTRICT_FLOURISHING_CROSSROADS</DistrictType>
+			<ModifierId>DISTRICT_FLOURISHING_CROSSROADS_ADJACENCY_AS_CULTURE</ModifierId>
+		</Row>
+	</DistrictModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>DISTRICT_FLOURISHING_CROSSROADS_ADJACENCY_AS_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>DISTRICT_FLOURISHING_CROSSROADS_ADJACENCY_AS_CULTURE</ModifierId>
+			<Name>YieldTypeToGrant</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>DISTRICT_FLOURISHING_CROSSROADS_ADJACENCY_AS_CULTURE</ModifierId>
+			<Name>YieldTypeToMirror</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+	</ModifierArguments>
 		
+
 </GameData>

@@ -26,4 +26,9 @@
 			TraitType="TRAIT_CIVILIZATION_BUILDING_COLOSSEUM_OF_FOOLS"
 		/>
 	</Buildings>
+
+	<Building_GreatWorks>
+		<Row BuildingType="BUILDING_COLOSSEUM_OF_FOOLS" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="3"/>
+	</Building_GreatWorks>
+	
 </GameData>

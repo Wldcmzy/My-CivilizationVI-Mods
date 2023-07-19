@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Colosseum_of_Fools -->
+<!-- Author: wldcmzy -->
+<!-- DateCreated: 7/19/2023 8:46:36 AM -->
+
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_BUILDING_COLOSSEUM_OF_FOOLS" IconSize="32" Filename="ICON_BUILDING_COLOSSEUM_OF_FOOLS_32"/>
+		<Row Name="ATLAS_ICON_BUILDING_COLOSSEUM_OF_FOOLS" IconSize="38" Filename="ICON_BUILDING_COLOSSEUM_OF_FOOLS_38"/>
+		<Row Name="ATLAS_ICON_BUILDING_COLOSSEUM_OF_FOOLS" IconSize="50" Filename="ICON_BUILDING_COLOSSEUM_OF_FOOLS_50"/>
+		<Row Name="ATLAS_ICON_BUILDING_COLOSSEUM_OF_FOOLS" IconSize="80" Filename="ICON_BUILDING_COLOSSEUM_OF_FOOLS_80"/>
+		<Row Name="ATLAS_ICON_BUILDING_COLOSSEUM_OF_FOOLS" IconSize="128" Filename="ICON_BUILDING_COLOSSEUM_OF_FOOLS_128"/>
+		<Row Name="ATLAS_ICON_BUILDING_COLOSSEUM_OF_FOOLS" IconSize="256" Filename="ICON_BUILDING_COLOSSEUM_OF_FOOLS_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_COLOSSEUM_OF_FOOLS" Atlas="ATLAS_ICON_BUILDING_COLOSSEUM_OF_FOOLS" Index="0"/>
+	</IconDefinitions>
+</GameData>

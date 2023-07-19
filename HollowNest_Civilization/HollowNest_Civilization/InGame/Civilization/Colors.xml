@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Colors -->
+<!-- Author: wldcmzy -->
+<!-- DateCreated: 7/19/2023 8:17:46 PM -->
+<GameData>
+	<Colors>
+		<Row>
+			<Type>COLOR_CIVILIZATION_HOLLOWNEST_WHITE</Type>
+			<Color>248,248,255,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_CIVILIZATION_HOLLOWNEST_BLACK</Type>
+			<Color>28,28,28,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_CIVILIZATION_HOLLOWNEST_YELLOW</Type>
+			<Color>255,220,0,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_CIVILIZATION_HOLLOWNEST_SLIVER</Type>
+			<Color>192,192,192,255</Color>
+		</Row>
+	</Colors>
+
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_RADIANCE</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_CIVILIZATION_HOLLOWNEST_YELLOW</PrimaryColor>
+			<SecondaryColor>COLOR_CIVILIZATION_HOLLOWNEST_WHITE</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+		<Row>
+			<Type>LEADER_GOD_OF_GODS</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_CIVILIZATION_HOLLOWNEST_BLACK</PrimaryColor>
+			<SecondaryColor>COLOR_CIVILIZATION_HOLLOWNEST_SLIVER</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+		<Row>
+			<Type>LEADER_WANDERER</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_CIVILIZATION_HOLLOWNEST_WHITE</PrimaryColor>
+			<SecondaryColor>COLOR_CIVILIZATION_HOLLOWNEST_BLACK</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+		<Row>
+			<Type>LEADER_WYRMS</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_CIVILIZATION_HOLLOWNEST_WHITE</PrimaryColor>
+			<SecondaryColor>COLOR_CIVILIZATION_HOLLOWNEST_BLACK</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+
+		<Row>
+			<Type>CIVILIZATION_HOLLOWNEST</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_CIVILIZATION_HOLLOWNEST_BLACK</PrimaryColor>
+			<SecondaryColor>COLOR_CIVILIZATION_HOLLOWNEST_WHITE</SecondaryColor>
+		</Row>
+	</PlayerColors>
+
+
+</GameData>

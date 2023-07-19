@@ -1,13 +1,13 @@
 Starting AssetCooker...
 Argument '--shaders' has been deprecated and is no longer used.
 XLP cook starting...
-G:\CIVImod\HollowNest_Civilization\HollowNest_Civilization\XLPs\ICON_LEADER_WYRMS_DDS.xlp
-Opened output file: C:\Users\wldcmzy\Documents\My Games\Sid Meier's Civilization VI\Mods\HollowNest_Civilization\Platforms\MacOS\BLPs/ICON_LEADER_WYRMS_DDS.blp    For XLP: 'G:\CIVImod\HollowNest_Civilization\HollowNest_Civilization\XLPs\ICON_LEADER_WYRMS_DDS.xlp'
+G:\CIVImod\HollowNest_Civilization\HollowNest_Civilization\XLPs\LeaderFallbacks.xlp
+Opened output file: C:\Users\wldcmzy\Documents\My Games\Sid Meier's Civilization VI\Mods\HollowNest_Civilization\Platforms\MacOS\BLPs/LeaderFallbacks.blp    For XLP: 'G:\CIVImod\HollowNest_Civilization\HollowNest_Civilization\XLPs\LeaderFallbacks.xlp'
 Could not load digest key: ''.  Using mod key to sign BLP.
-Starting 'ICON_LEADER_WYRMS_DDS'
-Load finished for: 'ICON_LEADER_WYRMS_DDS' in 0.001 seconds
-Cook finished for: 'ICON_LEADER_WYRMS_DDS' in 0.007 seconds
-Disk write finished for: 'ICON_LEADER_WYRMS_DDS' in 0.054 seconds
-Cleanup finished for: 'ICON_LEADER_WYRMS_DDS' in 0.000 seconds
+Starting 'LeaderFallbacks'
+Load finished for: 'LeaderFallbacks' in 0.006 seconds
+Cook finished for: 'LeaderFallbacks' in 0.000 seconds
+Disk write finished for: 'LeaderFallbacks' in 0.060 seconds
+Cleanup finished for: 'LeaderFallbacks' in 0.001 seconds
 XLP cook completed with success.
-Cook completed in 0.075 seconds
+Cook completed in 0.078 seconds

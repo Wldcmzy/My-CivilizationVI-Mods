@@ -40,6 +40,8 @@
 		/>
 	</Districts>
 
+	
+
 	<District_Adjacencies>
 		<Row DistrictType="DISTRICT_PALACE_GROUNDS" YieldChangeId="NaturalWonder_Faith"/>
 		<Row DistrictType="DISTRICT_PALACE_GROUNDS" YieldChangeId="Mountain_Faith1"/>
@@ -48,14 +50,52 @@
 		<Row DistrictType="DISTRICT_PALACE_GROUNDS" YieldChangeId="Mountain_Faith4"/>
 		<Row DistrictType="DISTRICT_PALACE_GROUNDS" YieldChangeId="Mountain_Faith5"/>
 		<Row DistrictType="DISTRICT_PALACE_GROUNDS" YieldChangeId="Forest_Faith"/>
-		<Row DistrictType="DISTRICT_PALACE_GROUNDS" YieldChangeId="District_Faith"/>
+		<Row DistrictType="DISTRICT_PALACE_GROUNDS" YieldChangeId="District_Palace_Grounds_Faith"/>
 	</District_Adjacencies>
+
+	<!--New YieldChanges: +1 Adjacency(FAITH) per District for DISTRICT_PALACE_GROUNDS-->
+	<Adjacency_YieldChanges>
+		<Row
+			ID="District_Palace_Grounds_Faith"
+			Description="LOC_DISTRICT_PALACE_GROUNDS_FAITH"
+			YieldType="YIELD_FAITH"
+			YieldChange="1"
+			TilesRequired="1"
+			OtherDistrictAdjacent="1"
+		/>
+	</Adjacency_YieldChanges>
 
 	<District_GreatPersonPoints>
 		<Row DistrictType="DISTRICT_PALACE_GROUNDS" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="3"/>
 	</District_GreatPersonPoints>
 
 	<District_CitizenYieldChanges>
-		<Row DistrictType="DISTRICT_PALACE_GROUNDS" YieldType="YIELD_FAITH" YieldChange="4"/>
+		<Row DistrictType="DISTRICT_PALACE_GROUNDS" YieldType="YIELD_FAITH" YieldChange="2"/>
 	</District_CitizenYieldChanges>
+
+	<!--District +4 Faith-->
+	<DistrictModifiers>
+		<Row>
+			<DistrictType>DISTRICT_PALACE_GROUNDS</DistrictType>
+			<ModifierId>PALACE_GROUNDS_FAITH</ModifierId>
+		</Row>
+	</DistrictModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>PALACE_GROUNDS_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>PALACE_GROUNDS_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>PALACE_GROUNDS_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+	</ModifierArguments>
 </GameData>

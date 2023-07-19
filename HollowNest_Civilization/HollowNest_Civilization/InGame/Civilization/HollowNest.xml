@@ -74,77 +74,7 @@
 
 	</CivilizationTraits>
 
-	<CityNames>
-		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_THE_ABYSS"/>
-		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_ANCIENT_BASIN"/>
-		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_CITY_OF_TEARS"/>
-		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_CRYSTAL_PEAK"/>
-		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_DEEPNEST"/>
-		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_DIRTMOUTH"/>
-		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_FOG_CANYON"/>
-		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_FUNGAL_WASTES"/>
-		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_GODHOME"/>
-		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_GREENPATH"/>
-		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_THE_HIVE"/>
-		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_KINDOM_S_EDGE"/>
-		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_QUEEN_S_GARDENS"/>
-		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_RESTING_GROUNDS"/>
-		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_ROYAL_WATERWAYS"/>
-		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_WHITE_PALACE"/>
-		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_SOUL_DUALISM"/>
-		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_HOWLING_CLIFFS"/>
-		<Row CivilizationType="CIVILIZATION_HOLLOWNEST" CityName="LOC_CITY_NAME_DREAM_REALM"/>
+	
 
-	</CityNames>
-
-	<Colors>
-		<Row>
-			<Type>COLOR_CIVILIZATION_HOLLOWNEST_WHITE</Type>
-			<Color>248,248,255,255</Color>
-		</Row>
-		<Row>
-			<Type>COLOR_CIVILIZATION_HOLLOWNEST_BLACK</Type>
-			<Color>28,28,28,255</Color>
-		</Row>
-		<Row>
-			<Type>COLOR_CIVILIZATION_HOLLOWNEST_YELLOW</Type>
-			<Color>255,235,0,255</Color>
-		</Row>
-		<Row>
-			<Type>COLOR_CIVILIZATION_HOLLOWNEST_SLIVER</Type>
-			<Color>192,192,192,255</Color>
-		</Row>
-	</Colors>
-
-	<PlayerColors>
-		<Row>
-			<Type>LEADER_RADIANCE</Type>
-			<Usage>Unique</Usage>
-			<PrimaryColor>COLOR_CIVILIZATION_HOLLOWNEST_YELLOW</PrimaryColor>
-			<SecondaryColor>COLOR_CIVILIZATION_HOLLOWNEST_WHITE</SecondaryColor>
-			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
-		</Row>
-		<Row>
-			<Type>LEADER_GOD_OF_GODS</Type>
-			<Usage>Unique</Usage>
-			<PrimaryColor>COLOR_CIVILIZATION_HOLLOWNEST_BLACK</PrimaryColor>
-			<SecondaryColor>COLOR_CIVILIZATION_HOLLOWNEST_SLIVER</SecondaryColor>
-			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
-		</Row>
-		<Row>
-			<Type>LEADER_WANDERER</Type>
-			<Usage>Unique</Usage>
-			<PrimaryColor>COLOR_CIVILIZATION_HOLLOWNEST_WHITE</PrimaryColor>
-			<SecondaryColor>COLOR_CIVILIZATION_HOLLOWNEST_BLACK</SecondaryColor>
-			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
-		</Row>
-		<Row>
-			<Type>LEADER_WYRMS</Type>
-			<Usage>Unique</Usage>
-			<PrimaryColor>COLOR_CIVILIZATION_HOLLOWNEST_WHITE</PrimaryColor>
-			<SecondaryColor>COLOR_CIVILIZATION_HOLLOWNEST_BLACK</SecondaryColor>
-			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
-		</Row>
-	</PlayerColors>
-
+	
 </GameData>
