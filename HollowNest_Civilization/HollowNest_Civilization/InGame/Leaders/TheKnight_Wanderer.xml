@@ -5,7 +5,30 @@
 <GameData>
 	<Types>
 		<Row Type="LEADER_WANDERER" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_WANDERER" Kind="KIND_TRAIT"/>
+		<Row Type="ABILITY_LEADER_WANDERER_EXTRA_MOVEMENT" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_LEADER_WANDERER_IGNORE_TERRAIN_COST" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_LEADER_WANDERER_IGNORE_RIVERS" Kind="KIND_ABILITY"/>
 	</Types>
+
+	<Traits>
+		<Row
+			TraitType="TRAIT_LEADER_WANDERER"
+			Name="LOC_TRAIT_LEADER_WANDERER_NAME"
+			Description="LOC_TRAIT_LEADER_WANDERER_DESCRIPTION"
+		/>
+	</Traits>
+
+	<LeaderTraits>
+		<Row LeaderType="LEADER_WANDERER" TraitType="TRAIT_LEADER_WANDERER"/>
+	</LeaderTraits>
+
+	<TypeTags>
+		<Row Type="ABILITY_LEADER_WANDERER_EXTRA_MOVEMENT" Tag="CLASS_ALL_UNITS"/>
+		<Row Type="ABILITY_LEADER_WANDERER_IGNORE_TERRAIN_COST" Tag="CLASS_ALL_UNITS"/>
+		<Row Type="ABILITY_LEADER_WANDERER_IGNORE_RIVERS" Tag="CLASS_ALL_UNITS"/>
+	</TypeTags>
+	
 	<Leaders>
 		<Row
 			LeaderType="LEADER_WANDERER"
@@ -22,4 +45,237 @@
 			QuoteAudio="Play_LEADER_WANDERER_QUOTES"
 		/>
 	</LeaderQuotes>
+	
+	<!--New(Copy Old) UnitAbility: Add extra movement to unit-->
+	<UnitAbilities>
+		<Row
+			UnitAbilityType="ABILITY_LEADER_WANDERER_EXTRA_MOVEMENT"
+			Name="LOC_LEADER_WANDERER_EXTRA_MOVEMENT_NAME"
+			Description="LOC_LEADER_WANDERER_EXTRA_MOVEMENT_DESCRIPTION"
+			Inactive="true"
+		/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_LEADER_WANDERER_EXTRA_MOVEMENT</UnitAbilityType>
+			<ModifierId>LEADER_WANDERER_EXTRA_MOVEMENT</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>LEADER_WANDERER_EXTRA_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>LEADER_WANDERER_EXTRA_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!--New(Copy old) UnitAbility: Ingore Terrain Cost-->
+	<UnitAbilities>
+		<Row
+			UnitAbilityType="ABILITY_LEADER_WANDERER_IGNORE_TERRAIN_COST"
+			Name="LOC_LEADER_WANDERER_IGNORE_TERRAIN_COST_NAME"
+			Description="LOC_LEADER_WANDERER_IGNORE_TERRAIN_COST_DESCRIPTION"
+			Inactive="true"
+		/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_LEADER_WANDERER_IGNORE_TERRAIN_COST</UnitAbilityType>
+			<ModifierId>LEADER_WANDERER_IGNORE_TERRAIN_COST</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>LEADER_WANDERER_IGNORE_TERRAIN_COST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_TERRAIN_COST</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>LEADER_WANDERER_IGNORE_TERRAIN_COST</ModifierId>
+			<Name>Ignore</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>LEADER_WANDERER_IGNORE_TERRAIN_COST</ModifierId>
+			<Name>Type</Name>
+			<Value>ALL</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!--New(Copy old) UnitAbility: Ingore Rivers-->
+	<UnitAbilities>
+		<Row
+			UnitAbilityType="ABILITY_LEADER_WANDERER_IGNORE_RIVERS"
+			Name="LOC_LEADER_WANDERER_IGNORE_RIVERS_NAME"
+			Description="LOC_LEADER_WANDERER_IGNORE_RIVERS_DESCRIPTION"
+			Inactive="true"
+		/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_LEADER_WANDERER_IGNORE_RIVERS</UnitAbilityType>
+			<ModifierId>LEADER_WANDERER_IGNORE_RIVERS</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>LEADER_WANDERER_IGNORE_RIVERS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_RIVERS</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>LEADER_WANDERER_IGNORE_RIVERS</ModifierId>
+			<Name>Ignore</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!--Leader Trait: Add Extra Movement-->
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_WANDERER</TraitType>
+			<ModifierId>TRAIT_LEADER_WANDERER_EXTRA_MOVEMENT</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_LEADER_WANDERER_EXTRA_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_LEADER_WANDERER_EXTRA_MOVEMENT</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_LEADER_WANDERER_EXTRA_MOVEMENT</Value>
+		</Row>
+	</ModifierArguments>
+	
+	<!--Leader Trait: Settler Add Produciton-->
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_WANDERER</TraitType>
+			<ModifierId>TRAIT_LEADER_WANDERER_ADD_SETTLER_PRODUCTION</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_LEADER_WANDERER_ADD_SETTLER_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_UNIT_PRODUCTION</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_LEADER_WANDERER_ADD_SETTLER_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_WANDERER_ADD_SETTLER_PRODUCTION</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_SETTLER</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!--Leader Trait: Grant Cecon Unit per city when found-->
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_WANDERER</TraitType>
+			<ModifierId>TRAIT_LEADER_WANDERER_GRANT_RECON</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_LEADER_WANDERER_GRANT_RECON</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_GRANT_UNIT_BY_CLASS</ModifierType>
+			<Permanent>True</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_LEADER_WANDERER_GRANT_RECON</ModifierId>
+			<Name>UnitPromotionClassType</Name>
+			<Value>PROMOTION_CLASS_RECON</Value>
+		</Row>
+	</ModifierArguments>
+	
+	<!-- 
+	this paragraph only give you a Scout
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_WANDERER</TraitType>
+			<ModifierId>TRAIT_LEADER_WANDERER_GRANT_RECON</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_LEADER_WANDERER_GRANT_RECON</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_BUILT_CITIES_GRANT_FREE_UNIT</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_LEADER_WANDERER_GRANT_RECON</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_WANDERER_GRANT_RECON</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_SCOUT</Value>
+		</Row>
+	</ModifierArguments>
+	-->
+
+	<!--Leader Trait: Ignore Terrain Cost-->
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_WANDERER</TraitType>
+			<ModifierId>TRAIT_LEADER_WANDERER_IGNORE_TERRAIN_COST</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_LEADER_WANDERER_IGNORE_TERRAIN_COST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_LEADER_WANDERER_IGNORE_TERRAIN_COST</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_LEADER_WANDERER_IGNORE_TERRAIN_COST</Value>
+		</Row>
+	</ModifierArguments>
+	
+	<!--Leader Trait: Ignore Rivers-->
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_WANDERER</TraitType>
+			<ModifierId>TRAIT_LEADER_WANDERER_IGNORE_RIVERS</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_LEADER_WANDERER_IGNORE_RIVERS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_LEADER_WANDERER_IGNORE_RIVERS</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_LEADER_WANDERER_IGNORE_RIVERS</Value>
+		</Row>
+	</ModifierArguments>
+	
 </GameData>
+

@@ -6,7 +6,25 @@
 
 	<Types>
 		<Row Type="LEADER_RADIANCE" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_RADIANCE" Kind="KIND_TRAIT"/>
+		<Row Type="ABILITY_LEADER_RADIANCE_RELIGIOUS_BUFF" Kind="KIND_ABILITY"/>
 	</Types>
+	<TypeTags>
+		<Row Type="ABILITY_LEADER_RADIANCE_RELIGIOUS_BUFF" Tag="CLASS_RELIGIOUS"/>
+	</TypeTags>
+
+	<Traits>
+		<Row
+			TraitType="TRAIT_LEADER_RADIANCE"
+			Name="LOC_TRAIT_LEADER_RADIANCE_NAME"
+			Description="LOC_TRAIT_LEADER_RADIANCE_DESCRIPTION"
+		/>
+	</Traits>
+	
+	<LeaderTraits>
+		<Row LeaderType="LEADER_RADIANCE" TraitType="TRAIT_LEADER_RADIANCE"/>
+	</LeaderTraits>
+	
 	<Leaders>
 		<Row
 			LeaderType="LEADER_RADIANCE"
@@ -23,5 +41,155 @@
 			QuoteAudio="Play_LEADER_RADIANCE_QUOTES"
 		/>
 	</LeaderQuotes>
+
+	<!--Ability Add Religious buff-->
+	<UnitAbilities>
+		<Row
+			UnitAbilityType="ABILITY_LEADER_RADIANCE_RELIGIOUS_BUFF"
+			Name="LOC_LEADER_RADIANCE_RELIGIOUS_BUFF_NAME"
+			Description="LOC_LEADER_RADIANCE_RELIGIOUS_BUFF_DESCRIPTION"
+			Inactive="true"
+		/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_LEADER_RADIANCE_RELIGIOUS_BUFF</UnitAbilityType>
+			<ModifierId>LEADER_RADIANCE_RELIGIOUS_BUFF</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>LEADER_RADIANCE_RELIGIOUS_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>LEADER_RADIANCE_RELIGIOUS_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>8</Value>
+		</Row>
+	</ModifierArguments>
+	
+
+	<!--Religious Apostle Grant PROMOTION_DEBATER (+20 strengh)-->
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_RADIANCE</TraitType>
+			<ModifierId>LEADER_RADIANCE_GRANT_PROMOTION_DEBATER</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>LEADER_RADIANCE_GRANT_PROMOTION_DEBATER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_PROMOTION</ModifierType>
+			<Permanent>True</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>LEADER_RADIANCE_GRANT_PROMOTION_DEBATER</ModifierId>
+			<Name>PromotionType</Name>
+			<Value>PROMOTION_DEBATER</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!--Religious Apostle Grant PROMOTION_DEBATER (-75% other's perssure )-->
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_RADIANCE</TraitType>
+			<ModifierId>LEADER_RADIANCE_GRANT_PROMOTION_PROSELYTIZER</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>LEADER_RADIANCE_GRANT_PROMOTION_PROSELYTIZER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_PROMOTION</ModifierType>
+			<Permanent>True</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>LEADER_RADIANCE_GRANT_PROMOTION_PROSELYTIZER</ModifierId>
+			<Name>PromotionType</Name>
+			<Value>PROMOTION_PROSELYTIZER</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!--Extra Spread Charges-->
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_RADIANCE</TraitType>
+			<ModifierId>LEADER_RADIANCE_EXTRA_SPREAD_CHARGES</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>LEADER_RADIANCE_EXTRA_SPREAD_CHARGES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_SPREAD_CHARGES</ModifierType>
+			<Permanent>True</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>LEADER_RADIANCE_EXTRA_SPREAD_CHARGES</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+	</ModifierArguments>
+
+
+	<!--More RELIGIOUS_SPREAD_STRENGTH-->
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_RADIANCE</TraitType>
+			<ModifierId>LEADER_RADIANCE_MORE_RELIGIOUS_SPREAD_STRENGTH</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>LEADER_RADIANCE_MORE_RELIGIOUS_SPREAD_STRENGTH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_RELIGION_ADJUST_RELIGIOUS_SPREAD_STRENGTH</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>LEADER_RADIANCE_MORE_RELIGIOUS_SPREAD_STRENGTH</ModifierId>
+			<Name>EnhancingTechType</Name>
+			<Value>TECH_STIRRUPS</Value>
+		</Row>
+		<Row>
+			<ModifierId>LEADER_RADIANCE_MORE_RELIGIOUS_SPREAD_STRENGTH</ModifierId>
+			<Name>SpreadMultiplier</Name>
+			<Value>5000</Value>
+		</Row>
+		<Row>
+			<ModifierId>LEADER_RADIANCE_MORE_RELIGIOUS_SPREAD_STRENGTH</ModifierId>
+			<Name>TechEnabledSpreadMultiplier</Name>
+			<Value>500</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!--+5 RELIGIOUS_BUFF-->
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_RADIANCE</TraitType>
+			<ModifierId>TRAIT_LEADER_RADIANCE_RELIGIOUS_BUFF</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_LEADER_RADIANCE_RELIGIOUS_BUFF</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<Permanent>True</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_LEADER_RADIANCE_RELIGIOUS_BUFF</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_LEADER_RADIANCE_RELIGIOUS_BUFF</Value>
+		</Row>
+	</ModifierArguments>
 
 </GameData>

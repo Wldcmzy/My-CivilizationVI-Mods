@@ -19,7 +19,7 @@
 			PrereqCivic="CIVIC_GAMES_RECREATION"
 			PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX"
 			PurchaseYield="YIELD_GOLD"
-			Cost="50"
+			Cost="100"
 			AdvisorType="ADVISOR_GENERIC"
 			Maintenance="8"
 			Entertainment="3"
@@ -30,5 +30,97 @@
 	<Building_GreatWorks>
 		<Row BuildingType="BUILDING_COLOSSEUM_OF_FOOLS" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="3"/>
 	</Building_GreatWorks>
+	
+	
+	<!--Add 100% product to All Era Forge Unit-->
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_COLOSSEUM_OF_FOOLS</BuildingType>
+			<ModifierId>BUILDING_COLOSSEUM_OF_FOOLS_ADD_FORGE_UNIT_PRODUCTION</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>BUILDING_COLOSSEUM_OF_FOOLS_ADD_FORGE_UNIT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_MILITARY_UNITS_PRODUCTION</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>BUILDING_COLOSSEUM_OF_FOOLS_ADD_FORGE_UNIT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>BUILDING_COLOSSEUM_OF_FOOLS_ADD_FORGE_UNIT_PRODUCTION</ModifierId>
+			<Name>EndEra</Name>
+			<Value>ERA_FUTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>BUILDING_COLOSSEUM_OF_FOOLS_ADD_FORGE_UNIT_PRODUCTION</ModifierId>
+			<Name>StartEra</Name>
+			<Value>ERA_ANCIENT</Value>
+		</Row>
+	</ModifierArguments>
+
+
+	<!--IF City Has Encampment THEN Add More 100% product to All Era Forge Unit-->
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_COLOSSEUM_OF_FOOLS</BuildingType>
+			<ModifierId>BUILDING_COLOSSEUM_OF_FOOLS_WITH_ENCAMPMENT_ADD_FORGE_UNIT_PRODUCTION</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>BUILDING_COLOSSEUM_OF_FOOLS_WITH_ENCAMPMENT_ADD_FORGE_UNIT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_MILITARY_UNITS_PRODUCTION</ModifierType>
+			<SubjectRequirementSetId>HOLLOWNEST_CITY_HAS_ENCAMPMENT</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>BUILDING_COLOSSEUM_OF_FOOLS_WITH_ENCAMPMENT_ADD_FORGE_UNIT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>BUILDING_COLOSSEUM_OF_FOOLS_WITH_ENCAMPMENT_ADD_FORGE_UNIT_PRODUCTION</ModifierId>
+			<Name>EndEra</Name>
+			<Value>ERA_FUTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>BUILDING_COLOSSEUM_OF_FOOLS_WITH_ENCAMPMENT_ADD_FORGE_UNIT_PRODUCTION</ModifierId>
+			<Name>StartEra</Name>
+			<Value>ERA_ANCIENT</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- =============== RequirementSets =============== -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>HOLLOWNEST_CITY_HAS_ENCAMPMENT</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>HOLLOWNEST_CITY_HAS_ENCAMPMENT</RequirementSetId>
+			<RequirementId>HAS_ENCAMPMENT</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
+	<Requirements>
+		<Row>
+			<RequirementId>HAS_ENCAMPMENT</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>HAS_ENCAMPMENT</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_ENCAMPMENT</Value>
+		</Row>
+	</RequirementArguments>
 	
 </GameData>

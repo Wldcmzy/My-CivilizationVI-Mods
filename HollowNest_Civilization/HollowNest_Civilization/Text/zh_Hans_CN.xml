@@ -10,12 +10,13 @@
 
 		<Replace Tag="LOC_UNIT_HOLLOW_KNIGHT_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>
-				障目之光之容器，战斗力50，移动力6，
+				障目之光之容器，战斗力50，移动力6，视野3，
 				拥有能力“纯粹”，使战斗的双方都无法受到任何额外战斗力加成。
 				拥有一次性技能“封印”，可以消除一座己方城市中所有非你创立的宗教的公民信仰，
 				并根据封印量提升战斗力，每改变一名公民信仰+1战斗力，使用技能“封印”后，
 				失去能力“纯粹”。
-				不需要任何战略资源，维护费0[ICON_Gold]金币(众所周知容器坏了就扔掉，不需要维护)。
+				不需要任何战略资源，维护费0[ICON_Gold]金币(众所周知容器坏了就扔掉，不需要维护)
+				生产需要90[ICON_Production]产能(180[ICON_Production]->90[ICON_Production])。
 			</Text>
 		</Replace>
 
@@ -28,11 +29,12 @@
 				代替竞技场。只有最勇猛的强者，才可以在炼狱般的试炼中存活下来，
 				并获得大量金币奖励，这也导致了愚人斗兽场高昂的维护费用，
 				而不慎失手的人则会留下不甘与遗憾。
-				需要更少的产能进行建造，作为娱乐区域，提供+3宜居度。维护费8[ICON_Gold]金币（
+				需要更少的产能进行建造(150[ICON_Production]->100[ICON_Production])，
+				作为娱乐区域，提供+3宜居度。维护费8[ICON_Gold]金币（
 				基础2[ICON_Gold]金币，斗兽场的三种试炼分别对应1、2、3[ICON_Gold]金币）。
 				+3遗物槽位。
-				此城生产军事单位增加100%的[ICON_Production]产能，若此城还拥有军营，改为增加200%[ICON_Production]产能。
-				此城购买军事单位-50%所需[ICON_Gold]金币。
+				为此城生产军事单位增加100%[ICON_Production]产能，
+				若此城还拥有军营，改为再增加100%[ICON_Production]产能。
 			</Text>
 		</Replace>
 
@@ -42,9 +44,11 @@
 
 		<Replace Tag="LOC_BUILDING_TEACHERS_ARCHIVES_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>
-				代替图书馆，需要花费更高的生产力，维护费1[ICON_Gold]金币。
+				代替图书馆，需要花费更高的生产力(90[ICON_Production]->120[ICON_Production])，
+				维护费1[ICON_Gold]金币。
 				教师莫诺蒙追求改变，为圣巢的科文发展和教育事业做出了巨大贡献。
-				档案馆中存有教师莫诺蒙的手稿，建成后可以随机获得一项任意时代的尤里卡。
+				档案馆中存有教师莫诺蒙的手稿，
+				建成后，随机获得工业时代及之前的尤里卡和鼓舞各一项。
 				提供+2[ICON_Science]科技，+2[ICON_Culture]文化，
 				+1大科学家点数，+1大作家点数，+2巨作槽位。
 			</Text>
@@ -56,7 +60,8 @@
 
 		<Replace Tag="LOC_DISTRICT_PALACE_GROUNDS_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>
-				代替圣地，维护费1[ICON_Gold]金币，建造[ICON_Production]产能为圣地的一半。
+				代替圣地，维护费1[ICON_Gold]金币，建造[ICON_Production]产能减半
+				(54[ICON_Production]->27[ICON_Production])。
 				国王神像伫立于广场中央的喷泉中，引虫朝拜，
 				宫殿广场从相邻区域获得的加成提升至1，
 				提供+4[ICON_Faith]信仰值。
@@ -71,12 +76,13 @@
 		<Replace Tag="LOC_DISTRICT_FLOURISHING_CROSSROADS_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>
 				代替商业中心。十字路作为重要的交通枢纽，每日虫山虫海，来往者络绎不绝，
-				是圣巢文明经济文化繁荣的一大体现。区域相邻加成+1，
+				是圣巢文明经济文化繁荣的一大体现。
+				区域相邻加成+1，
 				提供相当于该区域相邻加成的[ICON_Culture]文化和[ICON_Production]产能。
 				为国内贸易路线提供更多的[ICON_Food]食物、[ICON_Production]产能和[ICON_Gold]金币，
 				（0[ICON_Food]1[ICON_Production]0[ICON_Gold]->2[ICON_Food]2[ICON_Production]1[ICON_Gold]）
 				为国际贸易路线提供更多的[ICON_Gold]金币。(3[ICON_Gold]->6[ICON_Gold])
-				建造完成时，贸易路线容量+1，提供一个商人单位。
+				建造完成时，贸易路线容量+1，赠送一个商人单位。
 			</Text>
 		</Replace>
 
@@ -115,9 +121,9 @@
 		<Replace Tag="LOC_TRAIT_LEADER_RADIANCE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>
 				辐光以操控梦境感染生灵的心智。
-				所有城市释放的宗教压力+50%，
-				传教士和使徒效率提升50%，使徒斗嘴的传教效率提升50%。
-				使徒自动获得辩论者升级。
+				所有城市释放的宗教压力+5000%(为什么这么高？因为这个功能出问题了，做出来不管用)，
+				传教士和使徒的传教次数+3，
+				使徒自动获得辩论者和劝导者两种升级。
 			</Text>
 		</Replace>
 
@@ -133,7 +139,8 @@
 			<Text>
 				小骑士经历亿般磨练，受苦无数，完成了无能力0钉r45、辐辉速杀any辐光3.0、
 				苦痛之路1分40秒，any速通24分钟等壮举，最终晋升虚空神，成为圣巢诸神之神。
-				军事单位获得经验+300%，受伤的军事单位不会减少战斗力，
+				军事单位获得经验+300%，'
+				受伤的军事单位不会减少战斗力，
 				若军事单位的生命值低于对手，战斗时获得+5战斗力。
 				军事单位每有一次升级，永久获得+1战斗力。
 			</Text>
@@ -150,9 +157,9 @@
 		<Replace Tag="LOC_TRAIT_LEADER_WANDERER_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>
 				灵活的圣巢一哥可以游刃有余地穿梭于圣巢的任意一处地点。
-				所有单位+1移动力，可以无视丘陵和雨林，可以攀登悬崖。
-				生产平民单位+50%[ICON_Production]产能。
-				生产侦察单位+100%[ICON_Production]产能。
+				所有单位+1移动力，可以无视经过一些地貌与河流的移动力损耗。
+				生产开拓者单位+50%[ICON_Production]的产能。
+				建立一座城市后，赠送一个侦察单位。
 			</Text>
 		</Replace>
 
