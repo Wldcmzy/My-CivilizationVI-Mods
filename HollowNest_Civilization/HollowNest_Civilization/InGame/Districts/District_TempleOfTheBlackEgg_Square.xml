@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- District_TempleOfTheBlackEgg_Square -->
+<!-- Author: wldcmzy -->
+<!-- DateCreated: 7/21/2023 7:05:07 PM -->
+<GameData>
+	<Types>
+		<Row Type="DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE" Kind="KIND_DISTRICT"/>
+	</Types>
+
+	<!--
+	<DistrictReplaces>
+		<Row CivUniqueDistrictType="DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE" ReplacesDistrictType="DISTRICT_GOVERNMENT"/>
+	</DistrictReplaces>
+	-->
+
+	<Districts>
+		<Row 
+			DistrictType="DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE" 
+			Name="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_NAME" 
+			Description="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_DESCRIPTION" 
+			PrereqCivic="CIVIC_STATE_WORKFORCE" 
+			PlunderType="PLUNDER_FAITH" 
+			PlunderAmount="50" 
+			AdvisorType="ADVISOR_GENERIC" 
+			Cost="1" 
+			CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" 
+			CostProgressionParam1="25" 
+			Maintenance="1" 
+			RequiresPlacement="true" 
+			RequiresPopulation="false" 
+			Aqueduct="false" 
+			NoAdjacentCity="false" 
+			InternalOnly="false" 
+			ZOC="false" 
+			CaptureRemovesBuildings="false"
+			CaptureRemovesCityDefenses="false" 
+			CaptureRemovesDistrict="true" 
+			MilitaryDomain="NO_DOMAIN" 
+			CityStrengthModifier="2" 
+			MaxPerPlayer="1"
+			TraitType="TRAIT_CIVILIZATION_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE"
+		/>
+	</Districts>
+
+	<District_TradeRouteYields>
+		<Row DistrictType="DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="4"/>
+		<Row DistrictType="DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE" YieldType="YIELD_FOOD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="0"/>
+		<Row DistrictType="DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="0"/>
+	</District_TradeRouteYields>
+
+	<Adjacency_YieldChanges>
+		<Row ID="HollowNest_TEMPLE_OF_THE_BLACK_EGG_SQUARE_Culture" Description="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_CULTURE" YieldType="YIELD_CULTURE" YieldChange="3" TilesRequired="1" AdjacentDistrict="DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE"/>
+		<Row ID="HollowNest_TEMPLE_OF_THE_BLACK_EGG_SQUARE_Faith" Description="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_FAITH" YieldType="YIELD_FAITH" YieldChange="3" TilesRequired="1" AdjacentDistrict="DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE"/>
+		<Row ID="HollowNest_TEMPLE_OF_THE_BLACK_EGG_SQUARE_Gold" Description="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_GOLD" YieldType="YIELD_GOLD" YieldChange="3" TilesRequired="1" AdjacentDistrict="DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE"/>
+		<Row ID="HollowNest_TEMPLE_OF_THE_BLACK_EGG_SQUARE_Production" Description="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="3" TilesRequired="1" AdjacentDistrict="DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE"/>
+		<Row ID="HollowNest_TEMPLE_OF_THE_BLACK_EGG_SQUARE_Science" Description="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="3" TilesRequired="1" AdjacentDistrict="DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE"/>
+	</Adjacency_YieldChanges>
+
+	<District_Adjacencies>
+		<!--Normal District's Adjacencies written at here-->
+		<!--HollowNest Trait District's Adjacencies need to write at their own file-->
+		<Row DistrictType="DISTRICT_CAMPUS" YieldChangeId="HollowNest_TEMPLE_OF_THE_BLACK_EGG_SQUARE_Science"/>
+		<Row DistrictType="DISTRICT_HOLY_SITE" YieldChangeId="HollowNest_TEMPLE_OF_THE_BLACK_EGG_SQUARE_Faith"/>
+		<Row DistrictType="DISTRICT_COMMERCIAL_HUB" YieldChangeId="HollowNest_TEMPLE_OF_THE_BLACK_EGG_SQUARE_Gold"/>
+		<Row DistrictType="DISTRICT_HARBOR" YieldChangeId="HollowNest_TEMPLE_OF_THE_BLACK_EGG_SQUARE_Gold"/>
+		<Row DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldChangeId="HollowNest_TEMPLE_OF_THE_BLACK_EGG_SQUARE_Production"/>
+		<Row DistrictType="DISTRICT_THEATER" YieldChangeId="HollowNest_TEMPLE_OF_THE_BLACK_EGG_SQUARE_Culture"/>
+	</District_Adjacencies>
+
+	<District_CitizenYieldChanges>
+		<Row DistrictType="DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE" YieldType="YIELD_FAITH" YieldChange="4"/>
+	</District_CitizenYieldChanges>
+
+
+	<!--Add ALL yield (6 kinds of yields)-->
+	<DistrictModifiers>
+		<Row>
+			<DistrictType>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE</DistrictType>
+			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_YIELD_FOOD</ModifierId>
+		</Row>
+	</DistrictModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_YIELD_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_YIELD_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_YIELD_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+	</ModifierArguments>
+
+
+
+
+	<DistrictModifiers>
+		<Row>
+			<DistrictType>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE</DistrictType>
+			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_YIELD_PRODUCTION</ModifierId>
+		</Row>
+	</DistrictModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_YIELD_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_YIELD_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_YIELD_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+	</ModifierArguments>
+
+
+
+
+	<DistrictModifiers>
+		<Row>
+			<DistrictType>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE</DistrictType>
+			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_YIELD_GOLD</ModifierId>
+		</Row>
+	</DistrictModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_YIELD_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_YIELD_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_YIELD_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+	</ModifierArguments>
+
+
+
+
+	<DistrictModifiers>
+		<Row>
+			<DistrictType>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE</DistrictType>
+			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_YIELD_SCIENCE</ModifierId>
+		</Row>
+	</DistrictModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_YIELD_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_YIELD_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_YIELD_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+	</ModifierArguments>
+
+
+
+
+	<DistrictModifiers>
+		<Row>
+			<DistrictType>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE</DistrictType>
+			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_YIELD_CULTURE</ModifierId>
+		</Row>
+	</DistrictModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_YIELD_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_YIELD_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_YIELD_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+	</ModifierArguments>
+
+
+
+	
+	<DistrictModifiers>
+		<Row>
+			<DistrictType>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE</DistrictType>
+			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_YIELD_FAITH</ModifierId>
+		</Row>
+	</DistrictModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_YIELD_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_YIELD_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_YIELD_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+	</ModifierArguments>
+
+
+
+	<!--Grant One Hollow Knight at Temple of The Black Egg Square(failed)-->
+	<DistrictModifiers>
+		<Row>
+			<DistrictType>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE</DistrictType>
+			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_GRANT_HOLLOW_KNIGHT_REALLY_IN_DISTRICT</ModifierId>
+		</Row>
+	</DistrictModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_GRANT_HOLLOW_KNIGHT_REALLY_IN_DISTRICT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_CREATE_UNIT</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_GRANT_HOLLOW_KNIGHT_REALLY_IN_DISTRICT</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE</Value>
+		</Row>
+		<Row>
+			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_GRANT_HOLLOW_KNIGHT_REALLY_IN_DISTRICT</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_HOLLOW_KNIGHT</Value>
+		</Row>
+	</ModifierArguments>
+
+
+	<!--Grant One Hollow Knight at City Center-->
+	<!--
+	<DistrictModifiers>
+		<Row>
+			<DistrictType>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE</DistrictType>
+			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_GRANT_HOLLOW_KNIGHT</ModifierId>
+		</Row>
+	</DistrictModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_GRANT_HOLLOW_KNIGHT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_GRANT_UNIT_HOLLOW_KNIGHT_IN_CITY</ModifierType>
+			<Permanent>True</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_GRANT_HOLLOW_KNIGHT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_GRANT_HOLLOW_KNIGHT</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_HOLLOW_KNIGHT</Value>
+		</Row>
+	</ModifierArguments>
+	-->
+	<!-- *************** Custom ModifierType *************** -->
+	<!--
+	<Types>
+		<Row Type="MODIFIER_PLAYER_CITIES_GRANT_UNIT_HOLLOW_KNIGHT_IN_CITY" Kind="KIND_MODIFIER"/>
+	</Types>
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>MODIFIER_PLAYER_CITIES_GRANT_UNIT_HOLLOW_KNIGHT_IN_CITY</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_CITIES</CollectionType>
+			<EffectType>EFFECT_GRANT_UNIT_IN_CITY</EffectType>
+		</Row>
+	</DynamicModifiers>
+	-->
+
+
+
+</GameData>

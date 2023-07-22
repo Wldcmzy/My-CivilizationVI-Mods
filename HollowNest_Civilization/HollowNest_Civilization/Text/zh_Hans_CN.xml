@@ -10,7 +10,7 @@
 
 		<Replace Tag="LOC_UNIT_HOLLOW_KNIGHT_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>
-				障目之光之容器，战斗力50，移动力6，视野3，
+				障目之光之容器，战斗力52，移动力6，视野3，
 				拥有能力“纯粹”，使战斗的双方都无法受到任何额外战斗力加成。
 				拥有一次性技能“封印”，可以消除一座己方城市中所有非你创立的宗教的公民信仰，
 				并根据封印量提升战斗力，每改变一名公民信仰+1战斗力，使用技能“封印”后，
@@ -34,7 +34,7 @@
 				基础2[ICON_Gold]金币，斗兽场的三种试炼分别对应1、2、3[ICON_Gold]金币）。
 				+3遗物槽位。
 				为此城生产军事单位增加100%[ICON_Production]产能，
-				若此城还拥有军营，改为再增加100%[ICON_Production]产能。
+				若此城还拥有军营，则再增加100%[ICON_Production]产能。
 			</Text>
 		</Replace>
 
@@ -60,13 +60,17 @@
 
 		<Replace Tag="LOC_DISTRICT_PALACE_GROUNDS_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>
-				代替圣地，维护费1[ICON_Gold]金币，建造[ICON_Production]产能减半
-				(54[ICON_Production]->27[ICON_Production])。
+				代替圣地，维护费1[ICON_Gold]金币，建造[ICON_Production]产能大幅减少
+				(54[ICON_Production]->18[ICON_Production])。
 				国王神像伫立于广场中央的喷泉中，引虫朝拜，
 				宫殿广场从相邻区域获得的加成提升至1，
 				提供+4[ICON_Faith]信仰值。
 				提供+2大预言家点数。
 			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_PALACE_GROUNDS_FAITH" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Faith]来自相邻的区域</Text>
 		</Replace>
 
 		<Replace Tag="LOC_DISTRICT_FLOURISHING_CROSSROADS_NAME" Language="zh_Hans_CN">
@@ -77,7 +81,7 @@
 			<Text>
 				代替商业中心。十字路作为重要的交通枢纽，每日虫山虫海，来往者络绎不绝，
 				是圣巢文明经济文化繁荣的一大体现。
-				区域相邻加成+1，
+				区域相邻加成改为+1，
 				提供相当于该区域相邻加成的[ICON_Culture]文化和[ICON_Production]产能。
 				为国内贸易路线提供更多的[ICON_Food]食物、[ICON_Production]产能和[ICON_Gold]金币，
 				（0[ICON_Food]1[ICON_Production]0[ICON_Gold]->2[ICON_Food]2[ICON_Production]1[ICON_Gold]）
@@ -85,6 +89,50 @@
 				建造完成时，贸易路线容量+1，赠送一个商人单位。
 			</Text>
 		</Replace>
+
+		
+		<Replace Tag="LOC_DISTRICT_FLOURISHING_CROSSROADS_GOLD" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Gold]来自相邻的区域</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_NAME" Language="zh_Hans_CN">
+			<Text>黑卵圣殿广场</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				[注意：该区域使用圣地模型，玩游戏时请细心甄别区域]
+				圣巢文明特色区域，不代替任何区域， 无人口要求，只能在一座城市修建，
+				建造花费大幅减少，城市被占领时，该区域消失。
+				为相大部分常见区域和某些特色区域提供+3相邻加成。
+				获得+3[ICON_Science]科技，+3[ICON_Culture]文化，+3[ICON_Gold]金币，
+				+3[ICON_Faith]信仰, +3[ICON_Food]粮食，+3[ICON_Production]产能。
+				为国际贸易和国内贸易提供两倍于市政广场的加成。
+				掠夺该区域可以获得等同于掠夺圣地两倍的信仰。
+				建造完成时，可以无视科技限制获得一位空洞骑士。
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_CULTURE" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Culture]来自相邻的黑卵圣殿广场</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_FAITH" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Faith]来自相邻的黑卵圣殿广场</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_GOLD" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Gold]来自相邻的黑卵圣殿广场</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_PRODUCTION" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Production]来自相邻的黑卵圣殿广场</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_SCIENCE" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Science]来自相邻的黑卵圣殿广场</Text>
+		</Replace>
+		
 
 		<Replace Tag="LOC_CIVILIZATION_HOLLOWNEST_NAME" Language="zh_Hans_CN">
 			<Text>圣巢</Text>
@@ -115,7 +163,7 @@
 		</Replace>
 
 		<Replace Tag="LOC_TRAIT_LEADER_RADIANCE_NAME" Language="zh_Hans_CN">
-			<Text>瘟疫之光</Text>
+			<Text>感染</Text>
 		</Replace>
 
 		<Replace Tag="LOC_TRAIT_LEADER_RADIANCE_DESCRIPTION" Language="zh_Hans_CN">
@@ -124,6 +172,7 @@
 				所有城市释放的宗教压力+5000%(为什么这么高？因为这个功能出问题了，做出来不管用)，
 				传教士和使徒的传教次数+3，
 				使徒自动获得辩论者和劝导者两种升级。
+				你城市的忠诚度锁定为100%
 			</Text>
 		</Replace>
 
@@ -137,12 +186,14 @@
 
 		<Replace Tag="LOC_TRAIT_LEADER_GOD_OF_GODS_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>
-				小骑士经历亿般磨练，受苦无数，完成了无能力0钉r45、辐辉速杀any辐光3.0、
-				苦痛之路1分40秒，any速通24分钟等壮举，最终晋升虚空神，成为圣巢诸神之神。
-				军事单位获得经验+300%，'
-				受伤的军事单位不会减少战斗力，
-				若军事单位的生命值低于对手，战斗时获得+5战斗力。
-				军事单位每有一次升级，永久获得+1战斗力。
+				小骑士经历亿般磨练，受苦无数，完成了无能力r045、辐辉速杀any辐光3.0、
+				苦痛之路1分40秒，any%速通25分钟，tas全圣巢等壮举，最终晋升虚空神，
+				成为圣巢诸神之神。军事单位战斗力+3，受伤的军事单位不会减少战斗力。
+				军事单位对城市作战获得经验+400%，对单位作战获得经验到达游戏内置上限(8)，
+				军事单位作战后，按如下顺序产生额外效果：
+				1.再额外获得7经验，
+				2.每有7点经验便恢复自身1点生命，
+				3.如果敌人是单位，每有7点经验值再额外造成1点伤害。
 			</Text>
 		</Replace>
 
@@ -173,11 +224,15 @@
 
 		<Replace Tag="LOC_TRAIT_LEADER_WYRMS_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>
-				苍白之王沃姆善于利用锋利的锯武装城市的各个角落，
-				不熟悉地形的人来到它的城市只有受苦的份。
-				在己方领土内，非己方单位需要消耗全部移动力才能移动一格。
-				所有改良设施额外+2[ICON_Production]产能。
-				在己方领土内，军队战斗力+5.
+				苍白之王沃姆有着独具特色的装修天赋，不难得知其建筑设计能力也极为高超。
+				城市中的大部分常规改良设施额外+1[ICON_Food]食物，
+				+4[ICON_Production]产能。
+				沃姆善于利用锋利的锯武装城市的各个角落，它让市民和军队在锯丛中练习跑酷，
+				从而锻炼它们对锯丛的适应性，友好的市民也乐于给外乡人带路。
+				锯子的位置是变幻莫测的，不熟悉地形的敌人来到沃姆的城市只有受苦的份——
+				城市获得“苦痛之路”光环效果，城市3环之内，
+				与你交战的单位移动力上限-2（效果可叠加，移动力归零等同于永久禁锢），
+				若在己方领土单元格内发生战斗，军队战斗力+10。
 			</Text>
 		</Replace>
 
@@ -259,6 +314,50 @@
 
 		<Replace Tag="LOC_CITY_NAME_MANTIS_VILLAGE" Language="zh_Hans_CN">
 			<Text>螳螂村</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_0" Language="zh_Hans_CN">
+			<Text>...</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_1" Language="zh_Hans_CN">
+			<Text>无论什么代价都在所不惜</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_2" Language="zh_Hans_CN">
+			<Text>没有可以思考的心智</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_3" Language="zh_Hans_CN">
+			<Text>没有可以屈从的意志</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_4" Language="zh_Hans_CN">
+			<Text>没有为苦难哭泣的声音</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_5" Language="zh_Hans_CN">
+			<Text>生于神与虚空之手</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_6" Language="zh_Hans_CN">
+			<Text>你必封印在众人梦中散布瘟疫的障目之光</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_6_RADIANCE" Language="zh_Hans_CN">
+			<Text>你必须臣服并忠于无上之光</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_7" Language="zh_Hans_CN">
+			<Text>......</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_8" Language="zh_Hans_CN">
+			<Text>你是容器</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_9" Language="zh_Hans_CN">
+			<Text>你是空洞骑士</Text>
 		</Replace>
 		
 	</LocalizedText>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Wyrms_2 -->
+<!-- Author: wldcmzy -->
+<!-- DateCreated: 7/22/2023 4:56:38 PM -->
+<GameData>
+	<!--attach a modifier to city, which has requirement city belong to Wyrms-->
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_WYRMS</TraitType>
+			<ModifierId>TRAIT_LEADER_WYRMS_CITY_ATTACH_CANT_GO</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_LEADER_WYRMS_CITY_ATTACH_CANT_GO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>REQ_HOLLOWNEST_IS_WYRMS_S_CITY</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_LEADER_WYRMS_CITY_ATTACH_CANT_GO</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_LEADER_WYRMS_UNIT_ATTACH_CANT_GO</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- =============== RequirementSets =============== -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>REQ_HOLLOWNEST_IS_WYRMS_S_CITY</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>REQ_HOLLOWNEST_IS_WYRMS_S_CITY</RequirementSetId>
+			<RequirementId>LEADER_IS_WYRMS</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
+	<Requirements>
+		<Row>
+			<RequirementId>LEADER_IS_WYRMS</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_LEADER_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>LEADER_IS_WYRMS</RequirementId>
+			<Name>LeaderType</Name>
+			<Value>LEADER_WYRMS</Value>
+		</Row>
+	</RequirementArguments>
+
+
+	<!--Attach a modifier to units, who has requirement that unit distence to city = 1~3 -->
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_LEADER_WYRMS_UNIT_ATTACH_CANT_GO</ModifierId>
+			<ModifierType>MODIFIER_ALL_UNITS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>REQ_HOLLOWNEST_ADJACENT_AT_WAR</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_LEADER_WYRMS_UNIT_ATTACH_CANT_GO</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_LEADER_WYRMS_UNIT_CANT_GO</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- =============== RequirementSets =============== -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>REQ_HOLLOWNEST_ADJACENT_AT_WAR</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>REQ_HOLLOWNEST_ADJACENT_AT_WAR</RequirementSetId>
+			<RequirementId>ADJACENT_AND_WAR</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
+	<Requirements>
+		<Row>
+			<RequirementId>ADJACENT_AND_WAR</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_TO_OWNER_AT_WAR</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>ADJACENT_AND_WAR</RequirementId>
+			<Name>MaxDistance</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<RequirementId>ADJACENT_AND_WAR</RequirementId>
+			<Name>MinDistance</Name>
+			<Value>1</Value>
+		</Row>
+	</RequirementArguments>
+
+
+	<!--Let unit movement cutcut -->
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_LEADER_WYRMS_UNIT_CANT_GO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_LEADER_WYRMS_UNIT_CANT_GO</ModifierId>
+			<Name>Amount</Name>
+			<Value>-2</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

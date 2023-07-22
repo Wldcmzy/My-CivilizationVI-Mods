@@ -39,6 +39,7 @@
 	</Districts>
 	
 	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_FLOURISHING_CROSSROADS" YieldChangeId="HollowNest_TEMPLE_OF_THE_BLACK_EGG_SQUARE_Gold"/>
 		<Row DistrictType="DISTRICT_FLOURISHING_CROSSROADS" YieldChangeId="District_Flourishing_Crossroads_Gold"/>
 		<Row DistrictType="DISTRICT_FLOURISHING_CROSSROADS" YieldChangeId="Government_Gold"/>
 		<Row DistrictType="DISTRICT_FLOURISHING_CROSSROADS" YieldChangeId="River_Gold"/>

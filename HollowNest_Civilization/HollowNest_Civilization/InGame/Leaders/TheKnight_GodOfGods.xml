@@ -5,7 +5,22 @@
 <GameData>
 	<Types>
 		<Row Type="LEADER_GOD_OF_GODS" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_GOD_OF_GODS" Kind="KIND_TRAIT"/>
+		<Row Type="ABILITY_LEADER_GOD_OF_GODS_COMBAT_BUFF" Kind="KIND_ABILITY"/>
 	</Types>
+	<TypeTags>
+		<Row Type="ABILITY_LEADER_GOD_OF_GODS_COMBAT_BUFF" Tag="CLASS_ALL_COMBAT_UNITS"/>
+	</TypeTags>
+	<Traits>
+		<Row
+			TraitType="TRAIT_LEADER_GOD_OF_GODS"
+			Name="LOC_TRAIT_LEADER_GOD_OF_GODS_NAME"
+			Description="LOC_TRAIT_LEADER_GOD_OF_GODS_DESCRIPTION"
+		/>
+	</Traits>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_GOD_OF_GODS" TraitType="TRAIT_LEADER_GOD_OF_GODS"/>
+	</LeaderTraits>
 	<Leaders>
 		<Row
 			LeaderType="LEADER_GOD_OF_GODS"
@@ -22,4 +37,123 @@
 			QuoteAudio="Play_LEADER_GOD_OF_GODS_QUOTES"
 		/>
 	</LeaderQuotes>
+
+
+	<!--Ability Combat BUFF-->
+	<UnitAbilities>
+		<Row
+			UnitAbilityType="ABILITY_LEADER_GOD_OF_GODS_COMBAT_BUFF"
+			Name="LOC_LEADER_GOD_OF_GODS_COMBAT_BUFF_NAME"
+			Description="LOC_LEADER_GOD_OF_GODS_COMBAT_BUFF_DESCRIPTION"
+			Inactive="true"
+		/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_LEADER_GOD_OF_GODS_COMBAT_BUFF</UnitAbilityType>
+			<ModifierId>LEADER_GOD_OF_GODS_COMBAT_BUFF</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>LEADER_GOD_OF_GODS_COMBAT_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>LEADER_GOD_OF_GODS_COMBAT_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!--Trait: Combat BUFF-->
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_GOD_OF_GODS</TraitType>
+			<ModifierId>TRAIT_LEADER_GOD_OF_GODS_COMBAT_BUFF</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_LEADER_GOD_OF_GODS_COMBAT_BUFF</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_LEADER_GOD_OF_GODS_COMBAT_BUFF</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_LEADER_GOD_OF_GODS_COMBAT_BUFF</Value>
+		</Row>
+	</ModifierArguments>
+	
+
+	<!--NO Strength Reduction for Damage-->
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_GOD_OF_GODS</TraitType>
+			<ModifierId>TRAIT_LEADER_GOD_OF_GODS_NO_STRENGTH_REDUCTION_FOR_DAMAGE</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_LEADER_GOD_OF_GODS_NO_STRENGTH_REDUCTION_FOR_DAMAGE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_STRENGTH_REDUCTION_FOR_DAMAGE_MODIFIER</ModifierType>
+			<Permanent>True</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_LEADER_GOD_OF_GODS_NO_STRENGTH_REDUCTION_FOR_DAMAGE</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!--More Combat Unit Experience-->
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_GOD_OF_GODS</TraitType>
+			<ModifierId>TRAIT_LEADER_MORE_UNIT_EXPERIENCE</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_LEADER_MORE_UNIT_EXPERIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_MODIFIER</ModifierType>
+			<Permanent>True</Permanent>
+			<SubjectRequirementSetId>REQUIREMENT_UNIT_IS_MILITARY</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_LEADER_MORE_UNIT_EXPERIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>400</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!-- =============== RequirementSets =============== -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>REQUIREMENT_UNIT_IS_MILITARY</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>REQUIREMENT_UNIT_IS_MILITARY</RequirementSetId>
+			<RequirementId>REQUIREMENT_MILITARY</RequirementId>
+		</Row>
+	</RequirementSetRequirements>-->
+	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIREMENT_MILITARY</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_IS_COMBAT</RequirementType>
+		</Row>
+	</Requirements>
+
 </GameData>

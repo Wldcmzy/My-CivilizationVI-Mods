@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE -->
+<!-- Author: wldcmzy -->
+<!-- DateCreated: 7/21/2023 7:03:52 PM -->
+<GameData>
+	<PlayerItems>
+		<!--Radiance-->
+		<Row
+			Domain="Players:Expansion2_Players"
+			CivilizationType="CIVILIZATION_HOLLOWNEST"
+			LeaderType="LEADER_RADIANCE"
+			Type="DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE"
+			Icon="ICON_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE"
+			Name="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_NAME"
+			Description="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_DESCRIPTION"
+			SortIndex="20"
+            />
+		<!--God of Gods-->
+		<Row
+			Domain="Players:Expansion2_Players"
+			CivilizationType="CIVILIZATION_HOLLOWNEST"
+			LeaderType="LEADER_GOD_OF_GODS"
+			Type="DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE"
+			Icon="ICON_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE"
+			Name="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_NAME"
+			Description="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_DESCRIPTION"
+			SortIndex="20"
+            />
+		<!--Wanderer-->
+		<Row
+			Domain="Players:Expansion2_Players"
+			CivilizationType="CIVILIZATION_HOLLOWNEST"
+			LeaderType="LEADER_WANDERER"
+			Type="DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE"
+			Icon="ICON_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE"
+			Name="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_NAME"
+			Description="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_DESCRIPTION"
+			SortIndex="20"
+            />
+		<!--Wyrms-->
+		<Row
+			Domain="Players:Expansion2_Players"
+			CivilizationType="CIVILIZATION_HOLLOWNEST"
+			LeaderType="LEADER_WYRMS"
+			Type="DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE"
+			Icon="ICON_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE"
+			Name="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_NAME"
+			Description="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_DESCRIPTION"
+			SortIndex="20"
+            />
+	</PlayerItems>
+
+</GameData>

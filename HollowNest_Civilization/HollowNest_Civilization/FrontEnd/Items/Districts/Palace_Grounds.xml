@@ -13,7 +13,7 @@
 			Icon="ICON_DISTRICT_PALACE_GROUNDS"
 			Name="LOC_DISTRICT_PALACE_GROUNDS_NAME"
 			Description="LOC_DISTRICT_PALACE_GROUNDS_DESCRIPTION"
-			SortIndex="30"
+			SortIndex="21"
 		/>
 		<!--God of Gods-->
 		<Row
@@ -24,7 +24,7 @@
 			Icon="ICON_DISTRICT_PALACE_GROUNDS"
 			Name="LOC_DISTRICT_PALACE_GROUNDS_NAME"
 			Description="LOC_DISTRICT_PALACE_GROUNDS_DESCRIPTION"
-			SortIndex="30"
+			SortIndex="21"
 		/>
 		<!--Wanderer-->
 		<Row
@@ -35,7 +35,7 @@
 			Icon="ICON_DISTRICT_PALACE_GROUNDS"
 			Name="LOC_DISTRICT_PALACE_GROUNDS_NAME"
 			Description="LOC_DISTRICT_PALACE_GROUNDS_DESCRIPTION"
-			SortIndex="30"
+			SortIndex="21"
 		/>
 		<!--Wyrms-->
 		<Row
@@ -46,7 +46,7 @@
 			Icon="ICON_DISTRICT_PALACE_GROUNDS"
 			Name="LOC_DISTRICT_PALACE_GROUNDS_NAME"
 			Description="LOC_DISTRICT_PALACE_GROUNDS_DESCRIPTION"
-			SortIndex="30"
+			SortIndex="21"
 		/>
 	</PlayerItems>
 </GameData>

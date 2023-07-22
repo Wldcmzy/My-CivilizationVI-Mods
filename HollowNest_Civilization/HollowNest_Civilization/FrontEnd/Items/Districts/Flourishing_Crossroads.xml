@@ -13,7 +13,7 @@
 			Icon="ICON_DISTRICT_FLOURISHING_CROSSROADS"
 			Name="LOC_DISTRICT_FLOURISHING_CROSSROADS_NAME"
 			Description="LOC_DISTRICT_FLOURISHING_CROSSROADS_DESCRIPTION"
-			SortIndex="31"
+			SortIndex="22"
             />
 		<!--God of Gods-->
 		<Row
@@ -24,7 +24,7 @@
 			Icon="ICON_DISTRICT_FLOURISHING_CROSSROADS"
 			Name="LOC_DISTRICT_FLOURISHING_CROSSROADS_NAME"
 			Description="LOC_DISTRICT_FLOURISHING_CROSSROADS_DESCRIPTION"
-			SortIndex="31"
+			SortIndex="22"
             />
 		<!--Wanderer-->
 		<Row
@@ -35,7 +35,7 @@
 			Icon="ICON_DISTRICT_FLOURISHING_CROSSROADS"
 			Name="LOC_DISTRICT_FLOURISHING_CROSSROADS_NAME"
 			Description="LOC_DISTRICT_FLOURISHING_CROSSROADS_DESCRIPTION"
-			SortIndex="31"
+			SortIndex="22"
             />
 		<!--Wyrms-->
 		<Row
@@ -46,7 +46,7 @@
 			Icon="ICON_DISTRICT_FLOURISHING_CROSSROADS"
 			Name="LOC_DISTRICT_FLOURISHING_CROSSROADS_NAME"
 			Description="LOC_DISTRICT_FLOURISHING_CROSSROADS_DESCRIPTION"
-			SortIndex="31"
+			SortIndex="22"
             />
 	</PlayerItems>
 

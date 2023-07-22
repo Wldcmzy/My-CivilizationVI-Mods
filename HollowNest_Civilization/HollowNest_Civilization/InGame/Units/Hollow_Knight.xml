@@ -31,7 +31,7 @@
 			BaseSightRange="3"
 			ZoneOfControl="true"
 			Domain="DOMAIN_LAND"
-			Combat="50"
+			Combat="52"
 			FormationClass="FORMATION_CLASS_LAND_COMBAT"
 			PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"
 			AdvisorType="ADVISOR_CONQUEST"
@@ -45,7 +45,7 @@
 	</Units>
 
 	<UnitUpgrades>
-		<Row Unit="UNIT_HOLLOW_KNIGHT" UpgradeUnit="UNIT_TANK"/>
+		<Row Unit="UNIT_HOLLOW_KNIGHT" UpgradeUnit="UNIT_CUIRASSIER"/>
 	</UnitUpgrades>
 
 </GameData>

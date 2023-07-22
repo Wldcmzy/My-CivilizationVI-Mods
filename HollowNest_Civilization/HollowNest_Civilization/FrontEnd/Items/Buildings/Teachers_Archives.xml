@@ -13,7 +13,7 @@
 			Icon="ICON_BUILDING_TEACHERS_ARCHIVES"
 			Name="LOC_BUILDING_TEACHERS_ARCHIVES_NAME"
 			Description="LOC_BUILDING_TEACHERS_ARCHIVES_DESCRIPTION"
-			SortIndex="21"
+			SortIndex="31"
 		/>
 		<!--God of Gods-->
 		<Row
@@ -24,7 +24,7 @@
 			Icon="ICON_BUILDING_TEACHERS_ARCHIVES"
 			Name="LOC_BUILDING_TEACHERS_ARCHIVES_NAME"
 			Description="LOC_BUILDING_TEACHERS_ARCHIVES_DESCRIPTION"
-			SortIndex="21"
+			SortIndex="31"
 		/>
 		<!--Wanderer-->
 		<Row
@@ -35,7 +35,7 @@
 			Icon="ICON_BUILDING_TEACHERS_ARCHIVES"
 			Name="LOC_BUILDING_TEACHERS_ARCHIVES_NAME"
 			Description="LOC_BUILDING_TEACHERS_ARCHIVES_DESCRIPTION"
-			SortIndex="21"
+			SortIndex="31"
 		/>
 		<!--Wyrms-->
 		<Row
@@ -46,7 +46,7 @@
 			Icon="ICON_BUILDING_TEACHERS_ARCHIVES"
 			Name="LOC_BUILDING_TEACHERS_ARCHIVES_NAME"
 			Description="LOC_BUILDING_TEACHERS_ARCHIVES_DESCRIPTION"
-			SortIndex="21"
+			SortIndex="31"
 		/>
 	</PlayerItems>
 
