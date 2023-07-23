@@ -33,7 +33,7 @@
 	</Building_YieldChanges>
 	
 	<Building_GreatPersonPoints>
-		<Row BuildingType="BUILDING_TEACHERS_ARCHIVES" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_TEACHERS_ARCHIVES" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="2"/>
 		<Row BuildingType="BUILDING_TEACHERS_ARCHIVES" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="1"/>
 	</Building_GreatPersonPoints>
 

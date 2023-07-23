@@ -580,6 +580,7 @@
 			<libraryName text="UITexture"/>
 			<relativePackagePaths>
 				<Element text="ICON_BUILDING_COLOSSEUM_OF_FOOLS_DDS"/>
+				<Element text="ICON_BUILDING_PLEASURE_HOUSE_DDS"/>
 				<Element text="ICON_BUILDING_TEACHERS_ARCHIVES_DDS"/>
 				<Element text="ICON_CIVILIZATION_HOLLOWNEST_DDS"/>
 				<Element text="ICON_DISTRICT_FLOURISHING_CROSSROADS_DDS"/>
@@ -590,6 +591,8 @@
 				<Element text="ICON_LEADER_WANDERER_DDS"/>
 				<Element text="ICON_LEADER_WYRMS_DDS"/>
 				<Element text="ICON_UNIT_HOLLOW_KNIGHT_DDS"/>
+				<Element text="LeaderImages"/>
+				<Element text="MomentIllustrations"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>

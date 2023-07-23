@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Pleasure_House -->
+<!-- Author: wldcmzy -->
+<!-- DateCreated: 7/22/2023 7:42:06 PM -->
+<GameData>
+
+	<PlayerItems>
+		<!--Radiance-->
+		<Row
+			Domain="Players:Expansion2_Players"
+			CivilizationType="CIVILIZATION_HOLLOWNEST"
+			LeaderType="LEADER_RADIANCE"
+			Type="BUILDING_PLEASURE_HOUSE"
+			Icon="ICON_BUILDING_PLEASURE_HOUSE"
+			Name="LOC_BUILDING_PLEASURE_HOUSE_NAME"
+			Description="LOC_BUILDING_PLEASURE_HOUSE_DESCRIPTION"
+			SortIndex="32"
+		/>
+		<!--God of Gods-->
+		<Row
+			Domain="Players:Expansion2_Players"
+			CivilizationType="CIVILIZATION_HOLLOWNEST"
+			LeaderType="LEADER_GOD_OF_GODS"
+			Type="BUILDING_PLEASURE_HOUSE"
+			Icon="ICON_BUILDING_PLEASURE_HOUSE"
+			Name="LOC_BUILDING_PLEASURE_HOUSE_NAME"
+			Description="LOC_BUILDING_PLEASURE_HOUSE_DESCRIPTION"
+			SortIndex="32"
+		/>
+		<!--Wanderer-->
+		<Row
+			Domain="Players:Expansion2_Players"
+			CivilizationType="CIVILIZATION_HOLLOWNEST"
+			LeaderType="LEADER_WANDERER"
+			Type="BUILDING_PLEASURE_HOUSE"
+			Icon="ICON_BUILDING_PLEASURE_HOUSE"
+			Name="LOC_BUILDING_PLEASURE_HOUSE_NAME"
+			Description="LOC_BUILDING_PLEASURE_HOUSE_DESCRIPTION"
+			SortIndex="32"
+		/>
+		<!--Wyrms-->
+		<Row
+			Domain="Players:Expansion2_Players"
+			CivilizationType="CIVILIZATION_HOLLOWNEST"
+			LeaderType="LEADER_WYRMS"
+			Type="BUILDING_PLEASURE_HOUSE"
+			Icon="ICON_BUILDING_PLEASURE_HOUSE"
+			Name="LOC_BUILDING_PLEASURE_HOUSE_NAME"
+			Description="LOC_BUILDING_PLEASURE_HOUSE_DESCRIPTION"
+			SortIndex="32"
+		/>
+	</PlayerItems>
+
+</GameData>

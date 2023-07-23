@@ -10,12 +10,12 @@
 	<m_PackageName text="LeaderFallbacks"/>
 	<m_Entries>
 		<Element>
-			<m_EntryID text="LeaderFallbacks_RADIANCE"/>
-			<m_ObjectName text="LeaderFallbacks_RADIANCE"/>
-		</Element>
-		<Element>
 			<m_EntryID text="LeaderFallbacks_GODOFGOD"/>
 			<m_ObjectName text="LeaderFallbacks_GODOFGOD"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderFallbacks_RADIANCE"/>
+			<m_ObjectName text="LeaderFallbacks_RADIANCE"/>
 		</Element>
 		<Element>
 			<m_EntryID text="LeaderFallbacks_WANDERER"/>

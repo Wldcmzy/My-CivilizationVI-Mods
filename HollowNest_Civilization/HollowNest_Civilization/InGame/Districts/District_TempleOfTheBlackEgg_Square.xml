@@ -239,34 +239,6 @@
 	</ModifierArguments>
 
 
-
-	<!--Grant One Hollow Knight at Temple of The Black Egg Square(failed)-->
-	<DistrictModifiers>
-		<Row>
-			<DistrictType>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE</DistrictType>
-			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_GRANT_HOLLOW_KNIGHT_REALLY_IN_DISTRICT</ModifierId>
-		</Row>
-	</DistrictModifiers>
-	<Modifiers>
-		<Row>
-			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_GRANT_HOLLOW_KNIGHT_REALLY_IN_DISTRICT</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_DISTRICT_CREATE_UNIT</ModifierType>
-		</Row>
-	</Modifiers>
-	<ModifierArguments>
-		<Row>
-			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_GRANT_HOLLOW_KNIGHT_REALLY_IN_DISTRICT</ModifierId>
-			<Name>DistrictType</Name>
-			<Value>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE</Value>
-		</Row>
-		<Row>
-			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_GRANT_HOLLOW_KNIGHT_REALLY_IN_DISTRICT</ModifierId>
-			<Name>UnitType</Name>
-			<Value>UNIT_HOLLOW_KNIGHT</Value>
-		</Row>
-	</ModifierArguments>
-
-
 	<!--Grant One Hollow Knight at City Center-->
 	<!--
 	<DistrictModifiers>
@@ -307,6 +279,36 @@
 			<EffectType>EFFECT_GRANT_UNIT_IN_CITY</EffectType>
 		</Row>
 	</DynamicModifiers>
+	-->
+
+	<!--Grant One Hollow Knight REALLY at Temple of The Black Egg Square(failed)-->
+	<!--Holy Shit, MODIFIER_PLAYER_"DISTRICT"_CREATE_UNIT Create Unit at City Center-->
+	<!--Go To Use Lua!!-->
+	<!--
+	<DistrictModifiers>
+		<Row>
+			<DistrictType>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE</DistrictType>
+			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_GRANT_HOLLOW_KNIGHT_REALLY_IN_DISTRICT</ModifierId>
+		</Row>
+	</DistrictModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_GRANT_HOLLOW_KNIGHT_REALLY_IN_DISTRICT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_CREATE_UNIT</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_GRANT_HOLLOW_KNIGHT_REALLY_IN_DISTRICT</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE</Value>
+		</Row>
+		<Row>
+			<ModifierId>DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_GRANT_HOLLOW_KNIGHT_REALLY_IN_DISTRICT</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_HOLLOW_KNIGHT</Value>
+		</Row>
+	</ModifierArguments>
 	-->
 
 

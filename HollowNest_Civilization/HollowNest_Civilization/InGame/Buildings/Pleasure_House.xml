@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Pleasure_House -->
+<!-- Author: wldcmzy -->
+<!-- DateCreated: 7/22/2023 7:26:09 PM -->
+<GameData>
+	<Types>
+		<Row Type="BUILDING_PLEASURE_HOUSE" Kind="KIND_BUILDING"/>
+	</Types>
+
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_PLEASURE_HOUSE" ReplacesBuildingType="BUILDING_AMPHITHEATER"/>
+	</BuildingReplaces>
+
+	<Buildings>
+		<Row 
+			BuildingType="BUILDING_PLEASURE_HOUSE" 
+			Name="LOC_BUILDING_PLEASURE_HOUSE_NAME"
+			Description="LOC_BUILDING_PLEASURE_HOUSE_DESCRIPTION"
+			PrereqCivic="CIVIC_DRAMA_POETRY" 
+			PrereqDistrict="DISTRICT_THEATER" 
+			PurchaseYield="YIELD_GOLD" 
+			Cost="120" 
+			AdvisorType="ADVISOR_CULTURE" 
+			Maintenance="1" 
+			CitizenSlots="1"
+			TraitType="TRAIT_CIVILIZATION_BUILDING_PLEASURE_HOUSE"
+		/>
+	</Buildings>
+
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_PLEASURE_HOUSE" YieldType="YIELD_CULTURE" YieldChange="2"/>
+	</Building_YieldChanges>
+
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_PLEASURE_HOUSE" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="3"/>
+	</Building_GreatPersonPoints>
+
+	<Building_GreatWorks>
+		<Row BuildingType="BUILDING_PLEASURE_HOUSE" GreatWorkSlotType="GREATWORKSLOT_MUSIC" NumSlots="3"/>
+	</Building_GreatWorks>
+
+
+	<!--Gain one Random Civic Boost when on New Era-->
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_PLEASURE_HOUSE</BuildingType>
+			<ModifierId>BUILDING_PLEASURE_HOUSE_CIVIC_BOOST_ON_NEW_ERA</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>BUILDING_PLEASURE_HOUSE_CIVIC_BOOST_ON_NEW_ERA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_CIVIC_BOOST_ON_NEW_ERA</ModifierType>
+			<Permanent>True</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>BUILDING_PLEASURE_HOUSE_CIVIC_BOOST_ON_NEW_ERA</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>BUILDING_PLEASURE_HOUSE_CIVIC_BOOST_ON_NEW_ERA</ModifierId>
+			<Name>ApplyImmediately</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+
+
+</GameData>

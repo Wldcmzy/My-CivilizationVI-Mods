@@ -176,7 +176,7 @@
 		<Row>
 			<ModifierId>TRAIT_LEADER_WANDERER_ADD_SETTLER_PRODUCTION</ModifierId>
 			<Name>Amount</Name>
-			<Value>50</Value>
+			<Value>75</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_LEADER_WANDERER_ADD_SETTLER_PRODUCTION</ModifierId>

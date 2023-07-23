@@ -50,7 +50,7 @@
 		<Row DistrictType="DISTRICT_PALACE_GROUNDS" YieldChangeId="Mountain_Faith4"/>
 		<Row DistrictType="DISTRICT_PALACE_GROUNDS" YieldChangeId="Mountain_Faith5"/>
 		<Row DistrictType="DISTRICT_PALACE_GROUNDS" YieldChangeId="Forest_Faith"/>
-		<Row DistrictType="DISTRICT_PALACE_GROUNDS" YieldChangeId="Government_Gold"/>
+		<Row DistrictType="DISTRICT_PALACE_GROUNDS" YieldChangeId="Government_Faith"/>
 		<Row DistrictType="DISTRICT_PALACE_GROUNDS" YieldChangeId="District_Palace_Grounds_Faith"/>
 		<Row DistrictType="DISTRICT_PALACE_GROUNDS" YieldChangeId="HollowNest_TEMPLE_OF_THE_BLACK_EGG_SQUARE_Faith"/>
 	</District_Adjacencies>

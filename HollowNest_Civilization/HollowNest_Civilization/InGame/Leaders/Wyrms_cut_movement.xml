@@ -53,12 +53,15 @@
 	</RequirementArguments>
 
 
-	<!--Attach a modifier to units, who has requirement that unit distence to city = 1~3 -->
+	<!--
+	Attach a modifier to units, who has requirement that unit distence to city = 1~3 
+	and in war with you
+	-->
 	<Modifiers>
 		<Row>
 			<ModifierId>TRAIT_LEADER_WYRMS_UNIT_ATTACH_CANT_GO</ModifierId>
 			<ModifierType>MODIFIER_ALL_UNITS_ATTACH_MODIFIER</ModifierType>
-			<SubjectRequirementSetId>REQ_HOLLOWNEST_ADJACENT_AT_WAR</SubjectRequirementSetId>
+			<SubjectRequirementSetId>REQ_HOLLOWNEST_ADJACENT_AT_WAR_OR_BARBARIAN</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -71,13 +74,13 @@
 	<!-- =============== RequirementSets =============== -->
 	<RequirementSets>
 		<Row>
-			<RequirementSetId>REQ_HOLLOWNEST_ADJACENT_AT_WAR</RequirementSetId>
+			<RequirementSetId>REQ_HOLLOWNEST_ADJACENT_AT_WAR_OR_BARBARIAN</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<Row>
-			<RequirementSetId>REQ_HOLLOWNEST_ADJACENT_AT_WAR</RequirementSetId>
+			<RequirementSetId>REQ_HOLLOWNEST_ADJACENT_AT_WAR_OR_BARBARIAN</RequirementSetId>
 			<RequirementId>ADJACENT_AND_WAR</RequirementId>
 		</Row>
 	</RequirementSetRequirements>

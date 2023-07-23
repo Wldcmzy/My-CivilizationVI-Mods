@@ -134,7 +134,7 @@
 		<Row>
 			<ModifierId>LEADER_RADIANCE_EXTRA_SPREAD_CHARGES</ModifierId>
 			<Name>Amount</Name>
-			<Value>3</Value>
+			<Value>4</Value>
 		</Row>
 	</ModifierArguments>
 
