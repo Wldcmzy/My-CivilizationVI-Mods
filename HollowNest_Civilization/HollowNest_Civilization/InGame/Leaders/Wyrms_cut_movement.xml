@@ -14,7 +14,7 @@
 		<Row>
 			<ModifierId>TRAIT_LEADER_WYRMS_CITY_ATTACH_CANT_GO</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
-			<SubjectRequirementSetId>REQ_HOLLOWNEST_IS_WYRMS_S_CITY</SubjectRequirementSetId>
+			<SubjectRequirementSetId>REQ_HOLLOWNEST_IS_WYRMS_S_OCCUPIED_CITY</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -24,16 +24,49 @@
 			<Value>TRAIT_LEADER_WYRMS_UNIT_ATTACH_CANT_GO</Value>
 		</Row>
 	</ModifierArguments>
+	
+	<![CDATA[
 	<!-- =============== RequirementSets =============== -->
 	<RequirementSets>
 		<Row>
-			<RequirementSetId>REQ_HOLLOWNEST_IS_WYRMS_S_CITY</RequirementSetId>
+			<RequirementSetId>REQ_HOLLOWNEST_IS_WYRMS_S_OCCUPIED_CITY</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<Row>
-			<RequirementSetId>REQ_HOLLOWNEST_IS_WYRMS_S_CITY</RequirementSetId>
+			<RequirementSetId>REQ_HOLLOWNEST_IS_WYRMS_S_OCCUPIED_CITY</RequirementSetId>
+			<RequirementId>CITY_ONLY_OWNER_WYRMS_OCCUPIED</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
+	<Requirements>
+		<Row>
+			<RequirementId>CITY_ONLY_OWNER_WYRMS_OCCUPIED</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_OCCUPIED</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>CITY_ONLY_OWNER_WYRMS_OCCUPIED</RequirementId>
+			<Name>OnlyOwnersCity</Name>
+			<Value>true</Value>
+		</Row>
+	</RequirementArguments>
+	]]>
+
+	<!-- This method judge whether leader is wyrms, if there're many wyrms, I think it will be wrong -->
+	<!-- On the top, The method not work, So still use this -->
+	<!-- =============== RequirementSets =============== -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>REQ_HOLLOWNEST_IS_WYRMS_S_OCCUPIED_CITY</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>REQ_HOLLOWNEST_IS_WYRMS_S_OCCUPIED_CITY</RequirementSetId>
 			<RequirementId>LEADER_IS_WYRMS</RequirementId>
 		</Row>
 	</RequirementSetRequirements>

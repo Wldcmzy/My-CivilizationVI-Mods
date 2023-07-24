@@ -41,7 +41,7 @@
 	</LeaderQuotes>
 
 
-	<!--Ability Home or Near Combat BUFF-->
+	<!--Ability Home or Near Add Combat BUFF-->
 	<UnitAbilities>
 		<Row
 			UnitAbilityType="ABILITY_LEADER_WYRMS_HOME_COMBAT_BUFF"
@@ -60,7 +60,7 @@
 		<Row>
 			<ModifierId>LEADER_WYRMS_HOME_COMBAT_BUFF</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
-			<SubjectRequirementSetId>REQ_HOLLOWNEST_WYRMS_HOME_OR_NEARHOME</SubjectRequirementSetId>
+			<OwnerRequirementSetId>REQ_HOLLOWNEST_WYRMS_HOME_OR_NEARHOME</OwnerRequirementSetId>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -70,6 +70,9 @@
 			<Value>10</Value>
 		</Row>
 	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="LEADER_WYRMS_HOME_COMBAT_BUFF" Context="Preview" Text="LOC_LEADER_WYRMS_HOME_COMBAT_BUFF_DESCRIPTION"/>
+	</ModifierStrings>
 	<!-- =============== RequirementSets =============== -->
 	<RequirementSets>
 		<Row>
@@ -123,9 +126,9 @@
 	
 	
 	
+
 	
-
-
+	
 	<!--Almost normal improvemet gain more yield-->
 	<!-- =============== more production =============== -->
 	<TraitModifiers>

@@ -129,7 +129,12 @@
 				为国际贸易和国内贸易提供两倍于市政广场的加成。
 				掠夺该区域可以获得等同于掠夺圣地两倍的[ICON_Faith]信仰。
 				建造完成时，可以无视科技限制获得一位空洞骑士。
+				与该区域相邻的空洞骑士获得+25[ICON_Strength]战斗力。
 			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_HOLLOW_KNIGHT_ADD_NEWBEE_BUFF_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>从相邻的友方黑卵圣殿广场获得+25[ICON_Strength]战斗力加成</Text>
 		</Replace>
 
 		<Replace Tag="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_CULTURE" Language="zh_Hans_CN">
@@ -190,10 +195,13 @@
 		<Replace Tag="LOC_TRAIT_LEADER_RADIANCE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>
 				辐光以操控梦境感染生灵的心智。
-				所有城市释放的宗教压力+5000%(为什么这么高？因为这个功能出问题了，做出来不管用)，
-				宗教单位获得+8[ICON_Religion]宗教战斗力，传教士和使徒获得+4传教次数，
+				所有城市释放的宗教压力+300%，解锁马镫科技后，辐光可以从控制空洞
+				骑士的方法中得到启发，所有城市释放的宗教压力额外+100%(此特性未实现)。
+				宗教单位获得+8[ICON_Religion]宗教战斗力和+3传教次数，
 				使徒自动获得辩论者和劝导者两种升级。
-				你城市的忠诚度锁定为100%
+				你城市的忠诚度锁定为100%，每座城市额外向九环内的单元格释放5忠诚度压力，
+				若其他城市失去所有忠诚度并受到辐光的忠诚度压力最大，则其跳过自由城市阶段，
+				直接加入辐光。
 			</Text>
 		</Replace>
 
@@ -203,7 +211,7 @@
 
 		<Replace Tag="LOC_LEADER_RADIANCE_RELIGIOUS_BUFF_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>
-				辐光的感染让宗教单位获得+8[ICON_Religion]宗教战斗力
+				辐光的感染+8[ICON_Religion]宗教战斗力
 			</Text>
 		</Replace>
 		
@@ -221,7 +229,7 @@
 				小骑士经历亿般磨练，受苦无数，完成了无能力r045、辐辉速杀any辐光3.0、
 				苦痛之路1分40秒，any%速通25分钟，tas全圣巢等壮举，最终晋升虚空神，
 				成为圣巢诸神之神。军事单位+3[ICON_Strength]战斗力，受伤的军事单位不会减少战斗力。
-				军事单位对城市作战获得经验+400%，对单位作战获得经验到达游戏内置上限(8)，
+				军事单位获得经验值+400%，对单位作战获得经验到达游戏内置上限(8)，
 				军事单位作战后，按如下顺序产生额外效果：
 				1.再额外获得7经验，
 				2.每有7点经验便恢复自身1点生命，
@@ -235,7 +243,7 @@
 
 		<Replace Tag="LOC_LEADER_GOD_OF_GODS_COMBAT_BUFF_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>
-				虚空神的强大意志使所有战斗单位+3[ICON_Strength]战斗力
+				虚空神的强大意志+3[ICON_Strength]战斗力
 			</Text>
 		</Replace>
 
@@ -263,7 +271,7 @@
 
 		<Replace Tag="LOC_LEADER_WANDERER_EXTRA_MOVEMENT_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>
-				探索圣巢效果让单位+1[ICON_Movement]移动力
+				探索圣巢效果+1[ICON_Movement]移动力
 			</Text>
 		</Replace>
 
@@ -273,7 +281,7 @@
 
 		<Replace Tag="LOC_LEADER_WANDERER_IGNORE_TERRAIN_COST_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>
-				探索圣巢效果让单位无视地形带来的额外移动力消耗
+				探索圣巢效果无视地形带来的额外移动力消耗
 			</Text>
 		</Replace>
 
@@ -283,7 +291,7 @@
 
 		<Replace Tag="LOC_LEADER_WANDERER_IGNORE_RIVERS_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>
-				探索圣巢效果让单位无视穿过河流带来的额外移动力消耗
+				探索圣巢效果无视穿过河流带来的额外移动力消耗
 			</Text>
 		</Replace>
 		
@@ -306,7 +314,7 @@
 				锯子的位置是变幻莫测的，不熟悉地形的敌人来到沃姆的城市只有受苦的份——
 				城市获得“苦痛之路”光环效果，城市3环之内，
 				与你交战的单位移动力上限-2[ICON_Movement]（效果可叠加，移动力归零等同于永久禁锢），
-				若在己方领土单元格内发生战斗，军队+10[ICON_Strength]战斗力。
+				军队在己方单元格或临近己方领土的单元格作战+10[ICON_Strength]战斗力。
 			</Text>
 		</Replace>
 
@@ -316,8 +324,8 @@
 
 		<Replace Tag="LOC_LEADER_WYRMS_HOME_COMBAT_BUFF_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>
-				你的单位在自己的领土或与自己的领土相邻的单元格作战时，
-				可以依托有利地形，+10[ICON_Strength]战斗力
+				在自己的领土或与自己的领土相邻的单元格作战时，
+				+10[ICON_Strength]战斗力
 			</Text>
 		</Replace>
 
@@ -431,7 +439,7 @@
 		</Replace>
 
 		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_6_RADIANCE" Language="zh_Hans_CN">
-			<Text>你臣服并忠于无上之光</Text>
+			<Text>[COLOR_FLOAT_GOLD]你完全臣服并忠于无上之光[ENDCOLOR]</Text>
 		</Replace>
 
 		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_7" Language="zh_Hans_CN">

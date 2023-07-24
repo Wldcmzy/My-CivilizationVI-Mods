@@ -67,6 +67,9 @@
 			<Value>3</Value>
 		</Row>
 	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="LEADER_GOD_OF_GODS_COMBAT_BUFF" Context="Preview" Text="LOC_LEADER_GOD_OF_GODS_COMBAT_BUFF_DESCRIPTION"/>
+	</ModifierStrings>
 
 	<!--Trait: Combat BUFF-->
 	<TraitModifiers>
@@ -155,5 +158,7 @@
 			<RequirementType>REQUIREMENT_UNIT_IS_COMBAT</RequirementType>
 		</Row>
 	</Requirements>
+	
+	
 
 </GameData>

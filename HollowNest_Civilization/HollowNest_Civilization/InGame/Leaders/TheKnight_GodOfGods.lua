@@ -14,14 +14,18 @@ function Leader_GodOfGods_Combat(pCombatResult)
 	local pAttUnit
 	local locAtt, expAtt, extraHealValueAtt, extraDamageValueAtt
 	local attFlag = false
-	if (pPlayerConfigAtt ~= nil) and (attInfo.type == ComponentType.UNIT) then 
+	if (pPlayerConfigAtt ~= nil) 
+	and (attInfo.type == ComponentType.UNIT) 
+	then 
 		pAttUnit = UnitManager.GetUnit(attInfo.player, attInfo.id)
-		locAtt = pAttUnit:GetLocation()
-		if (pPlayerConfigAtt:GetLeaderTypeName() == "LEADER_GOD_OF_GODS") then
-			attFlag = true
-			expAtt = pAttUnit:GetExperience():GetExperiencePoints()
-			extraHealValueAtt = math.floor(expAtt / Heal_Devide)
-			extraDamageValueAtt = math.floor(expAtt / Extra_Damage_Devide)
+		if (pAttUnit ~= nil) then
+			locAtt = pAttUnit:GetLocation()
+			if (pPlayerConfigAtt:GetLeaderTypeName() == "LEADER_GOD_OF_GODS") then
+				attFlag = true
+				expAtt = pAttUnit:GetExperience():GetExperiencePoints()
+				extraHealValueAtt = math.floor(expAtt / Heal_Devide)
+				extraDamageValueAtt = math.floor(expAtt / Extra_Damage_Devide)
+			end
 		end
     end
     
@@ -32,14 +36,18 @@ function Leader_GodOfGods_Combat(pCombatResult)
 	local pDefUnit
 	local locDef, expDef, extraHealValueDef, extraDamageValueDef
 	local defFlag = false
-	if (pPlayerConfigDef ~= nil) and (defInfo.type == ComponentType.UNIT) then
+	if (pPlayerConfigDef ~= nil) 
+	and (defInfo.type == ComponentType.UNIT) 
+	then
 		pDefUnit = UnitManager.GetUnit(defInfo.player, defInfo.id)
-		locDef = pDefUnit:GetLocation()
-		if (pPlayerConfigDef:GetLeaderTypeName() == "LEADER_GOD_OF_GODS") then
-			defFlag = true
-			expDef = pDefUnit:GetExperience():GetExperiencePoints()
-			extraHealValueDef = math.floor(expDef / Heal_Devide)
-			extraDamageValueDef = math.floor(expDef / Extra_Damage_Devide)
+		if(pDefUnit ~= nil) then
+			locDef = pDefUnit:GetLocation()
+			if (pPlayerConfigDef:GetLeaderTypeName() == "LEADER_GOD_OF_GODS") then
+				defFlag = true
+				expDef = pDefUnit:GetExperience():GetExperiencePoints()
+				extraHealValueDef = math.floor(expDef / Heal_Devide)
+				extraDamageValueDef = math.floor(expDef / Extra_Damage_Devide)
+			end
 		end
     end
 
@@ -55,14 +63,14 @@ function Leader_GodOfGods_Combat(pCombatResult)
 		print("defender +7 Exp , and Heal")
 		-- Game.AddWorldViewText(0, "Heal +" .. extraHealValueDef .. "HP", locDef.x, locDef.y)
 	end
-	if (attFlag == true) then 
+	if (attFlag == true) and (pDefUnit ~= nil) then 
 		if (defInfo.type == ComponentType.UNIT) then
 			pDefUnit:ChangeDamage(extraHealValueAtt)
 			print("attaker cause more damage")
 			-- Game.AddWorldViewText(0, "ExtraDamage -" .. extraHealValueAtt .. "HP", locDef.x, locDef.y)
 		end
 	end
-	if (defFlag == true) then
+	if (defFlag == true) and (pAttUnit ~= nil) then
 		if (attInfo.type == ComponentType.UNIT) then
 			pAttUnit:ChangeDamage(extraHealValueDef)
 			print("defender cause more damage")
