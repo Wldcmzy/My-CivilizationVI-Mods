@@ -33,7 +33,7 @@ function Randomly_Make_Unit_Create_Relic(killedPlayerID, killedUnitID, playerID,
 	the proportion that what kind of relic will give player.
 	]]
 	local RATE = 100
-	local percentViliege = 15
+	local percentViliege = 100
 	local percentApostle = 65
 	local percentVoid = 100
 

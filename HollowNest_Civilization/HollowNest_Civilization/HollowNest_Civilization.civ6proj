@@ -2,15 +2,14 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>HollowNest Civilization</Name>
+    <Name>空洞骑士圣巢文明 HollowNest Civilization</Name>
     <Guid>d594eb57-13c3-49bd-953c-1b110f8ccfa5</Guid>
     <ProjectGuid>1cf412bc-59bc-408e-8031-c1347011aa9b</ProjectGuid>
     <ModVersion>1</ModVersion>
-    <Teaser>This is a brief description of the mod.</Teaser>
-    <Description>This is a brief description of the mod.</Description>
+    <Teaser>以游戏《空洞骑士》灵感的文明Mod</Teaser>
+    <Description>比较超模的圣巢文明，灵感来源于游戏《空洞骑士》，包含四位领袖和多个特色单位、建筑、区域。</Description>
     <Authors>wldcmzy</Authors>
-    <SpecialThanks>
-    </SpecialThanks>
+    <SpecialThanks>https://space.bilibili.com/28399130/channel/series的教程 以及Q群711403691群友的大力支持</SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
@@ -21,8 +20,8 @@
 </Associations>]]></AssociationData>
     <AssemblyName>HollowNest_Civilization</AssemblyName>
     <RootNamespace>HollowNest_Civilization</RootNamespace>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="db_leader"><File>FrontEnd/Leaders/Radiance.xml</File><File>FrontEnd/Leaders/TheKnight_GodOfGods.xml</File><File>FrontEnd/Leaders/TheKnight_Wanderer.xml</File><File>FrontEnd/Leaders/Wyrms.xml</File></UpdateDatabase><UpdateText id="txt"><File>Text/zh_Hans_CN.xml</File></UpdateText><UpdateDatabase id="db_items"><File>FrontEnd/Items/Units/Hollow_Knight.xml</File><File>FrontEnd/Items/Buildings/Teachers_Archives.xml</File><File>FrontEnd/Items/Buildings/Collosseum_of_Fools.xml</File><File>FrontEnd/Items/Districts/Palace_Grounds.xml</File><File>FrontEnd/Items/Districts/Flourishing_Crossroads.xml</File><File>FrontEnd/Items/Districts/District_TempleOfTheBlackEgg_Square.xml</File><File>FrontEnd/Items/Buildings/Pleasure_House.xml</File></UpdateDatabase><UpdateArt id="art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="icon"><File>Icons/Leaders/Radiance.xml</File><File>Icons/Leaders/TheKnight_GodOfGods.xml</File><File>Icons/Leaders/TheKnight_Wanderer.xml</File><File>Icons/Leaders/Wyrms.xml</File><File>Icons/Buildings/Teachers_Archives.xml</File><File>Icons/Buildings/Colosseum_of_Fools.xml</File><File>Icons/Districts/Flourishing_Crossroads.xml</File><File>Icons/Districts/Plalce_Grounds.xml</File><File>Icons/Civilization/HollowNest.xml</File><File>Icons/Units/Hollow_Knight.xml</File><File>Icons/Districts/District_TempleOfTheBlackEgg_Square.xml</File><File>Icons/Buildings/Pleasure_House.xml</File></UpdateIcons></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="db_civi"><File>InGame/Civilization/HollowNest.xml</File><File>InGame/Civilization/Colors.xml</File><File>InGame/Civilization/Names.xml</File><File>InGame/Civilization/HollowNest_Civilization_Trait_Relic.sql</File></UpdateDatabase><UpdateDatabase id="db_leader"><File>InGame/Leaders/Radiance.xml</File><File>InGame/Leaders/TheKnight_GodOfGods.xml</File><File>InGame/Leaders/TheKnight_Wanderer.xml</File><File>InGame/Leaders/Wyrms.xml</File><File>InGame/Leaders/Wyrms_cut_movement.xml</File></UpdateDatabase><UpdateDatabase id="db_units"><File>InGame/Units/Hollow_Knight.xml</File></UpdateDatabase><UpdateDatabase id="db_buildings"><File>InGame/Buildings/Colosseum_of_Fools.xml</File><File>InGame/Buildings/Teachers_Archives.xml</File><File>InGame/Buildings/Pleasure_House.xml</File></UpdateDatabase><UpdateText id="txt"><File>Text/zh_Hans_CN.xml</File></UpdateText><UpdateDatabase id="db_districts"><File>InGame/Districts/Palace_Grounds.xml</File><File>InGame/Districts/Flourishing_Crossroads.xml</File><File>InGame/Districts/District_TempleOfTheBlackEgg_Square.xml</File></UpdateDatabase><UpdateArt id="art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="icon"><File>Icons/Leaders/Radiance.xml</File><File>Icons/Leaders/TheKnight_GodOfGods.xml</File><File>Icons/Leaders/TheKnight_Wanderer.xml</File><File>Icons/Leaders/Wyrms.xml</File><File>Icons/Buildings/Colosseum_of_Fools.xml</File><File>Icons/Buildings/Teachers_Archives.xml</File><File>Icons/Districts/Plalce_Grounds.xml</File><File>Icons/Districts/Flourishing_Crossroads.xml</File><File>Icons/Civilization/HollowNest.xml</File><File>Icons/Units/Hollow_Knight.xml</File><File>Icons/Districts/District_TempleOfTheBlackEgg_Square.xml</File><File>Icons/Buildings/Pleasure_House.xml</File></UpdateIcons><AddGameplayScripts id="lua"><File>InGame/Leaders/TheKnight_GodOfGods.lua</File><File>InGame/Districts/District_TempleOfTheBlackEgg_Square.lua</File><File>InGame/Civilization/HollowNest_Civilization_Trait_Relic.lua</File></AddGameplayScripts><UpdateDatabase id="db_images"><File>InGame/Leaders/Leader_Images.sql</File><File>InGame/Civilization/MomentIllustration.sql</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="db_leader"><File>FrontEnd/Leaders/Radiance.xml</File><File>FrontEnd/Leaders/TheKnight_GodOfGods.xml</File><File>FrontEnd/Leaders/TheKnight_Wanderer.xml</File><File>FrontEnd/Leaders/Wyrms.xml</File></UpdateDatabase><UpdateText id="txt"><File>Text/zh_Hans_CN.xml</File></UpdateText><UpdateDatabase id="db_items"><File>FrontEnd/Items/Units/Hollow_Knight.xml</File><File>FrontEnd/Items/Buildings/Teachers_Archives.xml</File><File>FrontEnd/Items/Buildings/Collosseum_of_Fools.xml</File><File>FrontEnd/Items/Districts/Palace_Grounds.xml</File><File>FrontEnd/Items/Districts/Flourishing_Crossroads.xml</File><File>FrontEnd/Items/Districts/District_TempleOfTheBlackEgg_Square.xml</File><File>FrontEnd/Items/Buildings/Pleasure_House.xml</File></UpdateDatabase><UpdateArt id="art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="icon"><File>Icons/Leaders/Radiance.xml</File><File>Icons/Leaders/TheKnight_GodOfGods.xml</File><File>Icons/Leaders/TheKnight_Wanderer.xml</File><File>Icons/Leaders/Wyrms.xml</File><File>Icons/Buildings/Teachers_Archives.xml</File><File>Icons/Buildings/Colosseum_of_Fools.xml</File><File>Icons/Districts/Flourishing_Crossroads.xml</File><File>Icons/Districts/Plalce_Grounds.xml</File><File>Icons/Civilization/HollowNest.xml</File><File>Icons/Units/Hollow_Knight.xml</File><File>Icons/Districts/District_TempleOfTheBlackEgg_Square.xml</File><File>Icons/Buildings/Pleasure_House.xml</File></UpdateIcons><UpdateColors id="HNcolor"><File>FrontEnd/HollowNest_Colors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="db_civi"><File>InGame/Civilization/HollowNest.xml</File><File>InGame/Civilization/HollowNest_Civilization_Trait_Relic.sql</File><File>InGame/Civilization/HollowNest_Names.xml</File></UpdateDatabase><UpdateDatabase id="db_leader"><File>InGame/Leaders/Radiance.xml</File><File>InGame/Leaders/TheKnight_GodOfGods.xml</File><File>InGame/Leaders/TheKnight_Wanderer.xml</File><File>InGame/Leaders/Wyrms.xml</File><File>InGame/Leaders/Wyrms_cut_movement.xml</File><File>InGame/Leaders/HollowNest_Leader_Agendas.sql</File></UpdateDatabase><UpdateDatabase id="db_units"><File>InGame/Units/Hollow_Knight.xml</File></UpdateDatabase><UpdateDatabase id="db_buildings"><File>InGame/Buildings/Colosseum_of_Fools.xml</File><File>InGame/Buildings/Teachers_Archives.xml</File><File>InGame/Buildings/Pleasure_House.xml</File></UpdateDatabase><UpdateText id="txt"><File>Text/zh_Hans_CN.xml</File></UpdateText><UpdateDatabase id="db_districts"><File>InGame/Districts/Palace_Grounds.xml</File><File>InGame/Districts/Flourishing_Crossroads.xml</File><File>InGame/Districts/District_TempleOfTheBlackEgg_Square.xml</File></UpdateDatabase><UpdateArt id="art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="icon"><File>Icons/Leaders/Radiance.xml</File><File>Icons/Leaders/TheKnight_GodOfGods.xml</File><File>Icons/Leaders/TheKnight_Wanderer.xml</File><File>Icons/Leaders/Wyrms.xml</File><File>Icons/Buildings/Colosseum_of_Fools.xml</File><File>Icons/Buildings/Teachers_Archives.xml</File><File>Icons/Districts/Plalce_Grounds.xml</File><File>Icons/Districts/Flourishing_Crossroads.xml</File><File>Icons/Civilization/HollowNest.xml</File><File>Icons/Units/Hollow_Knight.xml</File><File>Icons/Districts/District_TempleOfTheBlackEgg_Square.xml</File><File>Icons/Buildings/Pleasure_House.xml</File></UpdateIcons><AddGameplayScripts id="lua"><File>InGame/Leaders/TheKnight_GodOfGods.lua</File><File>InGame/Districts/District_TempleOfTheBlackEgg_Square.lua</File><File>InGame/Civilization/HollowNest_Civilization_Trait_Relic.lua</File></AddGameplayScripts><UpdateDatabase id="db_images"><File>InGame/Civilization/HollowNest_MomentIllustration.sql</File><File>InGame/Leaders/HollowNest_Leader_Images.sql</File></UpdateDatabase><UpdateColors id="HNcolor"><File>FrontEnd/HollowNest_Colors.xml</File></UpdateColors></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -63,6 +62,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Artdefs\Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FrontEnd\HollowNest_Colors.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="FrontEnd\Items\Buildings\Collosseum_of_Fools.xml">
@@ -143,9 +145,6 @@
     <Content Include="InGame\Buildings\Teachers_Archives.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="InGame\Civilization\Colors.xml">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="InGame\Civilization\HollowNest.xml">
       <SubType>Content</SubType>
     </Content>
@@ -155,10 +154,10 @@
     <Content Include="InGame\Civilization\HollowNest_Civilization_Trait_Relic.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="InGame\Civilization\MomentIllustration.sql">
+    <Content Include="InGame\Civilization\HollowNest_MomentIllustration.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="InGame\Civilization\Names.xml">
+    <Content Include="InGame\Civilization\HollowNest_Names.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="InGame\Districts\District_TempleOfTheBlackEgg_Square.lua">
@@ -173,7 +172,10 @@
     <Content Include="InGame\Districts\Palace_Grounds.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="InGame\Leaders\Leader_Images.sql">
+    <Content Include="InGame\Leaders\HollowNest_Leader_Agendas.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Leaders\HollowNest_Leader_Images.sql">
       <SubType>Content</SubType>
     </Content>
     <Content Include="InGame\Leaders\Radiance.xml">

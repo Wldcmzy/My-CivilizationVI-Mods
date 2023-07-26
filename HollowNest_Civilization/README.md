@@ -4,6 +4,14 @@
 
 灵感来源于游戏《空洞骑士》。内容较多且构思较为超模，遂不考虑平衡性，转而加大力度。
 
+## 支持语言
+
++ 简体中文
+
+由于作者有一些重要的事情要做，大概至少半年内不会更新或者修bug，期间估计也不会碰几次steam，等2024年有时间也许会支持英文。
+
+At now, This mod only Simplified Chinese is supported, later, I have something very important to do, perhaps I have time to write the English version in 2024. If bug appear, Probably can't fix it in 2023.I may disappear for the rest of time this year.
+
 ## 素材来源
 
 + 《空洞骑士》游戏
@@ -144,3 +152,6 @@
 生产需要90[ICON_Production]产能(180[ICON_Production]->90[ICON_Production])。
 预期设计一个名为“封印”的技能，先鸽了。
 
+## 可能存在的问题
+
++ 存在重复的领袖沃姆时，可能会出现“苦痛之路”效果叠加的情况。

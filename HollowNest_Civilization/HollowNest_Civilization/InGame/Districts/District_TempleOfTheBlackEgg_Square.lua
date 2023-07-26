@@ -15,7 +15,7 @@ function HollowNest_ShowText_Memory_of_The_Abyss(playerID, districtID, iX, iY)
 		local playerCfg = PlayerConfigurations[playerID]
 		local leaderType = playerCfg:GetLeaderTypeName()
 		print('Start to show Text of Memory_of_The_Abyss')
-		for i=0,9 do
+		for i=0,8 do
 			txt = TextVarPrefix .. i
 			if (i == 6) and (leaderType == "LEADER_RADIANCE") then
 				print('Show Radiance Trait Text')

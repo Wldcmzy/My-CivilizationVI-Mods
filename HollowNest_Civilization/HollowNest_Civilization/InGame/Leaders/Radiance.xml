@@ -292,7 +292,7 @@
 		<Row>
 			<ModifierId>TRAIT_LEADER_RADIANCE_CITY_MORE_LOYAL_PRESSURE</ModifierId>
 			<Name>Amount</Name>
-			<Value>5</Value>
+			<Value>6</Value>
 		</Row>
 	</ModifierArguments>
 	<!-- *************** Custom ModifierType *************** -->

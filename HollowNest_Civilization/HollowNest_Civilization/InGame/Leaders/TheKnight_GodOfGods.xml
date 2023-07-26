@@ -64,7 +64,7 @@
 		<Row>
 			<ModifierId>LEADER_GOD_OF_GODS_COMBAT_BUFF</ModifierId>
 			<Name>Amount</Name>
-			<Value>3</Value>
+			<Value>5</Value>
 		</Row>
 	</ModifierArguments>
 	<ModifierStrings>
