@@ -258,7 +258,7 @@
 				所有单位+1[ICON_Movement]移动力，经过一些地貌与河流时，
 				可以无视移动力损耗，但仍然会受区域控制影响。
 				生产开拓者单位+75%[ICON_Production]的产能。
-				建立一座城市后，赠送一个侦察单位。
+				建立或攻占一座城市后，赠送一个侦察单位。
 			</Text>
 		</Replace>
 
@@ -446,102 +446,53 @@
 		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_8" Language="zh_Hans_CN">
 			<Text>你是空洞骑士</Text>
 		</Replace>
-
-		
 		
 
-		<Replace Tag="LOC_AGENDA_GOD_OF_GODS_NAME" Language="zh_Hans_CN">
-			<Text>来自深渊</Text>
-		</Replace>
-		
-		<Replace Tag="LOC_AGENDA_GOD_OF_GODS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>更喜欢不处于黄金时代的文明，但并不讨厌处于黄金时代的文明。</Text>
+		<Replace Tag="LOC_AGENDA_RADIANCE_NAME" Language="zh_Hans_CN">
+			<Text>金光闪耀</Text>
 		</Replace>
 
-		<![CDATA[
-		<Replace Tag="LOC_AGENDA_GOD_OF_GODS_2_NAME" Language="zh_Hans_CN">
-			<Text>磨砺战法</Text>
-		</Replace>
-	
-		<Replace Tag="LOC_AGENDA_GOD_OF_GODS_2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>一直设法维持强大的常备军。尊重其他拥有庞大军队的文明。</Text>
-		</Replace>
-		]]>
-
-		<Replace Tag="LOC_TRAIT_AGENDA_GOD_OF_GODS_LIKE_NO_GOLD_AGE_KEY" Language="zh_Hans_CN">
-			<Text>004</Text>
-		</Replace>
-
-		<Replace Tag="LOC_TRAIT_AGENDA_GOD_OF_GODS_LIKE_NO_GOLD_AGE_DES" Language="zh_Hans_CN">
-			<Text>喜欢金色光环隐去而自强不息的文明(非黄金时代)。</Text>
-		</Replace>
-
-		<Replace Tag="LOC_AGENDA_WANDERER_NAME" Language="zh_Hans_CN">
-			<Text>探索与绘制</Text>
-		</Replace>
-		
-		<Replace Tag="LOC_AGENDA_WANDERER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>喜欢探索地图多的文明，讨厌探索地图少的文明。</Text>
-		</Replace>
-
-		<![CDATA[
-		<Replace Tag="LOC_AGENDA_WANDERER_2_NAME" Language="zh_Hans_CN">
-			<Text>开拓与征服</Text>
-		</Replace>
-
-		<Replace Tag="LOC_AGENDA_WANDERER_2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>将尽其所能开疆扩土。讨厌国土狭小的文明。</Text>
-		</Replace>
-		]]>
-		
-		<Replace Tag="LOC_TRAIT_AGENDA_WANDERER_LIKE_HIGH_EXPLORATION_KEY" Language="zh_Hans_CN">
-			<Text>005</Text>
-		</Replace>
-
-		<Replace Tag="LOC_TRAIT_AGENDA_WANDERER_LIKE_HIGH_EXPLORATION_DES" Language="zh_Hans_CN">
-			<Text>喜欢探索世界更多的文明。</Text>
-		</Replace>
-
-		<Replace Tag="LOC_TRAIT_AGENDA_WANDERER_HATE_LOW_EXPLORATION_KEY" Language="zh_Hans_CN">
-			<Text>006</Text>
-		</Replace>
-
-		<Replace Tag="LOC_TRAIT_AGENDA_WANDERER_HATE_LOW_EXPLORATION_DES" Language="zh_Hans_CN">
-			<Text>略微讨厌对世界不够了解的文明。</Text>
-		</Replace>
-
-		<![CDATA[
-		<Replace Tag="LOC_AGENDA_WYRMS_NAME" Language="zh_Hans_CN">
-			<Text>快乐之路</Text>
-		</Replace>
-		
-		<Replace Tag="LOC_AGENDA_WYRMS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>喜欢人民幸福感高的文明，讨厌人民幸福感低的文明</Text>
-		</Replace>
-		]]>
-
-		<Replace Tag="LOC_AGENDA_WYRMS_2_NAME" Language="zh_Hans_CN">
-			<Text>大兴土木</Text>
-		</Replace>
-
-		<Replace Tag="LOC_AGENDA_WYRMS_2_DESCRIPTION" Language="zh_Hans_CN">
+		<Replace Tag="LOC_AGENDA_RADIANCE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>
-				清除所有地貌并改良所有可以改良的单元格。喜欢被改良的单元格占很高比例的文明。
-				讨厌已改良的单元格占很低比例，或建造国家公园的文明。
+				喜欢伴随着金色光芒进入黄金时代的文明，
+				略微反感活在普通时代的文明，
+				厌恶活在黑暗时代的文明。
 			</Text>
 		</Replace>
 
-		<Replace Tag="LOC_TRAIT_AGENDA_WYRMS_2_EXPLOITATION_KEY" Language="zh_Hans_CN">
-			<Text>007</Text>
+		<![CDATA[
+		<Replace Tag="LOC_AGENDA_RADIANCE_2_NAME" Language="zh_Hans_CN">
+			<Text>光蛾之道</Text>
 		</Replace>
 
-		<Replace Tag="LOC_TRAIT_AGENDA_WYRMS_2_EXPLOITATION_DES" Language="zh_Hans_CN">
+		<Replace Tag="LOC_AGENDA_RADIANCE_2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>
-				喜恶取决于文明改良单元格的量，并讨厌国家公园。
+				喜欢信奉相同宗教的文明，并且希望其所有城市都信奉同样宗教。
+				讨厌那些企图在自己国家传播其他宗教的文明。
 			</Text>
 		</Replace>
-		
+		]]>
 
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_RADIANCE_ANY" Language="zh_Hans_CN">
+			<Text>光！芒！</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_RADIANCE_ANY" Language="zh_Hans_CN">
+			<Text>黑！暗！</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_AGENDA_RADIANCE_MODIFIER_GOLD_DES" Language="zh_Hans_CN">
+			<Text>喜欢沐浴在金光中的文明(黄金时代)。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_AGENDA_RADIANCE_A_BIT_HATE_NO_GOLD_AGE_DES" Language="zh_Hans_CN">
+			<Text>略微反感不在金光照耀下的文明(非黄金时代)。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_AGENDA_RADIANCE_MODIFIER_DARK_DES" Language="zh_Hans_CN">
+			<Text>极其厌恶黑暗中的虫虱文明(黑暗时代)。</Text>
+		</Replace>
+		
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_RADIANCE_ANY" Language="zh_Hans_CN">
 			<Text>我！是！辐！光！我！不！会！畏！惧！你！</Text>
 		</Replace>
@@ -590,52 +541,304 @@
 		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_RADIANCE_ANY" Language="zh_Hans_CN">
 			<Text>睿！</Text>
 		</Replace>
-
-		<Replace Tag="LOC_AGENDA_RADIANCE_NAME" Language="zh_Hans_CN">
-			<Text>金光闪耀</Text>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_RADIANCE_ANY">
+			<Text>我！不！会！被！遗！忘！</Text>
 		</Replace>
 
-		<Replace Tag="LOC_AGENDA_RADIANCE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>
-				喜欢进入伴随着金色光芒进入黄金时代的文明，
-				略微反感活在普通时代的文明，
-				厌恶活在黑暗时代的文明。
-			</Text>
+
+		<Replace Tag="LOC_AGENDA_GOD_OF_GODS_NAME" Language="zh_Hans_CN">
+			<Text>来自深渊</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AGENDA_GOD_OF_GODS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>更喜欢不处于黄金时代的文明，但并不讨厌处于黄金时代的文明。</Text>
 		</Replace>
 
 		<![CDATA[
-		<Replace Tag="LOC_AGENDA_RADIANCE_2_NAME" Language="zh_Hans_CN">
-			<Text>光蛾之道</Text>
+		<Replace Tag="LOC_AGENDA_GOD_OF_GODS_2_NAME" Language="zh_Hans_CN">
+			<Text>磨砺战法</Text>
 		</Replace>
-
-		<Replace Tag="LOC_AGENDA_RADIANCE_2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>
-				喜欢信奉相同宗教的文明，并且希望其所有城市都信奉同样宗教。
-				讨厌那些企图在自己国家传播其他宗教的文明。
-			</Text>
+	
+		<Replace Tag="LOC_AGENDA_GOD_OF_GODS_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一直设法维持强大的常备军。尊重其他拥有庞大军队的文明。</Text>
 		</Replace>
 		]]>
+
+
+		<Replace Tag="LOC_TRAIT_AGENDA_GOD_OF_GODS_LIKE_NO_GOLD_AGE_DES" Language="zh_Hans_CN">
+			<Text>喜欢金色光环隐去而自强不息的文明(非黄金时代)。</Text>
+		</Replace>
+
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_KUDO_EXIT_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(感到愉悦)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_WARNING_EXIT_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(感到不悦)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_FIRST_MEET_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(向你问好)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(希望可以交换首都情报)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(友好邀请)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(愉悦)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(表示感谢)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(同意)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(否决)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(想要宣布友谊)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(表示遗憾)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(自取灭亡！打！)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(向你宣战！杀！)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_GOD_OF_GODS_ANY">
+			<Text>...</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_GOD_OF_GODS_ANY">
+			<Text>...[NEWLINE]（谴责你）</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(认为你要发动战争)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(可惜)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(明智之举)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(你是一位值得尊敬的对手)</Text>
+		</Replace>
+
+
+
+		<Replace Tag="LOC_AGENDA_WANDERER_NAME" Language="zh_Hans_CN">
+			<Text>探索与绘制</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AGENDA_WANDERER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>喜欢探索地图多的文明，讨厌探索地图少的文明。</Text>
+		</Replace>
+
+		<![CDATA[
+		<Replace Tag="LOC_AGENDA_WANDERER_2_NAME" Language="zh_Hans_CN">
+			<Text>开拓与征服</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AGENDA_WANDERER_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>将尽其所能开疆扩土。讨厌国土狭小的文明。</Text>
+		</Replace>
+		]]>
+
+		<Replace Tag="LOC_TRAIT_AGENDA_WANDERER_LIKE_HIGH_EXPLORATION_DES" Language="zh_Hans_CN">
+			<Text>喜欢探索世界更多的文明。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_AGENDA_WANDERER_HATE_LOW_EXPLORATION_DES" Language="zh_Hans_CN">
+			<Text>略微讨厌对世界不够了解的文明。</Text>
+		</Replace>
+
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_KUDO_EXIT_LEADER_WANDERER_ANY">
+			<Text>(*^▽^*) (为你大量的地图探索感到愉悦)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_WARNING_EXIT_LEADER_WANDERER_ANY">
+			<Text>（｀へ´）(为你探索地图过少感到不悦)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_FIRST_MEET_LEADER_WANDERER_ANY">
+			<Text>ヾ(´･ω･｀)ﾉ (向你问好)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_WANDERER_ANY">
+			<Text>(＾－＾) (希望可以交换首都情报)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_WANDERER_ANY">
+			<Text>(。・・)ノ (友好邀请)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_WANDERER_ANY">
+			<Text>o(〃'▽'〃)o (愉悦)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_WANDERER_ANY">
+			<Text>☆⌒(*＾-゜)v (表示感谢)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_WANDERER_ANY">
+			<Text>n(*≧▽≦*)n (同意)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_WANDERER_ANY">
+			<Text>（＃￣～￣＃） (否决)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_WANDERER_ANY">
+			<Text>(≧∇≦)ﾉ (想要宣布友谊)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_WANDERER_ANY">
+			<Text>(°ー°〃) (表示遗憾)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_WANDERER_ANY">
+			<Text>┻━┻︵╰(‵□′)╯︵┻━┻ (自取灭亡！打！)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_WANDERER_ANY">
+			<Text>┻━┻︵╰（‵□′╰） (向你宣战！杀！)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_WANDERER_ANY">
+			<Text>(*￣︿￣)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_WANDERER_ANY">
+			<Text>(╬￣皿￣)[NEWLINE]（谴责你）</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_WANDERER_ANY">
+			<Text>o((⊙﹏⊙))o (认为你要发动战争)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_WANDERER_ANY">
+			<Text>Σ( ° _ °|||)︴ (可惜)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_WANDERER_ANY">
+			<Text>(＾－＾)V (明智之举)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_WANDERER_ANY">
+			<Text>o(╥﹏╥)o （呜哇~）</Text>
+		</Replace>
+
+
+		<![CDATA[
+		<Replace Tag="LOC_AGENDA_WYRMS_NAME" Language="zh_Hans_CN">
+			<Text>快乐之路</Text>
+		</Replace>
 		
-		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_RADIANCE_ANY" Language="zh_Hans_CN">
-			<Text>光！芒！</Text>
+		<Replace Tag="LOC_AGENDA_WYRMS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>喜欢人民幸福感高的文明，讨厌人民幸福感低的文明</Text>
 		</Replace>
-		
-		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_RADIANCE_ANY" Language="zh_Hans_CN">
-			<Text>黑！暗！</Text>
+		]]>
+
+		<Replace Tag="LOC_AGENDA_WYRMS_2_NAME" Language="zh_Hans_CN">
+			<Text>大兴土木</Text>
 		</Replace>
 
-		<Replace Tag="LOC_TRAIT_AGENDA_RADIANCE_MODIFIER_GOLD_DES" Language="zh_Hans_CN">
-			<Text>喜欢沐浴在金光中的文明(黄金时代)。</Text>
+		<Replace Tag="LOC_AGENDA_WYRMS_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				喜欢清除所有地貌并改良所有可以改良的单元格。喜欢被改良的单元格占很高比例的文明。
+				讨厌已改良的单元格占很低比例，或建造国家公园的文明。
+			</Text>
 		</Replace>
 
-		<Replace Tag="LOC_TRAIT_AGENDA_RADIANCE_A_BIT_HATE_NO_GOLD_AGE_DES" Language="zh_Hans_CN">
-			<Text>略微反感不在金光照耀下的文明(非黄金时代)。</Text>
+		<Replace Tag="LOC_TRAIT_AGENDA_WYRMS_2_EXPLOITATION_DES" Language="zh_Hans_CN">
+			<Text>喜恶取决于文明改良单元格的量，并讨厌国家公园。</Text>
 		</Replace>
 
-		<Replace Tag="LOC_TRAIT_AGENDA_RADIANCE_MODIFIER_DARK_DES" Language="zh_Hans_CN">
-			<Text>极其厌恶黑暗中的虫虱文明(黑暗时代)。</Text>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_KUDO_EXIT_LEADER_WYRMS_ANY">
+			<Text>很高兴能看到您境内丰富的改良设施。</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_WARNING_EXIT_LEADER_WYRMS_ANY">
+			<Text>你就是这么规划土地的吗？</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_FIRST_MEET_LEADER_WYRMS_ANY">
+			<Text>你好，我是苍白之王沃姆，圣巢的统治者。</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_WYRMS_ANY">
+			<Text>陌生人，你来自何方？</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_WYRMS_ANY">
+			<Text>希望你可以来我精致装修的白色宫殿走一遭。</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_WYRMS_ANY">
+			<Text>这很好。</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_WYRMS_ANY">
+			<Text>很高兴能看到你城市的繁荣与辉煌。</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_WYRMS_ANY">
+			<Text>圣巢与你国友谊长存。</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_WYRMS_ANY">
+			<Text>经过再三考量后，我选择暂时拒绝。</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_WYRMS_ANY">
+			<Text>我们能否加深合作，共创辉煌？</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_WYRMS_ANY">
+			<Text>真是可惜。</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_WYRMS_ANY">
+			<Text>穷兵黩武者，利锯斩之！</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_WYRMS_ANY">
+			<Text>我以圣巢之名，向你宣战！</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_WYRMS_ANY">
+			<Text>哦？有意思。</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_WYRMS_ANY">
+			<Text>你应该为自己的作为付出代价。[NEWLINE]（谴责你）</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_WYRMS_ANY">
+			<Text>你想对圣巢发起战争吗？</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_WYRMS_ANY">
+			<Text>很遗憾。</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_WYRMS_ANY">
+			<Text>合作愉快。</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_WYRMS_ANY">
+			<Text>终究还是难逃这样的命运吗？</Text>
 		</Replace>
 
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_RADIANCE_QUOTE" Language="zh_Hans_CN">
+			<Text>...黎！明！将！会！到！来！...</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_RADIANCE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				纠缠着圣巢昆虫尸骸的瘟疫、感染、疯狂……从这个衰败王国的子民眼中尖啸而出的光芒。
+				这是源自何处？我这样的凡夫大概永远不会明白吧。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GOD_OF_GODS_QUOTE" Language="zh_Hans_CN">
+			<Text>......</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GOD_OF_GODS_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				被寻神者称为诸神之神，在游戏文件中被称为暗影之主，常被玩家称呼为虚空之神。
+				它是非常庞大的虚空生物，头上有很多角，有四条手臂，八只发光的白眼睛，
+				背后还有许多抽动的卷须。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WANDERER_QUOTE" Language="zh_Hans_CN">
+			<Text>......</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WANDERER_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				一名神秘的漫游者，以破骨钉为武器，潜入地表之下的圣巢，开始冒险之旅。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WYRMS_QUOTE" Language="zh_Hans_CN">
+			<Text>这里也应该加电锯。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WYRMS_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				圣巢的老国王啊……他一定是太想拯救自己那摇摇欲坠的小世界了。
+				他强加给他人的牺牲……结果都徒劳无功。
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WYRMS_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>
+				我的王啊！你真是个无可救药的混蛋！（无端乱入）
+			</Text>
+		</Replace>
 	</LocalizedText>
 
 </GameData>

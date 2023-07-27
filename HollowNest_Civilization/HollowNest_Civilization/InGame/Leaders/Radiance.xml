@@ -38,7 +38,6 @@
 		<Row
 			LeaderType="LEADER_RADIANCE"
 			Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_RADIANCE_QUOTE"
-			QuoteAudio="Play_LEADER_RADIANCE_QUOTES"
 		/>
 	</LeaderQuotes>
 

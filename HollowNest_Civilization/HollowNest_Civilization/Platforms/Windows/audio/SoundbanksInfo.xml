@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>G:\CVImoddata\testhk\</ProjectRoot>
+		<SourceFilesRoot>G:\CVImoddata\testhk\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>G:\CVImoddata\testhk\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>G:\CVImoddata\testhk\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles>
+		<File Id="265625210" Language="SFX">
+			<ShortName>15 - Resting Grounds.wav</ShortName>
+			<Path>SFX\15 - Resting Grounds_4B8CC0C5.wem</Path>
+		</File>
+		<File Id="638987681" Language="SFX">
+			<ShortName>09 - City of Tears.wav</ShortName>
+			<Path>SFX\09 - City of Tears_4B8CC0C5.wem</Path>
+		</File>
+	</StreamedFiles>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3011012322" Language="SFX">
+			<ShortName>SB_HollowNest</ShortName>
+			<Path>SB_HollowNest.bnk</Path>
+			<IncludedEvents>
+				<Event Id="528111055" Name="Pause_Music_HOLLOWNEST"/>
+				<Event Id="606669339" Name="Play_Leader_Music_HOLLOWNEST"/>
+				<Event Id="2129751929" Name="Play_Music_HOLLOWNEST"/>
+				<Event Id="1124122288" Name="Resume_Music_HOLLOWNEST"/>
+				<Event Id="853526625" Name="Start_Music_HOLLOWNEST"/>
+				<Event Id="424475269" Name="Stop_Leader_Music_HOLLOWNEST"/>
+				<Event Id="2853920951" Name="Stop_Music_HOLLOWNEST"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="265625210"/>
+				<File Id="638987681"/>
+			</ReferencedStreamedFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

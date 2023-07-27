@@ -34,30 +34,6 @@
 			<m_ObjectName text="ICON_UNIT_HOLLOW_KNIGHT_80"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_UNIT_HOLLOW_KNIGHT_221"/>
-			<m_ObjectName text="ICON_UNIT_HOLLOW_KNIGHT_22"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_UNIT_HOLLOW_KNIGHT_2561"/>
-			<m_ObjectName text="ICON_UNIT_HOLLOW_KNIGHT_256"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_UNIT_HOLLOW_KNIGHT_321"/>
-			<m_ObjectName text="ICON_UNIT_HOLLOW_KNIGHT_32"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_UNIT_HOLLOW_KNIGHT_381"/>
-			<m_ObjectName text="ICON_UNIT_HOLLOW_KNIGHT_38"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_UNIT_HOLLOW_KNIGHT_501"/>
-			<m_ObjectName text="ICON_UNIT_HOLLOW_KNIGHT_50"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_UNIT_HOLLOW_KNIGHT_801"/>
-			<m_ObjectName text="ICON_UNIT_HOLLOW_KNIGHT_80"/>
-		</Element>
-		<Element>
 			<m_EntryID text="ICON_UNIT_HOLLOW_KNIGHT_PORTRAIT_200"/>
 			<m_ObjectName text="ICON_UNIT_HOLLOW_KNIGHT_PORTRAIT_200"/>
 		</Element>

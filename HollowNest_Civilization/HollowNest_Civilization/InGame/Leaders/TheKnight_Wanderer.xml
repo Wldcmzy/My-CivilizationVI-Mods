@@ -42,7 +42,6 @@
 		<Row
 			LeaderType="LEADER_WANDERER"
 			Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_WANDERER_QUOTE"
-			QuoteAudio="Play_LEADER_WANDERER_QUOTES"
 		/>
 	</LeaderQuotes>
 	

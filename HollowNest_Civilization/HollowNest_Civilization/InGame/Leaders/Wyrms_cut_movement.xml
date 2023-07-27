@@ -57,6 +57,9 @@
 
 	<!-- This method judge whether leader is wyrms, if there're many wyrms, I think it will be wrong -->
 	<!-- On the top, The method not work, So still use this -->
+	<!---->
+	<!--4 days later: I find that there's no bug, because ModifierType is "PLAYER_CITIES"-->
+	<!--So the Requirement is useless, bug I'm too lazy to delete these codes-->
 	<!-- =============== RequirementSets =============== -->
 	<RequirementSets>
 		<Row>

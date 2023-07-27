@@ -22,7 +22,7 @@
 			PlunderType="PLUNDER_FAITH" 
 			PlunderAmount="50" 
 			AdvisorType="ADVISOR_GENERIC" 
-			Cost="1" 
+			Cost="9" 
 			CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" 
 			CostProgressionParam1="25" 
 			Maintenance="1" 

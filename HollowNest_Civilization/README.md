@@ -2,20 +2,19 @@
 
 ## 简介
 
-灵感来源于游戏《空洞骑士》。内容较多且构思较为超模，遂不考虑平衡性，转而加大力度。
+灵感来源于游戏《空洞骑士》。这是一个练手Mod，内容较多且构思较为超模，遂不考虑平衡性，转而加大力度提升强度。
 
 ## 支持语言
 
 + 简体中文
 
-由于作者有一些重要的事情要做，大概至少半年内不会更新或者修bug，期间估计也不会碰几次steam，等2024年有时间也许会支持英文。
+由于作者有一些重要的事情要做，大概至少半年内不会更新或者修bug，期间估计也不会碰几次steam，等2024年有时间应该会支持英文。
 
-At now, This mod only Simplified Chinese is supported, later, I have something very important to do, perhaps I have time to write the English version in 2024. If bug appear, Probably can't fix it in 2023.I may disappear for the rest of time this year.
+At now, This mod only Simplified Chinese is supported, later, I have something very important to do, perhaps I have time to write the English version in 2024. If bug appear, I probably can't fix it in 2023.I may be disappear for the rest of time this year.
 
 ## 素材来源
 
-+ 《空洞骑士》游戏
-+ 《空洞骑士》游戏mod：苍白宫廷
++ 《空洞骑士》游戏(部分截图中包含玩家自制mod内容)
 + 《空洞骑士》游戏wiki
 + 网络
 
@@ -152,6 +151,53 @@ At now, This mod only Simplified Chinese is supported, later, I have something v
 生产需要90[ICON_Production]产能(180[ICON_Production]->90[ICON_Production])。
 预期设计一个名为“封印”的技能，先鸽了。
 
+## 存在的问题
+
+领袖辐光的宗教压力增幅未能实现
+
+单位空洞骑士的技能未设计
+
 ## 可能存在的问题
 
-+ 存在重复的领袖沃姆时，可能会出现“苦痛之路”效果叠加的情况。
+## 预期扩展
+
++ 建筑-格林剧团
+
+  送2个通用巨作槽位，+2文化，+大作家，艺术家、音乐家点数各1，提供额外旅游业绩，城市可以生产“剧团表演项目”，可以提升文化与旅游业绩
+
++ 领袖-格林：
+
+  ​	建造剧院广场送格林剧团。
+
+  ​	格林剧团额外提供2文化，额外提供大作家、艺术家、音乐家点数+1，单城宜居度+2，通用巨作槽位+1。
+
+  ​	有格林剧团的城市单元格产出+1产能+2文化。
+
+  ​	“剧团表演项目额外增加旅游业绩”。
+
+  ​	有格林剧团的城市增加相当于此城文化产出的35%的金币，25%的科技。
+
++ 特性-沃姆：
+
+  ​	五骑士特色单位。
+
++ 总督：
+
+  + 路瑞恩
+  + 莫诺蒙
+  + 赫拉
+
++ 建筑-黑卵圣殿：
+
+  没想好
+
++ 建筑-守望者尖塔：
+
+  市中心建筑，只能建造一座，城市视野范围+3，城市6环内单位+移动力和攻击力
+
++ 领袖-寻神者：
+
+  与一个特色单位交战后，你可以生产这种特色单位。
+
+  每多收集一个特色单位，军队战斗力+3。
+

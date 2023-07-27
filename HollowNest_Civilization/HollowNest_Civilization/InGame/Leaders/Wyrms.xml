@@ -36,7 +36,6 @@
 		<Row
 			LeaderType="LEADER_WYRMS"
 			Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_WYRMS_QUOTE"
-			QuoteAudio="Play_LEADER_WYRMS_QUOTES"
 		/>
 	</LeaderQuotes>
 

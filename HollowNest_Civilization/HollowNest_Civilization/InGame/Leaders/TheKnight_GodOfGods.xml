@@ -34,7 +34,6 @@
 		<Row
 			LeaderType="LEADER_GOD_OF_GODS"
 			Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_GOD_OF_GODS_QUOTE"
-			QuoteAudio="Play_LEADER_GOD_OF_GODS_QUOTES"
 		/>
 	</LeaderQuotes>
 

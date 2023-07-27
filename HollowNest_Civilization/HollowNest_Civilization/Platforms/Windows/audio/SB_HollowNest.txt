@@ -1,0 +1,16 @@
+Event	ID	Name			Wwise Object Path	Notes
+	424475269	Stop_Leader_Music_HOLLOWNEST			\Music\Stop_Leader_Music_HOLLOWNEST	
+	528111055	Pause_Music_HOLLOWNEST			\Music\Pause_Music_HOLLOWNEST	
+	606669339	Play_Leader_Music_HOLLOWNEST			\Music\Play_Leader_Music_HOLLOWNEST	
+	853526625	Start_Music_HOLLOWNEST			\Music\Start_Music_HOLLOWNEST	
+	1124122288	Resume_Music_HOLLOWNEST			\Music\Resume_Music_HOLLOWNEST	
+	2129751929	Play_Music_HOLLOWNEST			\Music\Play_Music_HOLLOWNEST	
+	2853920951	Stop_Music_HOLLOWNEST			\Music\Stop_Music_HOLLOWNEST	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	373350295	Game_Location			\Default Work Unit\Game_Location	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	265625210	15 - Resting Grounds	G:\CVImoddata\testhk\.cache\Windows\SFX\15 - Resting Grounds_4B8CC0C5.wem	265625210.wem	\Interactive Music Hierarchy\Default Work Unit\HollowNest Leader Music\OnlyPlaylist\Segment0000\15 - Resting Grounds	
+	638987681	09 - City of Tears	G:\CVImoddata\testhk\.cache\Windows\SFX\09 - City of Tears_4B8CC0C5.wem	638987681.wem	\Interactive Music Hierarchy\Default Work Unit\HollowNest Civilization Music\Playlist01\Segment0101\09 - City of Tears	
+

@@ -32,9 +32,9 @@ function Randomly_Make_Unit_Create_Relic(killedPlayerID, killedUnitID, playerID,
 	percentViliege, percentApostle, percentVoid indicate that
 	the proportion that what kind of relic will give player.
 	]]
-	local RATE = 100
-	local percentViliege = 100
-	local percentApostle = 65
+	local RATE = 39
+	local percentViliege = 15
+	local percentApostle = 60
 	local percentVoid = 100
 
 	print("relic func start")
