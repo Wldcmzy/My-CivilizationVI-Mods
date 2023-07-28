@@ -192,11 +192,11 @@
 			<Text>
 				辐光以操控梦境感染生灵的心智。
 				[注：宗教压力增幅未实现]
-				所有城市释放的宗教压力+300%，解锁马镫科技后，辐光可以从控制空洞
-				骑士的方法中得到启发，所有城市释放的宗教压力额外+100%。
-				宗教单位获得+8[ICON_Religion]宗教战斗力和+3传教次数，
+				所有城市释放的宗教压力+300%，解锁马镫科技后，
+				辐光可以从控制空洞骑士的方法中得到启发，所有城市释放的宗教压力额外+100%。
+				宗教单位获得+8[ICON_Religion]宗教战斗力和+5传教次数，
 				使徒自动获得辩论者和劝导者两种升级。
-				你城市的忠诚度锁定为100%，每座城市额外向九环内的单元格释放6忠诚度压力，
+				你城市的忠诚度锁定为100%，每座城市向周围释放的忠诚度压力+6，
 				若其他城市失去所有忠诚度并受到辐光的忠诚度压力最大，则其跳过自由城市阶段，
 				直接加入辐光。
 			</Text>
@@ -344,7 +344,7 @@
 		</Replace>
 
 		<Replace Tag="LOC_CITY_NAME_DEEPNEST" Language="zh_Hans_CN">
-			<Text>深巢</Text>
+			<Text>深邃巢穴</Text>
 		</Replace>
 
 		<Replace Tag="LOC_CITY_NAME_DIRTMOUTH" Language="zh_Hans_CN">
@@ -405,6 +405,94 @@
 
 		<Replace Tag="LOC_CITY_NAME_MANTIS_VILLAGE" Language="zh_Hans_CN">
 			<Text>螳螂村</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_CITY_NAME_LAKE_OF_UNN" Language="zh_Hans_CN">
+			<Text>乌恩之湖</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_CITY_NAME_STONE_SANCTUARY" Language="zh_Hans_CN">
+			<Text>石之庇护所</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_ANCESTRAL_MOUND" Language="zh_Hans_CN">
+			<Text>祖先山丘</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_CITY_NAME_KINGS_PASS" Language="zh_Hans_CN">
+			<Text>国王山道</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_CITY_NAME_STAG_NEST" Language="zh_Hans_CN">
+			<Text>鹿角虫巢穴</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_CITY_NAME_ISMAS_GROVE" Language="zh_Hans_CN">
+			<Text>伊思玛的树林</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_CITY_NAME_JUNK_PIT" Language="zh_Hans_CN">
+			<Text>垃圾坑</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_CITY_NAME_SOUL_SANCTUM" Language="zh_Hans_CN">
+			<Text>灵魂圣所</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_CITY_NAME_TOWER_OF_LOVE" Language="zh_Hans_CN">
+			<Text>爱之塔</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_CITY_NAME_KINGS_STATION" Language="zh_Hans_CN">
+			<Text>国王驿站</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_CITY_NAME_LAND_OF_STORMS" Language="zh_Hans_CN">
+			<Text>风暴之地</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_CITY_NAME_DISTANT_VILLAGE" Language="zh_Hans_CN">
+			<Text>遥远的村庄</Text>
+		</Replace>
+
+		
+		<Replace Tag="LOC_CITY_NAME_HOLLOWNESTS_CROWN" Language="zh_Hans_CN">
+			<Text>圣巢之冠</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_CITY_NAME_CRYSTALLISED_MOUND" Language="zh_Hans_CN">
+			<Text>结晶山丘</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_CITY_NAME_CAST_OFF_SHELL" Language="zh_Hans_CN">
+			<Text>遗弃外壳</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_CITY_NAME_OVERGROWN_MOUND" Language="zh_Hans_CN">
+			<Text>长满植物的山丘</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_CITY_NAME_QUEENS_STATION" Language="zh_Hans_CN">
+			<Text>王后驿站</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_CITY_NAME_FUNGAL_CORE" Language="zh_Hans_CN">
+			<Text>真菌核心</Text>
 		</Replace>
 
 		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_0" Language="zh_Hans_CN">
@@ -497,7 +585,7 @@
 			<Text>我！是！辐！光！我！不！会！畏！惧！你！</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_RADIANCE_ANY" Language="zh_Hans_CN">
-			<Text>吾！之！梦！境！何！等！壮！丽！汝！之！都！城！何！如！</Text>
+			<Text>吾！境！甚！灿！汝！都！何！如！</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_RADIANCE_ANY" Language="zh_Hans_CN">
 			<Text>诚！挚！邀！汝！来！吾！梦！境！</Text>
@@ -515,7 +603,7 @@
 			<Text>否！</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_RADIANCE_ANY" Language="zh_Hans_CN">
-			<Text>汝！吾！欲！友！之！</Text>
+			<Text>汝！吾！欲！友！也！</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_RADIANCE_ANY" Language="zh_Hans_CN">
 			<Text>不！知！好！歹！</Text>
@@ -536,10 +624,10 @@
 			<Text>滚！</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_RADIANCE_ANY" Language="zh_Hans_CN">
-			<Text>鄙！</Text>
+			<Text>鄙！也！</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_RADIANCE_ANY" Language="zh_Hans_CN">
-			<Text>睿！</Text>
+			<Text>睿！也！</Text>
 		</Replace>
 		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_RADIANCE_ANY">
 			<Text>我！不！会！被！遗！忘！</Text>

@@ -42,7 +42,7 @@
 		</Row>
 		<Row>
 			<Type>COLOR_CIVILIZATION_HOLLOWNEST_RED</Type>
-			<Color>255,0,0,255</Color>
+			<Color>250,51,113,255</Color>
 		</Row>
 	</Colors>
 	
@@ -90,10 +90,10 @@
 			<SecondaryColor>COLOR_CIVILIZATION_HOLLOWNEST_BLACK</SecondaryColor>
 			<Alt1PrimaryColor>COLOR_CIVILIZATION_HOLLOWNEST_BLACK</Alt1PrimaryColor>
 			<Alt1SecondaryColor>COLOR_CIVILIZATION_HOLLOWNEST_SLIVER</Alt1SecondaryColor>
-			<Alt2PrimaryColor>COLOR_CIVILIZATION_HOLLOWNEST_BLUE</Alt2PrimaryColor>
-			<Alt2SecondaryColor>COLOR_CIVILIZATION_HOLLOWNEST_ORANGE</Alt2SecondaryColor>
-			<Alt3PrimaryColor>COLOR_CIVILIZATION_HOLLOWNEST_ORANGE</Alt3PrimaryColor>
-			<Alt3SecondaryColor>COLOR_CIVILIZATION_HOLLOWNEST_BLUE</Alt3SecondaryColor>
+			<Alt2PrimaryColor>COLOR_CIVILIZATION_HOLLOWNEST_SLIVER</Alt2PrimaryColor>
+			<Alt2SecondaryColor>COLOR_CIVILIZATION_HOLLOWNEST_WHITE</Alt2SecondaryColor>
+			<Alt3PrimaryColor>COLOR_CIVILIZATION_HOLLOWNEST_YELLOW</Alt3PrimaryColor>
+			<Alt3SecondaryColor>COLOR_CIVILIZATION_HOLLOWNEST_BLACK</Alt3SecondaryColor>
 		</Row>
 
 	</PlayerColors>

@@ -2,12 +2,27 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>空洞骑士圣巢文明 HollowNest Civilization</Name>
+    <Name>空洞骑士[COLOR:ResCultureLabelCS]圣巢文明[ENDCOLOR][COLOR:ResGoldLabelCS]HollowNest Civilization</Name>
     <Guid>d594eb57-13c3-49bd-953c-1b110f8ccfa5</Guid>
     <ProjectGuid>1cf412bc-59bc-408e-8031-c1347011aa9b</ProjectGuid>
     <ModVersion>1</ModVersion>
-    <Teaser>以游戏《空洞骑士》灵感的文明Mod</Teaser>
-    <Description>比较超模的圣巢文明，灵感来源于游戏《空洞骑士》，包含四位领袖和多个特色单位、建筑、区域。</Description>
+    <Teaser>以游戏《空洞骑士》灵感的圣巢文明Mod</Teaser>
+    <Description>比较超模的圣巢文明，灵感来源于游戏《空洞骑士》。包含如下内容[NEWLINE]
+&gt;&gt;&gt; 四位领袖：[NEWLINE]
+1.辐光[NEWLINE]
+2.沃姆[NEWLINE]
+3.小骑士（漫游者）[NEWLINE]
+4.小骑士（诸神之神）[NEWLINE]
+&gt;&gt;&gt; 三种特色区域:[NEWLINE]
+1.宫殿广场（代替圣地）[NEWLINE]
+2.繁华十字路（代替商业区）[NEWLINE]
+3.黑卵圣殿广场（文明特有区域）[NEWLINE]
+&gt;&gt;&gt; 三种特色建筑：[NEWLINE]
+1.教师档案馆（代替图书馆）[NEWLINE]
+2.愚人斗兽场（代替竞技场）[NEWLINE]
+3.欢乐之屋（代替古罗马剧场）[NEWLINE]
+&gt;&gt;&gt; 一种特色单位：[NEWLINE]
+1.空洞骑士（代替中世纪骑士）[NEWLINE]</Description>
     <Authors>wldcmzy</Authors>
     <SpecialThanks>https://space.bilibili.com/28399130/channel/series的教程 以及Q群711403691群友的大力支持</SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
