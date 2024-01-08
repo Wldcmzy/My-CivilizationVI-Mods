@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>空洞骑士 圣巢文明 HollowNest Civilization</Name>
+    <Guid>d594eb57-13c3-49bd-953c-1b110f8ccfa5</Guid>
+    <ProjectGuid>1cf412bc-59bc-408e-8031-c1347011aa9b</ProjectGuid>
+    <ModVersion>2</ModVersion>
+    <Teaser>以游戏《空洞骑士》灵感的圣巢文明Mod。较为超模。</Teaser>
+    <Description>比较超模的圣巢文明，灵感来源于游戏《空洞骑士》。</Description>
+    <Authors>StarsWhisper</Authors>
+    <SpecialThanks>https://space.bilibili.com/28399130/channel/series的教程 以及Q群711403691群友的大力支持</SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>false</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
+</Associations>]]></AssociationData>
+    <AssemblyName>HollowNest_Civilization</AssemblyName>
+    <RootNamespace>HollowNest_Civilization</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="db_leader"><File>FrontEnd/Leaders/Radiance.xml</File><File>FrontEnd/Leaders/TheKnight_GodOfGods.xml</File><File>FrontEnd/Leaders/TheKnight_Wanderer.xml</File><File>FrontEnd/Leaders/Wyrms.xml</File><File>FrontEnd/Leaders/Grimm.xml</File></UpdateDatabase><UpdateText id="txt"><File>Text/zh_Hans_CN.xml</File></UpdateText><UpdateDatabase id="db_items"><File>FrontEnd/Items/Units/Hollow_Knight.xml</File><File>FrontEnd/Items/Buildings/Teachers_Archives.xml</File><File>FrontEnd/Items/Buildings/Collosseum_of_Fools.xml</File><File>FrontEnd/Items/Districts/Palace_Grounds.xml</File><File>FrontEnd/Items/Districts/Flourishing_Crossroads.xml</File><File>FrontEnd/Items/Districts/District_TempleOfTheBlackEgg_Square.xml</File><File>FrontEnd/Items/Buildings/Pleasure_House.xml</File><File>FrontEnd/Items/Buildings/The_Grimm_Troupe.xml</File><File>FrontEnd/Items/Buildings/Spec_Tower.xml</File></UpdateDatabase><UpdateArt id="art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="icon"><File>Icons/Leaders/Radiance.xml</File><File>Icons/Leaders/TheKnight_GodOfGods.xml</File><File>Icons/Leaders/TheKnight_Wanderer.xml</File><File>Icons/Leaders/Wyrms.xml</File><File>Icons/Buildings/Teachers_Archives.xml</File><File>Icons/Buildings/Colosseum_of_Fools.xml</File><File>Icons/Districts/Flourishing_Crossroads.xml</File><File>Icons/Districts/Plalce_Grounds.xml</File><File>Icons/Civilization/HollowNest.xml</File><File>Icons/Units/Hollow_Knight.xml</File><File>Icons/Districts/District_TempleOfTheBlackEgg_Square.xml</File><File>Icons/Buildings/Pleasure_House.xml</File><File>Icons/Leaders/Grimm.xml</File><File>Icons/Buildings/The_Grimm_Troupe.xml</File><File>Icons/Buildings/Spec_Tower.xml</File></UpdateIcons><UpdateColors id="HNcolor"><File>FrontEnd/HollowNest_Colors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="db_civi"><File>InGame/Civilization/HollowNest.xml</File><File>InGame/Civilization/HollowNest_Civilization_Trait_Relic.sql</File><File>InGame/Civilization/HollowNest_Names.xml</File></UpdateDatabase><UpdateDatabase id="db_leader"><File>InGame/Leaders/Radiance.xml</File><File>InGame/Leaders/TheKnight_GodOfGods.xml</File><File>InGame/Leaders/TheKnight_Wanderer.xml</File><File>InGame/Leaders/Wyrms.xml</File><File>InGame/Leaders/Wyrms_cut_movement.xml</File><File>InGame/Leaders/HollowNest_Leader_Agendas.sql</File><File>InGame/Leaders/Grimm.sql</File></UpdateDatabase><UpdateDatabase id="db_units"><File>InGame/Units/Hollow_Knight.xml</File></UpdateDatabase><UpdateDatabase id="db_buildings"><File>InGame/Buildings/Colosseum_of_Fools.xml</File><File>InGame/Buildings/Teachers_Archives.xml</File><File>InGame/Buildings/Pleasure_House.xml</File><File>InGame/Buildings/The_Grimm_Troupe.xml</File><File>InGame/Buildings/Spec_Tower.xml</File></UpdateDatabase><UpdateText id="txt"><File>Text/zh_Hans_CN.xml</File></UpdateText><UpdateDatabase id="db_districts"><File>InGame/Districts/Palace_Grounds.xml</File><File>InGame/Districts/Flourishing_Crossroads.xml</File><File>InGame/Districts/District_TempleOfTheBlackEgg_Square.xml</File></UpdateDatabase><UpdateArt id="art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="icon"><File>Icons/Leaders/Radiance.xml</File><File>Icons/Leaders/TheKnight_GodOfGods.xml</File><File>Icons/Leaders/TheKnight_Wanderer.xml</File><File>Icons/Leaders/Wyrms.xml</File><File>Icons/Buildings/Colosseum_of_Fools.xml</File><File>Icons/Buildings/Teachers_Archives.xml</File><File>Icons/Districts/Plalce_Grounds.xml</File><File>Icons/Districts/Flourishing_Crossroads.xml</File><File>Icons/Civilization/HollowNest.xml</File><File>Icons/Units/Hollow_Knight.xml</File><File>Icons/Districts/District_TempleOfTheBlackEgg_Square.xml</File><File>Icons/Buildings/Pleasure_House.xml</File><File>Icons/Leaders/Grimm.xml</File><File>Icons/Buildings/The_Grimm_Troupe.xml</File><File>Icons/Buildings/Spec_Tower.xml</File></UpdateIcons><AddGameplayScripts id="lua"><File>InGame/Leaders/TheKnight_GodOfGods.lua</File><File>InGame/Districts/District_TempleOfTheBlackEgg_Square.lua</File><File>InGame/Civilization/HollowNest_Civilization_Trait_Relic.lua</File><File>InGame/Leaders/Grimm.lua</File></AddGameplayScripts><UpdateDatabase id="db_images"><File>InGame/Civilization/HollowNest_MomentIllustration.sql</File><File>InGame/Leaders/HollowNest_Leader_Images.sql</File></UpdateDatabase><UpdateColors id="HNcolor"><File>FrontEnd/HollowNest_Colors.xml</File></UpdateColors><UpdateAudio id="HKaudio"><File>Platforms/Windows/audio/HollowNest_Banks.ini</File><File>Platforms/Windows/audio/SB_HollowNest.bnk</File><File>Platforms/Windows/audio/SoundbanksInfo.xml</File></UpdateAudio></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="HollowNest_Civilization.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Artdefs" />
+    <Folder Include="FrontEnd" />
+    <Folder Include="FrontEnd\Items\Buildings" />
+    <Folder Include="FrontEnd\Items\Districts" />
+    <Folder Include="FrontEnd\Items\Units" />
+    <Folder Include="FrontEnd\Leaders" />
+    <Folder Include="FrontEnd\Items" />
+    <Folder Include="Icons\Leaders" />
+    <Folder Include="Icons\Buildings" />
+    <Folder Include="Icons\Districts" />
+    <Folder Include="Icons\Civilization" />
+    <Folder Include="Icons\Units" />
+    <Folder Include="InGame" />
+    <Folder Include="InGame\Leaders" />
+    <Folder Include="InGame\Civilization" />
+    <Folder Include="InGame\Buildings" />
+    <Folder Include="InGame\Districts" />
+    <Folder Include="InGame\Units" />
+    <Folder Include="Icons" />
+    <Folder Include="Platforms" />
+    <Folder Include="Platforms\Windows" />
+    <Folder Include="Platforms\Windows\audio" />
+    <Folder Include="Text" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Artdefs\Buildings.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Artdefs\Districts.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Artdefs\FallbackLeaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Artdefs\Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Artdefs\WonderMovie.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FrontEnd\HollowNest_Colors.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FrontEnd\Items\Buildings\Collosseum_of_Fools.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FrontEnd\Items\Buildings\Pleasure_House.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FrontEnd\Items\Buildings\Spec_Tower.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FrontEnd\Items\Buildings\Teachers_Archives.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FrontEnd\Items\Buildings\The_Grimm_Troupe.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FrontEnd\Items\Districts\District_TempleOfTheBlackEgg_Square.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FrontEnd\Items\Districts\Flourishing_Crossroads.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FrontEnd\Items\Districts\Palace_Grounds.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FrontEnd\Items\Units\Hollow_Knight.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FrontEnd\Leaders\Grimm.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FrontEnd\Leaders\Radiance.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FrontEnd\Leaders\TheKnight_GodOfGods.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FrontEnd\Leaders\TheKnight_Wanderer.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FrontEnd\Leaders\Wyrms.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Icons\Buildings\Colosseum_of_Fools.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Icons\Buildings\Pleasure_House.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Icons\Buildings\Spec_Tower.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Icons\Buildings\Teachers_Archives.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Icons\Buildings\The_Grimm_Troupe.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Icons\Civilization\HollowNest.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Icons\Districts\District_TempleOfTheBlackEgg_Square.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Icons\Districts\Flourishing_Crossroads.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Icons\Districts\Plalce_Grounds.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Icons\Leaders\Grimm.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Icons\Leaders\TheKnight_GodOfGods.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Icons\Leaders\Radiance.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Icons\Leaders\TheKnight_Wanderer.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Icons\Leaders\Wyrms.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Icons\Units\Hollow_Knight.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Buildings\Colosseum_of_Fools.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Buildings\Pleasure_House.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Buildings\Spec_Tower.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Buildings\Teachers_Archives.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Buildings\The_Grimm_Troupe.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Civilization\HollowNest.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Civilization\HollowNest_Civilization_Trait_Relic.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Civilization\HollowNest_Civilization_Trait_Relic.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Civilization\HollowNest_MomentIllustration.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Civilization\HollowNest_Names.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Districts\District_TempleOfTheBlackEgg_Square.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Districts\District_TempleOfTheBlackEgg_Square.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Districts\Flourishing_Crossroads.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Districts\Palace_Grounds.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Leaders\Grimm.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Leaders\Grimm.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Leaders\HollowNest_Leader_Agendas.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Leaders\HollowNest_Leader_Images.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Leaders\Radiance.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Leaders\TheKnight_GodOfGods.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Leaders\TheKnight_GodOfGods.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Leaders\TheKnight_Wanderer.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Leaders\Wyrms.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Leaders\Wyrms_cut_movement.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="InGame\Units\Hollow_Knight.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\265625210.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\638987681.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\HollowNest_Banks.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\PluginInfo.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\SB_HollowNest.bnk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\SB_HollowNest.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\audio\SoundbanksInfo.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\zh_Hans_CN.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

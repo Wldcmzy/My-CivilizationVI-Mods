@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="MomentIllustrations"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="MOMENT_BUILDING_COLOSSEUM_OF_FOOLS_"/>
+			<m_ObjectName text="MOMENT_BUILDING_COLOSSEUM_OF_FOOLS_"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MOMENT_BUILDING_PLEASURE_HOUSE_"/>
+			<m_ObjectName text="MOMENT_BUILDING_PLEASURE_HOUSE_"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MOMENT_BUILDING_TEACHERS_ARCHIVES_"/>
+			<m_ObjectName text="MOMENT_BUILDING_TEACHERS_ARCHIVES_"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MOMENT_DISTRICT_FLOURISHING_CROSSROADS_"/>
+			<m_ObjectName text="MOMENT_DISTRICT_FLOURISHING_CROSSROADS_"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MOMENT_DISTRICT_PALACE_GROUNDS_"/>
+			<m_ObjectName text="MOMENT_DISTRICT_PALACE_GROUNDS_"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MOMENT_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_"/>
+			<m_ObjectName text="MOMENT_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MOMENT_UNIT_HOLLOW_KNIGHT_"/>
+			<m_ObjectName text="MOMENT_UNIT_HOLLOW_KNIGHT_"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MOMENT_BUILDING_THE_GRIMM_TROUPE_"/>
+			<m_ObjectName text="MOMENT_BUILDING_THE_GRIMM_TROUPE_"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Flourishing_Crossroads -->
+<!-- Author: wldcmzy -->
+<!-- DateCreated: 7/18/2023 5:18:28 PM -->
+<GameData>
+	<PlayerItems>
+		<!--Radiance-->
+		<Row
+			Domain="Players:Expansion2_Players"
+			CivilizationType="CIVILIZATION_HOLLOWNEST"
+			LeaderType="LEADER_RADIANCE"
+			Type="DISTRICT_FLOURISHING_CROSSROADS"
+			Icon="ICON_DISTRICT_FLOURISHING_CROSSROADS"
+			Name="LOC_DISTRICT_FLOURISHING_CROSSROADS_NAME"
+			Description="LOC_DISTRICT_FLOURISHING_CROSSROADS_DESCRIPTION"
+			SortIndex="22"
+            />
+		<!--God of Gods-->
+		<Row
+			Domain="Players:Expansion2_Players"
+			CivilizationType="CIVILIZATION_HOLLOWNEST"
+			LeaderType="LEADER_GOD_OF_GODS"
+			Type="DISTRICT_FLOURISHING_CROSSROADS"
+			Icon="ICON_DISTRICT_FLOURISHING_CROSSROADS"
+			Name="LOC_DISTRICT_FLOURISHING_CROSSROADS_NAME"
+			Description="LOC_DISTRICT_FLOURISHING_CROSSROADS_DESCRIPTION"
+			SortIndex="22"
+            />
+		<!--Wanderer-->
+		<Row
+			Domain="Players:Expansion2_Players"
+			CivilizationType="CIVILIZATION_HOLLOWNEST"
+			LeaderType="LEADER_WANDERER"
+			Type="DISTRICT_FLOURISHING_CROSSROADS"
+			Icon="ICON_DISTRICT_FLOURISHING_CROSSROADS"
+			Name="LOC_DISTRICT_FLOURISHING_CROSSROADS_NAME"
+			Description="LOC_DISTRICT_FLOURISHING_CROSSROADS_DESCRIPTION"
+			SortIndex="22"
+            />
+		<!--Wyrms-->
+		<Row
+			Domain="Players:Expansion2_Players"
+			CivilizationType="CIVILIZATION_HOLLOWNEST"
+			LeaderType="LEADER_WYRMS"
+			Type="DISTRICT_FLOURISHING_CROSSROADS"
+			Icon="ICON_DISTRICT_FLOURISHING_CROSSROADS"
+			Name="LOC_DISTRICT_FLOURISHING_CROSSROADS_NAME"
+			Description="LOC_DISTRICT_FLOURISHING_CROSSROADS_DESCRIPTION"
+			SortIndex="22"
+            />
+
+		<!--Grimm-->
+		<Row
+			Domain="Players:Expansion2_Players"
+			CivilizationType="CIVILIZATION_HOLLOWNEST"
+			LeaderType="LEADER_GRIMM"
+			Type="DISTRICT_FLOURISHING_CROSSROADS"
+			Icon="ICON_DISTRICT_FLOURISHING_CROSSROADS"
+			Name="LOC_DISTRICT_FLOURISHING_CROSSROADS_NAME"
+			Description="LOC_DISTRICT_FLOURISHING_CROSSROADS_DESCRIPTION"
+			SortIndex="22"
+            />
+	</PlayerItems>
+
+</GameData>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Collosseum_of_Fools -->
+<!-- Author: wldcmzy -->
+<!-- DateCreated: 7/17/2023 11:19:21 PM -->
+<GameData>
+	<PlayerItems>
+		<!--Radiance-->
+		<Row
+			Domain="Players:Expansion2_Players"
+			CivilizationType="CIVILIZATION_HOLLOWNEST"
+			LeaderType="LEADER_RADIANCE"
+			Type="BUILDING_COLOSSEUM_OF_FOOLS"
+			Icon="ICON_BUILDING_COLOSSEUM_OF_FOOLS"
+			Name="LOC_BUILDING_COLOSSEUM_OF_FOOLS_NAME"
+			Description="LOC_BUILDING_COLOSSEUM_OF_FOOLS_DESCRIPTION"
+			SortIndex="30"
+		/>
+
+		<!--God of Gods-->
+		<Row
+			Domain="Players:Expansion2_Players"
+			CivilizationType="CIVILIZATION_HOLLOWNEST"
+			LeaderType="LEADER_GOD_OF_GODS"
+			Type="BUILDING_COLOSSEUM_OF_FOOLS"
+			Icon="ICON_BUILDING_COLOSSEUM_OF_FOOLS"
+			Name="LOC_BUILDING_COLOSSEUM_OF_FOOLS_NAME"
+			Description="LOC_BUILDING_COLOSSEUM_OF_FOOLS_DESCRIPTION"
+			SortIndex="30"
+		/>
+
+		<!--Wanderer-->
+		<Row
+			Domain="Players:Expansion2_Players"
+			CivilizationType="CIVILIZATION_HOLLOWNEST"
+			LeaderType="LEADER_WANDERER"
+			Type="BUILDING_COLOSSEUM_OF_FOOLS"
+			Icon="ICON_BUILDING_COLOSSEUM_OF_FOOLS"
+			Name="LOC_BUILDING_COLOSSEUM_OF_FOOLS_NAME"
+			Description="LOC_BUILDING_COLOSSEUM_OF_FOOLS_DESCRIPTION"
+			SortIndex="30"
+		/>
+
+		<!--Wyrms-->
+		<Row
+			Domain="Players:Expansion2_Players"
+			CivilizationType="CIVILIZATION_HOLLOWNEST"
+			LeaderType="LEADER_WYRMS"
+			Type="BUILDING_COLOSSEUM_OF_FOOLS"
+			Icon="ICON_BUILDING_COLOSSEUM_OF_FOOLS"
+			Name="LOC_BUILDING_COLOSSEUM_OF_FOOLS_NAME"
+			Description="LOC_BUILDING_COLOSSEUM_OF_FOOLS_DESCRIPTION"
+			SortIndex="30"
+		/>
+		<!--Grimm-->
+		<Row
+			Domain="Players:Expansion2_Players"
+			CivilizationType="CIVILIZATION_HOLLOWNEST"
+			LeaderType="LEADER_GRIMM"
+			Type="BUILDING_COLOSSEUM_OF_FOOLS"
+			Icon="ICON_BUILDING_COLOSSEUM_OF_FOOLS"
+			Name="LOC_BUILDING_COLOSSEUM_OF_FOOLS_NAME"
+			Description="LOC_BUILDING_COLOSSEUM_OF_FOOLS_DESCRIPTION"
+			SortIndex="30"
+		/>
+	</PlayerItems>
+
+</GameData>

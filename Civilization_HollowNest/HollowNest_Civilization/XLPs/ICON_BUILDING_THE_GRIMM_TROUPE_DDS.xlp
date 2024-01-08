@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="BUILDING_THE_GRIMM_TROUPE_DDS"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_THE_GRIMM_TROUPE_128"/>
+			<m_ObjectName text="ICON_BUILDING_THE_GRIMM_TROUPE_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_THE_GRIMM_TROUPE_256"/>
+			<m_ObjectName text="ICON_BUILDING_THE_GRIMM_TROUPE_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_THE_GRIMM_TROUPE_32"/>
+			<m_ObjectName text="ICON_BUILDING_THE_GRIMM_TROUPE_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_THE_GRIMM_TROUPE_38"/>
+			<m_ObjectName text="ICON_BUILDING_THE_GRIMM_TROUPE_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_THE_GRIMM_TROUPE_50"/>
+			<m_ObjectName text="ICON_BUILDING_THE_GRIMM_TROUPE_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_THE_GRIMM_TROUPE_80"/>
+			<m_ObjectName text="ICON_BUILDING_THE_GRIMM_TROUPE_80"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

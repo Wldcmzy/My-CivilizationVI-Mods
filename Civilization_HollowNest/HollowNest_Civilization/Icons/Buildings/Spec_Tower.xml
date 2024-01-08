@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Spec_Tower -->
+<!-- Author: wldcmzy -->
+<!-- DateCreated: 12/30/2023 3:13:28 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_BUILDING_HK_SPEC_TOWER" IconSize="32" Filename="ICON_BUILDING_HK_SPEC_TOWER_32"/>
+		<Row Name="ATLAS_ICON_BUILDING_HK_SPEC_TOWER" IconSize="38" Filename="ICON_BUILDING_HK_SPEC_TOWER_38"/>
+		<Row Name="ATLAS_ICON_BUILDING_HK_SPEC_TOWER" IconSize="50" Filename="ICON_BUILDING_HK_SPEC_TOWER_50"/>
+		<Row Name="ATLAS_ICON_BUILDING_HK_SPEC_TOWER" IconSize="80" Filename="ICON_BUILDING_HK_SPEC_TOWER_80"/>
+		<Row Name="ATLAS_ICON_BUILDING_HK_SPEC_TOWER" IconSize="128" Filename="ICON_BUILDING_HK_SPEC_TOWER_128"/>
+		<Row Name="ATLAS_ICON_BUILDING_HK_SPEC_TOWER" IconSize="256" Filename="ICON_BUILDING_HK_SPEC_TOWER_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_HK_SPEC_TOWER" Atlas="ATLAS_ICON_BUILDING_HK_SPEC_TOWER" Index="0"/>
+	</IconDefinitions>
+
+</GameData>

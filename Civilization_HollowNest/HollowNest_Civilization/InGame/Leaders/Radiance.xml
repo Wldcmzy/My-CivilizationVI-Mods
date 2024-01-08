@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Radiance -->
+<!-- Author: wldcmzy -->
+<!-- DateCreated: 7/17/2023 9:43:12 PM -->
+<GameData>
+
+	<Types>
+		<Row Type="LEADER_RADIANCE" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_RADIANCE" Kind="KIND_TRAIT"/>
+		<Row Type="ABILITY_LEADER_RADIANCE_RELIGIOUS_BUFF" Kind="KIND_ABILITY"/>
+	</Types>
+	<TypeTags>
+		<Row Type="ABILITY_LEADER_RADIANCE_RELIGIOUS_BUFF" Tag="CLASS_RELIGIOUS"/>
+	</TypeTags>
+
+	<Traits>
+		<Row
+			TraitType="TRAIT_LEADER_RADIANCE"
+			Name="LOC_TRAIT_LEADER_RADIANCE_NAME"
+			Description="LOC_TRAIT_LEADER_RADIANCE_DESCRIPTION"
+		/>
+	</Traits>
+	
+	<LeaderTraits>
+		<Row LeaderType="LEADER_RADIANCE" TraitType="TRAIT_LEADER_RADIANCE"/>
+	</LeaderTraits>
+	
+	<Leaders>
+		<Row
+			LeaderType="LEADER_RADIANCE"
+			Name="LOC_LEADER_RADIANCE_NAME"
+			InheritFrom="LEADER_DEFAULT"
+			SceneLayers="4"
+		/>
+	</Leaders>
+
+	<LeaderQuotes>
+		<Row
+			LeaderType="LEADER_RADIANCE"
+			Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_RADIANCE_QUOTE"
+		/>
+	</LeaderQuotes>
+
+	<!--Ability Add Religious buff-->
+	<UnitAbilities>
+		<Row
+			UnitAbilityType="ABILITY_LEADER_RADIANCE_RELIGIOUS_BUFF"
+			Name="LOC_LEADER_RADIANCE_RELIGIOUS_BUFF_NAME"
+			Description="LOC_LEADER_RADIANCE_RELIGIOUS_BUFF_DESCRIPTION"
+			Inactive="true"
+		/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_LEADER_RADIANCE_RELIGIOUS_BUFF</UnitAbilityType>
+			<ModifierId>LEADER_RADIANCE_RELIGIOUS_BUFF</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>LEADER_RADIANCE_RELIGIOUS_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>LEADER_RADIANCE_RELIGIOUS_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>16</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="LEADER_RADIANCE_RELIGIOUS_BUFF" Context="Preview" Text="LOC_LEADER_RADIANCE_RELIGIOUS_BUFF_DESCRIPTION"/>
+	</ModifierStrings>
+	
+
+	<!--Religious Apostle Grant PROMOTION_DEBATER (+20 strengh)-->
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_RADIANCE</TraitType>
+			<ModifierId>LEADER_RADIANCE_GRANT_PROMOTION_DEBATER</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>LEADER_RADIANCE_GRANT_PROMOTION_DEBATER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_PROMOTION</ModifierType>
+			<Permanent>True</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>LEADER_RADIANCE_GRANT_PROMOTION_DEBATER</ModifierId>
+			<Name>PromotionType</Name>
+			<Value>PROMOTION_DEBATER</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!--Religious Apostle Grant PROMOTION_DEBATER (-75% other's perssure )-->
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_RADIANCE</TraitType>
+			<ModifierId>LEADER_RADIANCE_GRANT_PROMOTION_PROSELYTIZER</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>LEADER_RADIANCE_GRANT_PROMOTION_PROSELYTIZER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_PROMOTION</ModifierType>
+			<Permanent>True</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>LEADER_RADIANCE_GRANT_PROMOTION_PROSELYTIZER</ModifierId>
+			<Name>PromotionType</Name>
+			<Value>PROMOTION_PROSELYTIZER</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!--Extra Spread Times-->
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_RADIANCE</TraitType>
+			<ModifierId>LEADER_RADIANCE_EXTRA_SPREAD_CHARGES</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>LEADER_RADIANCE_EXTRA_SPREAD_CHARGES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_SPREAD_CHARGES</ModifierType>
+			<Permanent>True</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>LEADER_RADIANCE_EXTRA_SPREAD_CHARGES</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>
+
+	<![CDATA[
+	<!--More RELIGIOUS_SPREAD_STRENGTH-->
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_RADIANCE</TraitType>
+			<ModifierId>LEADER_RADIANCE_MORE_CITY_RELIGIOUS_SPREAD_STRENGTH</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>LEADER_RADIANCE_MORE_CITY_RELIGIOUS_SPREAD_STRENGTH</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<!--<SubjectRequirementSetId>RADIANCE_CITY_MORE_RELI_SPREAD</SubjectRequirementSetId>-->
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>LEADER_RADIANCE_MORE_CITY_RELIGIOUS_SPREAD_STRENGTH</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>LEADER_RADIANCE_MORE_CITY_RELIGIOUS_SPREAD_STRENGTH_ONE_CITY</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- =============== RequirementSets =============== -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>RADIANCE_CITY_MORE_RELI_SPREAD</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>RADIANCE_CITY_MORE_RELI_SPREAD</RequirementSetId>
+			<RequirementId>HOLLOWNEST_REQ_CITY_OCCUPIED</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
+	<Requirements>
+		<Row>
+			<RequirementId>HOLLOWNEST_REQ_CITY_OCCUPIED</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_OCCUPIED</RequirementType>
+		</Row>
+	</Requirements>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>LEADER_RADIANCE_MORE_CITY_RELIGIOUS_SPREAD_STRENGTH_ONE_CITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_RELIGION_ADJUST_RELIGIOUS_SPREAD_STRENGTH</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>LEADER_RADIANCE_MORE_CITY_RELIGIOUS_SPREAD_STRENGTH_ONE_CITY</ModifierId>
+			<Name>EnhancingTechType</Name>
+			<Value>TECH_STIRRUPS</Value>
+		</Row>
+		<Row>
+			<ModifierId>LEADER_RADIANCE_MORE_CITY_RELIGIOUS_SPREAD_STRENGTH_ONE_CITY</ModifierId>
+			<Name>SpreadMultiplier</Name>
+			<Value>300</Value>
+		</Row>
+		<Row>
+			<ModifierId>LEADER_RADIANCE_MORE_CITY_RELIGIOUS_SPREAD_STRENGTH_ONE_CITY</ModifierId>
+			<Name>TechEnabledSpreadMultiplier</Name>
+			<Value>100</Value>
+		</Row>
+	</ModifierArguments>
+	]]>
+
+	<!--More  Religion pressure-->
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_RADIANCE</TraitType>
+			<ModifierId>LEADER_RADIANCE_EXTRA_NEWBEE_RILIGION_PRESSURE_MODIFIER</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>LEADER_RADIANCE_EXTRA_NEWBEE_RILIGION_PRESSURE_MODIFIER</ModifierId>
+			<ModifierType>LEADER_RADIANCE_EXTRA_NEWBEE_RILIGION_PRESSURE_MODIFIERTYPE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>LEADER_RADIANCE_EXTRA_NEWBEE_RILIGION_PRESSURE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>10000</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- *************** Custom ModifierType *************** -->
+	<Types>
+		<Row Type="LEADER_RADIANCE_EXTRA_NEWBEE_RILIGION_PRESSURE_MODIFIERTYPE" Kind="KIND_MODIFIER"/>
+	</Types>
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>LEADER_RADIANCE_EXTRA_NEWBEE_RILIGION_PRESSURE_MODIFIERTYPE</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_CITIES</CollectionType>
+			<EffectType>EFFECT_ADJUST_CITY_RELIGION_PRESSURE</EffectType>
+		</Row>
+	</DynamicModifiers>
+	
+
+	<!--ADD Religious Battle BUFF-->
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_RADIANCE</TraitType>
+			<ModifierId>TRAIT_LEADER_RADIANCE_RELIGIOUS_BUFF</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_LEADER_RADIANCE_RELIGIOUS_BUFF</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_LEADER_RADIANCE_RELIGIOUS_BUFF</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_LEADER_RADIANCE_RELIGIOUS_BUFF</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!--Always Loyal-->
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_RADIANCE</TraitType>
+			<ModifierId>TRAIT_LEADER_RADIANCE_ALWAYS_LOYAL</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_LEADER_RADIANCE_ALWAYS_LOYAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_ALWAYS_LOYAL</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_LEADER_RADIANCE_ALWAYS_LOYAL</ModifierId>
+			<Name>AlwaysLoyal</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+
+
+	<!--ESCAPE FREE CITY STAGE-->
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_RADIANCE</TraitType>
+			<ModifierId>TRAIT_LEADER_RADIANCE_NO_FREE_SITY_STAGE</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_LEADER_RADIANCE_NO_FREE_SITY_STAGE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_SKIP_FREE_CITY_STEP</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_LEADER_RADIANCE_NO_FREE_SITY_STAGE</ModifierId>
+			<Name>Skip</Name>
+			<Value>true</Value>
+		</Row>
+	</ModifierArguments>
+
+
+	<!--More City Pressure-->
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_RADIANCE</TraitType>
+			<ModifierId>TRAIT_LEADER_RADIANCE_CITY_MORE_LOYAL_PRESSURE</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_LEADER_RADIANCE_CITY_MORE_LOYAL_PRESSURE</ModifierId>
+			<ModifierType>MODIFIER_RADIANCE_ADJUST_IDENTITY_PRESSURE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_LEADER_RADIANCE_CITY_MORE_LOYAL_PRESSURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>8</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- *************** Custom ModifierType *************** -->
+	<Types>
+		<Row Kind="KIND_MODIFIER" Type="MODIFIER_RADIANCE_ADJUST_IDENTITY_PRESSURE"/>
+	</Types>
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>MODIFIER_RADIANCE_ADJUST_IDENTITY_PRESSURE</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_CITIES</CollectionType>
+			<EffectType>EFFECT_ADJUST_CITY_IDENTITY_PRESSURE</EffectType>
+		</Row>
+	</DynamicModifiers>
+
+</GameData>

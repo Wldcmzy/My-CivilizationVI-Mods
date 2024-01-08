@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The_Grimm_Troupe -->
+<!-- Author: wldcmzy -->
+<!-- DateCreated: 12/28/2023 9:32:29 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_BUILDING_THE_GRIMM_TROUPE" IconSize="32" Filename="ICON_BUILDING_THE_GRIMM_TROUPE_32"/>
+		<Row Name="ATLAS_ICON_BUILDING_THE_GRIMM_TROUPE" IconSize="38" Filename="ICON_BUILDING_THE_GRIMM_TROUPE_38"/>
+		<Row Name="ATLAS_ICON_BUILDING_THE_GRIMM_TROUPE" IconSize="50" Filename="ICON_BUILDING_THE_GRIMM_TROUPE_50"/>
+		<Row Name="ATLAS_ICON_BUILDING_THE_GRIMM_TROUPE" IconSize="80" Filename="ICON_BUILDING_THE_GRIMM_TROUPE_80"/>
+		<Row Name="ATLAS_ICON_BUILDING_THE_GRIMM_TROUPE" IconSize="128" Filename="ICON_BUILDING_THE_GRIMM_TROUPE_128"/>
+		<Row Name="ATLAS_ICON_BUILDING_THE_GRIMM_TROUPE" IconSize="256" Filename="ICON_BUILDING_THE_GRIMM_TROUPE_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_THE_GRIMM_TROUPE" Atlas="ATLAS_ICON_BUILDING_THE_GRIMM_TROUPE" Index="0"/>
+	</IconDefinitions>
+
+</GameData>

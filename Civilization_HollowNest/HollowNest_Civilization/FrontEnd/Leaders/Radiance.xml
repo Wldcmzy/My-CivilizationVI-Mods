@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Radiance -->
+<!-- Author: wldcmzy -->
+<!-- DateCreated: 7/17/2023 10:26:24 PM -->
+
+
+<GameData>
+
+	<Players>
+		<Row
+			Domain="Players:Expansion2_Players"
+			CivilizationType="CIVILIZATION_HOLLOWNEST"
+			LeaderType="LEADER_RADIANCE"
+			CivilizationName="LOC_CIVILIZATION_HOLLOWNEST_NAME"
+			CivilizationIcon="ICON_CIVILIZATION_HOLLOWNEST"
+			LeaderName="LOC_LEADER_RADIANCE_NAME"
+			LeaderIcon="ICON_LEADER_RADIANCE"
+			CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_HOLLOWNEST_NAME"
+			CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_HOLLOWNEST_DESCRIPTION"
+			CivilizationAbilityIcon="ICON_CIVILIZATION_HOLLOWNEST"
+			LeaderAbilityName="LOC_TRAIT_LEADER_RADIANCE_NAME"
+			LeaderAbilityDescription="LOC_TRAIT_LEADER_RADIANCE_DESCRIPTION"
+			LeaderAbilityIcon="ICON_LEADER_RADIANCE"
+		/>
+	</Players>
+
+</GameData>

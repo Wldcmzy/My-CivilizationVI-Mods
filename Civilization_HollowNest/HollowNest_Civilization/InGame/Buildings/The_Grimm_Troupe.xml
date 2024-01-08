@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The_Grimm_Troupe -->
+<!-- Author: wldcmzy -->
+<!-- DateCreated: 12/28/2023 3:51:30 PM -->
+<GameData>
+	<Types>
+		<Row Type="BUILDING_THE_GRIMM_TROUPE" Kind="KIND_BUILDING"/>
+		<Row Type="ABILITY_THE_GRIMM_TROUPE_COMBAT_BUFF" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_THE_GRIMM_TROUPE_HEAL_BUFF" Kind="KIND_ABILITY"/>
+	</Types>
+
+	<Buildings>
+		<Row
+			BuildingType="BUILDING_THE_GRIMM_TROUPE"
+			Name="LOC_BUILDING_THE_GRIMM_TROUPE_NAME"
+			Description="LOC_BUILDING_THE_GRIMM_TROUPE_DESCRIPTION"
+			PrereqDistrict="DISTRICT_CITY_CENTER"
+			PurchaseYield="YIELD_GOLD"
+			Cost="10"
+			AdvisorType="ADVISOR_GENERIC"
+			Entertainment="2"
+			TraitType="TRAIT_THE_GRIMM_TROUPE"
+		/>
+	</Buildings>
+
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_THE_GRIMM_TROUPE" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_THE_GRIMM_TROUPE" YieldType="YIELD_GOLD"	YieldChange="2"/>
+		<Row BuildingType="BUILDING_THE_GRIMM_TROUPE" YieldType="YIELD_FAITH"	YieldChange="2"/>
+	</Building_YieldChanges>
+
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_THE_GRIMM_TROUPE" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_THE_GRIMM_TROUPE" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="1"/>
+	</Building_GreatPersonPoints>
+
+	<Building_GreatWorks>
+		<Row BuildingType="BUILDING_THE_GRIMM_TROUPE" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="2"/>
+		<Row BuildingType="BUILDING_THE_GRIMM_TROUPE" GreatWorkSlotType="GREATWORKSLOT_MUSIC" NumSlots="1"/>
+	</Building_GreatWorks>
+
+
+	<TypeTags>
+		<Row Type="ABILITY_THE_GRIMM_TROUPE_COMBAT_BUFF" Tag="CLASS_ALL_COMBAT_UNITS"/>
+		<Row Type="ABILITY_THE_GRIMM_TROUPE_HEAL_BUFF" Tag="CLASS_ALL_UNITS"/>
+	</TypeTags>
+
+	
+	
+	
+	<!--  Ability  Combat buff-->
+	<!--Define Ability - Grimm Troupe Combat buff-->
+	<UnitAbilities>
+		<Row
+			UnitAbilityType="ABILITY_THE_GRIMM_TROUPE_COMBAT_BUFF"
+			Name="LOC_THE_GRIMM_TROUPE_COMBAT_BUFF_NAME"
+			Description="LOC_THE_GRIMM_TROUPE_COMBAT_BUFF_DESCRIPTION"
+			Inactive="true"
+		/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_THE_GRIMM_TROUPE_COMBAT_BUFF</UnitAbilityType>
+			<ModifierId>ABILITY_THE_GRIMM_TROUPE_COMBAT_BUFF_MODIFIER</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>ABILITY_THE_GRIMM_TROUPE_COMBAT_BUFF_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>ABILITY_THE_GRIMM_TROUPE_COMBAT_BUFF_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!--Building attach the buff to units-->
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_THE_GRIMM_TROUPE</BuildingType>
+			<ModifierId>THE_GRIMM_TROUPE_COMBAT_BUFF_MODIFIER</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>THE_GRIMM_TROUPE_COMBAT_BUFF_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>REQ_IF_SELF_S_UNIT_NEAR_GRIMM_TROUPE</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>THE_GRIMM_TROUPE_COMBAT_BUFF_MODIFIER</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_THE_GRIMM_TROUPE_COMBAT_BUFF</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- =============== RequirementSets =============== -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>REQ_IF_SELF_S_UNIT_NEAR_GRIMM_TROUPE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>REQ_IF_SELF_S_UNIT_NEAR_GRIMM_TROUPE</RequirementSetId>
+			<RequirementId>UNIT_NEAR_THE_GRIMM_TROUPE</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
+	<Requirements>
+		<Row>
+			<RequirementId>UNIT_NEAR_THE_GRIMM_TROUPE</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_TO_OWNER</RequirementType>
+			<ProgressWeight>0</ProgressWeight>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>UNIT_NEAR_THE_GRIMM_TROUPE</RequirementId>
+			<Name>MaxDistance</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<RequirementId>UNIT_NEAR_THE_GRIMM_TROUPE</RequirementId>
+			<Name>MinDistance</Name>
+			<Value>0</Value>
+		</Row>
+	</RequirementArguments>
+
+
+
+	
+	
+	
+	<!--  Ability  Heal buff-->
+	<!-- Define Ability Heal buff-->
+	<UnitAbilities>
+		<Row
+			UnitAbilityType="ABILITY_THE_GRIMM_TROUPE_HEAL_BUFF"
+			Name="LOC_THE_GRIMM_TROUPE_HEAL_BUFF_NAME"
+			Description="LOC_THE_GRIMM_TROUPE_HEAL_BUFF_DESCRIPTION"
+			Inactive="true"
+		/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_THE_GRIMM_TROUPE_HEAL_BUFF</UnitAbilityType>
+			<ModifierId>ABILITY_THE_GRIMM_TROUPE_HEAL_BUFF_MODIFIER</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>ABILITY_THE_GRIMM_TROUPE_HEAL_BUFF_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_HEAL_PER_TURN</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>ABILITY_THE_GRIMM_TROUPE_HEAL_BUFF_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>ABILITY_THE_GRIMM_TROUPE_HEAL_BUFF_MODIFIER</ModifierId>
+			<Name>Type</Name>
+			<Value>ALL</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!--Attach units buff-->
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_THE_GRIMM_TROUPE</BuildingType>
+			<ModifierId>THE_GRIMM_TROUPE_HEAL_BUFF_MODIFIER</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>THE_GRIMM_TROUPE_HEAL_BUFF_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>REQ_IF_SELF_S_UNIT_NEAR_GRIMM_TROUPE</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>THE_GRIMM_TROUPE_HEAL_BUFF_MODIFIER</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_THE_GRIMM_TROUPE_HEAL_BUFF</Value>
+		</Row>
+	</ModifierArguments>
+	
+	
+	<ModifierStrings>
+		<Row ModifierId="ABILITY_THE_GRIMM_TROUPE_COMBAT_BUFF_MODIFIER" Context="Preview" Text="LOC_THE_GRIMM_TROUPE_COMBAT_BUFF_DESCRIPTION"/>
+		<Row ModifierId="ABILITY_THE_GRIMM_TROUPE_HEAL_BUFF_MODIFIER" Context="Preview" Text="LOC_THE_GRIMM_TROUPE_HEAL_BUFF_DESCRIPTION"/>
+
+	</ModifierStrings>
+	
+</GameData>

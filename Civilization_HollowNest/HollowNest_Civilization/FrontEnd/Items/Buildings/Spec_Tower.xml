@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Spec_Tower -->
+<!-- Author: wldcmzy -->
+<!-- DateCreated: 12/30/2023 3:14:11 PM -->
+<GameData>
+
+	<!--Radiance-->
+	<Row
+		Domain="Players:Expansion2_Players"
+		CivilizationType="CIVILIZATION_HOLLOWNEST"
+		LeaderType="LEADER_RADIANCE"
+		Type="BUILDING_HK_SPEC_TOWER"
+		Icon="ICON_BUILDING_HK_SPEC_TOWER"
+		Name="LOC_BUILDING_HK_SPEC_TOWER_NAME"
+		Description="LOC_BUILDING_HK_SPEC_TOWER_DESCRIPTION"
+		SortIndex="34"
+		/>
+	<!--God of Gods-->
+	<Row
+		Domain="Players:Expansion2_Players"
+		CivilizationType="CIVILIZATION_HOLLOWNEST"
+		LeaderType="LEADER_GOD_OF_GODS"
+		Type="BUILDING_HK_SPEC_TOWER"
+		Icon="ICON_BUILDING_HK_SPEC_TOWER"
+		Name="LOC_BUILDING_HK_SPEC_TOWER_NAME"
+		Description="LOC_BUILDING_HK_SPEC_TOWER_DESCRIPTION"
+		SortIndex="34"
+		/>
+	<!--Wanderer-->
+	<Row
+		Domain="Players:Expansion2_Players"
+		CivilizationType="CIVILIZATION_HOLLOWNEST"
+		LeaderType="LEADER_WANDERER"
+		Type="BUILDING_HK_SPEC_TOWER"
+		Icon="ICON_BUILDING_HK_SPEC_TOWER"
+		Name="LOC_BUILDING_HK_SPEC_TOWER_NAME"
+		Description="LOC_BUILDING_HK_SPEC_TOWER_DESCRIPTION"
+		SortIndex="34"
+		/>
+	<!--Wyrms-->
+	<Row
+		Domain="Players:Expansion2_Players"
+		CivilizationType="CIVILIZATION_HOLLOWNEST"
+		LeaderType="LEADER_WYRMS"
+		Type="BUILDING_HK_SPEC_TOWER"
+		Icon="ICON_BUILDING_HK_SPEC_TOWER"
+		Name="LOC_BUILDING_HK_SPEC_TOWER_NAME"
+		Description="LOC_BUILDING_HK_SPEC_TOWER_DESCRIPTION"
+		SortIndex="34"
+		/>
+	<!--Grimm-->
+	<Row
+		Domain="Players:Expansion2_Players"
+		CivilizationType="CIVILIZATION_HOLLOWNEST"
+		LeaderType="LEADER_GRIMM"
+		Type="BUILDING_HK_SPEC_TOWER"
+		Icon="ICON_BUILDING_HK_SPEC_TOWER"
+		Name="LOC_BUILDING_HK_SPEC_TOWER_NAME"
+		Description="LOC_BUILDING_HK_SPEC_TOWER_DESCRIPTION"
+		SortIndex="34"
+		/>
+	</PlayerItems>
+
+</GameData>

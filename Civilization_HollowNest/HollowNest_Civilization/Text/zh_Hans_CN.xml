@@ -1,0 +1,1051 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zh_Hans_CN -->
+<!-- Author: wldcmzy -->
+<!-- DateCreated: 7/17/2023 10:09:33 PM -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNIT_HOLLOW_KNIGHT_NAME" Language="zh_Hans_CN">
+			<Text>空洞骑士</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UNIT_HOLLOW_KNIGHT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				障目之光之容器，拥有52[ICON_Strength]战斗力，6[ICON_Movement]移动力，3视野范围，
+				不需要任何战略资源，维护费0[ICON_Gold]金币(众所周知容器坏了就扔掉，不需要维护)
+				生产需要90[ICON_Production]产能(180[ICON_Production]->90[ICON_Production])。
+				预期设计一个名为“封印”的技能，先鸽了。
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_HK_SPEC_TOWER_NAME" Language="zh_Hans_CN">
+			<Text>守望者尖塔</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_HK_SPEC_TOWER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				圣巢文明特色古典奇观，只能建在拥有黑卵圣殿广场的城市中，且只能建丘陵上。
+				登上守望者尖塔的单位获得+12视野范围。
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_HK_SPEC_TOWER_QUOTE" Language="zh_Hans_CN">
+			<Text>
+				他本人躺在这座高塔的最顶端，旁边还有一架可以俯瞰城市的望远镜。这里有一些仍心念守望者的躯壳，大部分已是尸体。
+			</Text>
+		</Replace>
+		
+
+		<Replace Tag="LOC_BUILDING_HK_SPEC_TOWER_SIGHT_BUFF_NAME" Language="zh_Hans_CN">
+			<Text>登高望远</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_HK_SPEC_TOWER_SIGHT_BUFF_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				登上守望者尖塔后视野范围+12，且视野可以穿透雨林
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_THE_GRIMM_TROUPE_NAME" Language="zh_Hans_CN">
+			<Text>格林剧团</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_THE_GRIMM_TROUPE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				领袖格林特色市中心建筑，需要极少的[ICON_Production]产能，提供+2[ICON_Gold]金币，+2[ICON_Faith]信仰，
+				+2[ICON_Culture]文化，+2[ICON_Amenities]宜居度，+2[ICON_GreatArtist]大作家点数，
+				+1[ICON_GreatMusician]大音乐家点数，+2[ICON_GreatWork_Writing]著作槽位，
+				+1[ICON_GreatWork_Music]音乐槽位。
+				格林剧团的话剧十分鼓舞人心，在格林剧团一环内，你的单位休息获得额外生命回复，战斗单位获得+3[ICON_Strength]战斗力。
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_COLOSSEUM_OF_FOOLS_NAME" Language="zh_Hans_CN">
+			<Text>愚人斗兽场</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_COLOSSEUM_OF_FOOLS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				代替竞技场。只有最勇猛的强者，才可以在炼狱般的试炼中存活下来，
+				并获得大量金币奖励，这也导致了愚人斗兽场高昂的维护费用，
+				而不慎失手的人则会留下不甘与遗憾。
+				需要更少的[ICON_Production]产能进行建造(150[ICON_Production]->100[ICON_Production])，
+				作为娱乐区域，提供+3[ICON_Amenities]宜居度。维护费8[ICON_Gold]金币（
+				基础2[ICON_Gold]金币，斗兽场的三种试炼分别对应1、2、3[ICON_Gold]金币）。
+				+3[ICON_GreatWork_Relic]遗物槽位。
+				为此城生产军事单位增加100%[ICON_Production]产能，
+				若此城还拥有军营，则再增加100%[ICON_Production]产能。
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_TEACHERS_ARCHIVES_NAME" Language="zh_Hans_CN">
+			<Text>教师档案馆</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_TEACHERS_ARCHIVES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				代替图书馆，需要花费更高的生产力(90[ICON_Production]->120[ICON_Production])，
+				维护费1[ICON_Gold]金币。
+				教师莫诺蒙追求改变，为圣巢的科文发展和教育事业做出了巨大贡献。
+				档案馆中存有教师莫诺蒙的手稿，
+				建成后，随机获得工业时代及之前的[ICON_TechBoosted]尤里卡和[ICON_CivicBoosted]鼓舞各一项。
+				提供+2[ICON_Science]科技，+2[ICON_Culture]文化，
+				+2[ICON_GreatScientist]大科学家点数，+1[ICON_GreatArtist]大作家点数，
+				+2[ICON_GreatWork_Writing]著作槽位。
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_PLEASURE_HOUSE_NAME" Language="zh_Hans_CN">
+			<Text>欢乐之屋</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_PLEASURE_HOUSE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				代替古罗马剧场，建造生产力消耗降低(150[ICON_Production]->120[ICON_Production])，
+				维护费1[ICON_Gold]金币。
+				歌姬经常创作歌曲，演唱全圣巢最动听的音乐，余音袅袅，不绝如缕。
+				提供+2[ICON_Culture]文化，+3[ICON_GreatMusician]大音乐家点数，
+				+3[ICON_GreatWork_Music]音乐槽位。
+				建成后，每进入新时代便随机触发一次任意时代的[ICON_CivicBoosted]鼓舞。
+				[注：此效果以首次解锁对应时代的科技或市政为准，而非世界时代]
+			</Text>
+		</Replace>
+		
+
+		<Replace Tag="LOC_DISTRICT_PALACE_GROUNDS_NAME" Language="zh_Hans_CN">
+			<Text>宫殿广场</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_PALACE_GROUNDS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				代替圣地，维护费1[ICON_Gold]金币，建造[ICON_Production]产能大幅减少
+				(54[ICON_Production]->18[ICON_Production])。
+				国王神像伫立于广场中央的喷泉中，引虫朝拜，
+				宫殿广场从相邻区域获得的加成提升至1，
+				提供+4[ICON_Faith]信仰值。
+				提供+2[ICON_GreatProphet]大预言家点数。
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_PALACE_GROUNDS_FAITH" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Faith]来自相邻的区域</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_FLOURISHING_CROSSROADS_NAME" Language="zh_Hans_CN">
+			<Text>繁华十字路</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_FLOURISHING_CROSSROADS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				代替商业中心。十字路作为重要的交通枢纽，每日虫山虫海，来往者络绎不绝，
+				是圣巢文明经济文化繁荣的一大体现。
+				区域相邻加成改为+1，
+				提供相当于该区域相邻加成的[ICON_Culture]文化和[ICON_Production]产能。
+				为国内贸易路线提供更多的[ICON_Food]食物、[ICON_Production]产能和[ICON_Gold]金币，
+				（0[ICON_Food]1[ICON_Production]0[ICON_Gold]->2[ICON_Food]2[ICON_Production]1[ICON_Gold]）
+				为国际贸易路线提供更多的[ICON_Gold]金币。(3[ICON_Gold]->6[ICON_Gold])
+				建造完成时，[ICON_TradeRoute]贸易路线容量+1，赠送一个商人单位。
+			</Text>
+		</Replace>
+
+		
+		<Replace Tag="LOC_DISTRICT_FLOURISHING_CROSSROADS_GOLD" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Gold]来自相邻的区域</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_NAME" Language="zh_Hans_CN">
+			<Text>黑卵圣殿广场</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				[注意：该区域使用圣地模型，玩游戏时请细心甄别区域]
+				圣巢文明特色区域，不代替任何区域， 无人口要求，只能在一座城市修建，
+				建造花费大幅减少，城市被占领时，该区域消失。
+				为相大部分常见区域和某些特色区域提供+3相邻加成。
+				获得+3[ICON_Science]科技，+3[ICON_Culture]文化，+3[ICON_Gold]金币，
+				+3[ICON_Faith]信仰, +3[ICON_Food]粮食，+3[ICON_Production]产能。
+				为国际贸易和国内贸易提供两倍于市政广场的加成。
+				掠夺该区域可以获得等同于掠夺圣地两倍的[ICON_Faith]信仰。
+				建造完成时，可以无视科技限制获得一位空洞骑士。
+				与该区域相邻的空洞骑士获得+25[ICON_Strength]战斗力。
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_HOLLOW_KNIGHT_ADD_NEWBEE_BUFF_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>从相邻的友方黑卵圣殿广场获得+25[ICON_Strength]战斗力加成</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_CULTURE" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Culture]来自相邻的黑卵圣殿广场</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_FAITH" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Faith]来自相邻的黑卵圣殿广场</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_GOLD" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Gold]来自相邻的黑卵圣殿广场</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_PRODUCTION" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Production]来自相邻的黑卵圣殿广场</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_SCIENCE" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Science]来自相邻的黑卵圣殿广场</Text>
+		</Replace>
+		
+
+		<Replace Tag="LOC_CIVILIZATION_HOLLOWNEST_NAME" Language="zh_Hans_CN">
+			<Text>圣巢</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CIVILIZATION_HOLLOWNEST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>圣巢文明</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CIVILIZATION_HOLLOWNEST_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>圣巢的</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_HOLLOWNEST_NAME" Language="zh_Hans_CN">
+			<Text>平凡者的祝福与护符过载</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_HOLLOWNEST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				平凡者的祝福：己方单位死亡后会有概率留下[ICON_GreatWork_Relic]遗物。
+				护符过载：获得一个通配符槽位，进入古典时代后，额外获得一个经济槽位，
+				进入中世纪后，再额外获得一个经济槽位。
+				（此时就可以用一个槽位装备噬魂者了(划掉)）
+				[注：此效果以首次解锁对应时代的科技或市政为准，而非世界时代]
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_RADIANCE_NAME" Language="zh_Hans_CN">
+			<Text>辐光</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_RADIANCE_NAME" Language="zh_Hans_CN">
+			<Text>感染</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_RADIANCE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				辐光以操控梦境感染生灵的心智，城市释放的宗教压力+10000%。
+				宗教单位获得+16[ICON_Religion]宗教战斗力和+2传教次数，
+				使徒自动获得辩论者和劝导者两种升级。
+				你城市的忠诚度锁定为100%，每座城市向周围释放的忠诚度压力+8，
+				若其他城市失去所有忠诚度并受到辐光的忠诚度压力最大，则其跳过自由城市阶段，
+				直接加入辐光。
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_RADIANCE_RELIGIOUS_BUFF_NAME" Language="zh_Hans_CN">
+			<Text>辐光的感染</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_RADIANCE_RELIGIOUS_BUFF_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				辐光的感染+16[ICON_Religion]宗教战斗力
+			</Text>
+		</Replace>
+		
+
+		<Replace Tag="LOC_LEADER_GOD_OF_GODS_NAME" Language="zh_Hans_CN">
+			<Text>小骑士（诸神之神）</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_GOD_OF_GODS_NAME" Language="zh_Hans_CN">
+			<Text>百炼成钢</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_GOD_OF_GODS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				小骑士经历亿般磨练，受苦无数，完成了无能力r045、辐辉速杀any辐光3.0、
+				苦痛之路1分40秒，any%速通25分钟，tas全圣巢等壮举，最终晋升虚空神，
+				成为圣巢诸神之神。军事单位+3[ICON_Strength]战斗力，受伤的军事单位不会减少战斗力。
+				军事单位获得经验值+400%，对单位作战获得经验受限于游戏内置上限(8)，
+				军事单位作战后，按如下顺序产生额外效果：
+				1.再额外获得7经验，
+				2.每有7点经验便恢复自身1点生命，
+				3.如果敌人是单位，每有7点经验值再额外造成1点伤害。
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_GOD_OF_GODS_COMBAT_BUFF_NAME" Language="zh_Hans_CN">
+			<Text>钢铁意志</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_GOD_OF_GODS_COMBAT_BUFF_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				虚空神的强大意志+5[ICON_Strength]战斗力
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_WANDERER_NAME" Language="zh_Hans_CN">
+			<Text>小骑士（漫游者）</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_WANDERER_NAME" Language="zh_Hans_CN">
+			<Text>探索圣巢</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_WANDERER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				灵活的圣巢一哥可以游刃有余地穿梭于圣巢的任意一处地点。
+				所有单位+1[ICON_Movement]移动力，经过一些地貌与河流时，
+				可以无视移动力损耗，但仍然会受区域控制影响。
+				生产开拓者单位+75%[ICON_Production]的产能。
+				建立或攻占一座城市后，赠送一个侦察单位。
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_WANDERER_EXTRA_MOVEMENT_NAME" Language="zh_Hans_CN">
+			<Text>探索圣巢之神行</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_WANDERER_EXTRA_MOVEMENT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				探索圣巢效果+1[ICON_Movement]移动力
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_WANDERER_IGNORE_TERRAIN_COST_NAME" Language="zh_Hans_CN">
+			<Text>探索圣巢之螳螂爪</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_WANDERER_IGNORE_TERRAIN_COST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				探索圣巢效果无视地形带来的额外移动力消耗
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_WANDERER_IGNORE_RIVERS_NAME" Language="zh_Hans_CN">
+			<Text>探索圣巢之蛾翼披风</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_WANDERER_IGNORE_RIVERS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				探索圣巢效果无视穿过河流带来的额外移动力消耗
+			</Text>
+		</Replace>
+		
+
+		<Replace Tag="LOC_LEADER_WYRMS_NAME" Language="zh_Hans_CN">
+			<Text>沃姆</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_WYRMS_NAME" Language="zh_Hans_CN">
+			<Text>装修鬼才</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_WYRMS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				苍白之王沃姆有着独具特色的装修天赋，不难得知其建筑设计能力也极为高超。
+				城市中的大部分常规改良设施额外+1[ICON_Food]食物，
+				+4[ICON_Production]产能。
+				沃姆善于利用锋利的锯武装城市的各个角落，它让市民和军队在锯丛中练习跑酷，
+				从而锻炼它们对锯丛的适应性，友好的市民也乐于给外乡人带路。
+				锯子的位置是变幻莫测的，不熟悉地形的敌人来到沃姆的城市只有受苦的份——
+				城市获得“苦痛之路”光环效果，城市3环之内，
+				与你交战的单位移动力上限-2[ICON_Movement]（效果可叠加，移动力归零等同于永久禁锢），
+				军队在己方单元格或临近己方领土的单元格作战+10[ICON_Strength]战斗力。
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_WYRMS_HOME_COMBAT_BUFF_NAME" Language="zh_Hans_CN">
+			<Text>锯海游击</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_WYRMS_HOME_COMBAT_BUFF_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				在自己的领土或与自己的领土相邻的单元格作战时，
+				+10[ICON_Strength]战斗力
+			</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_LEADER_GRIMM_NAME" Language="zh_Hans_CN">
+			<Text>格林（剧团长）</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_GRIMM_NAME" Language="zh_Hans_CN">
+			<Text>职业精神</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_GRIMM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				你的科技值减少80%，[ICON_TechBoosted]尤里卡收益削弱为0%，但[ICON_CivicBoosted]鼓舞收益提升为80%，
+				在回合结束时额外获得相当于文化值80%的[ICON_Gold]金币、[ICON_Faith]信仰和[ICON_Science]科技。
+				你每解锁一项市政，立即触发1到3次[ICON_CivicBoosted]鼓舞(大概率触发1次)，
+				并立即获得大量[ICON_Science]科技值（数值等于解锁该市政所需的[ICON_Culture]文化值）。
+				你的大作家和大艺术家可以为其两环内的作战单位+5[ICON_Strength]战斗力。
+				可以建造特色建筑格林剧团，详情见格林剧团描述。
+				你有格林剧团的城市所有的单元格增加1[ICON_Culture]文化1[ICON_Production]产能，解锁印刷术科技后效果翻倍。
+			</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_TRAIT_THE_GRIMM_TROUPE_NAME" Language="zh_Hans_CN">
+			<Text>开办剧团</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_THE_GRIMM_TROUPE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				你的城市可以修建市中心建筑格林剧团，+2[ICON_Gold]金币，+2[ICON_Faith]信仰，
+				+2[ICON_Culture]文化，+2[ICON_Amenities]宜居度，+2[ICON_GreatArtist]大作家点数，
+				+1[ICON_GreatMusician]大音乐家点数，+2[ICON_GreatWork_Writing]著作槽位，
+				+1[ICON_GreatWork_Music]音乐槽位。
+				格林剧团的话剧十分鼓舞人心，使一环内你的战斗单位+3[ICON_Strength]战斗力，休息时提供额外生命回复。
+			</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_THE_GRIMM_TROUPE_COMBAT_BUFF_NAME" Language="zh_Hans_CN">
+			<Text>格林剧团之振奋</Text>
+		</Replace>
+
+		<Replace Tag="LOC_THE_GRIMM_TROUPE_COMBAT_BUFF_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				靠近格林剧团时+3[ICON_Strength]战斗力。
+			</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_THE_GRIMM_TROUPE_HEAL_BUFF_NAME" Language="zh_Hans_CN">
+			<Text>格林剧团之休憩</Text>
+		</Replace>
+
+		<Replace Tag="LOC_THE_GRIMM_TROUPE_HEAL_BUFF_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				靠近格林剧团时+20恢复力。
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_LEADER_GRIMM_WRITER_GENERAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				在大作家两环内+5[ICON_Strength]战斗力
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_LEADER_GRIMM_MUSICIAN_GENERAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				在大音乐家两环内+5[ICON_Strength]战斗力
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_GRIMM_ARTIST_BECOME_GENERAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				为两环内的战斗单位提供+5[ICON_Strength]战斗力。
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_GRIMM_MUSICIAN_BECOME_GENERAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				为两环内的战斗单位提供+5[ICON_Strength]战斗力。
+			</Text>
+		</Replace>
+
+
+
+		<Replace Tag="LOC_CITY_NAME_THE_ABYSS" Language="zh_Hans_CN">
+			<Text>深渊</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_ANCIENT_BASIN" Language="zh_Hans_CN">
+			<Text>古老盆地</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_CITY_OF_TEARS" Language="zh_Hans_CN">
+			<Text>泪水之城</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_CRYSTAL_PEAK" Language="zh_Hans_CN">
+			<Text>水晶山峰</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_DEEPNEST" Language="zh_Hans_CN">
+			<Text>深邃巢穴</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_DIRTMOUTH" Language="zh_Hans_CN">
+			<Text>泥口</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_FOG_CANYON" Language="zh_Hans_CN">
+			<Text>雾之峡谷</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_FUNGAL_WASTES" Language="zh_Hans_CN">
+			<Text>真菌荒地</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_GODHOME" Language="zh_Hans_CN">
+			<Text>神居</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_GREENPATH" Language="zh_Hans_CN">
+			<Text>苍绿之径</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_THE_HIVE" Language="zh_Hans_CN">
+			<Text>蜂巢</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_KINDOM_S_EDGE" Language="zh_Hans_CN">
+			<Text>王国边缘</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_QUEEN_S_GARDENS" Language="zh_Hans_CN">
+			<Text>王后花园</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_RESTING_GROUNDS" Language="zh_Hans_CN">
+			<Text>安息之地</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_ROYAL_WATERWAYS" Language="zh_Hans_CN">
+			<Text>皇家水道</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_WHITE_PALACE" Language="zh_Hans_CN">
+			<Text>白色宫殿</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_SOUL_DUALISM" Language="zh_Hans_CN">
+			<Text>灵魂池沼</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_HOWLING_CLIFFS" Language="zh_Hans_CN">
+			<Text>呼啸悬崖</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_DREAM_REALM" Language="zh_Hans_CN">
+			<Text>梦境</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_MANTIS_VILLAGE" Language="zh_Hans_CN">
+			<Text>螳螂村</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_CITY_NAME_LAKE_OF_UNN" Language="zh_Hans_CN">
+			<Text>乌恩之湖</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_CITY_NAME_STONE_SANCTUARY" Language="zh_Hans_CN">
+			<Text>石之庇护所</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITY_NAME_ANCESTRAL_MOUND" Language="zh_Hans_CN">
+			<Text>祖先山丘</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_CITY_NAME_KINGS_PASS" Language="zh_Hans_CN">
+			<Text>国王山道</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_CITY_NAME_STAG_NEST" Language="zh_Hans_CN">
+			<Text>鹿角虫巢穴</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_CITY_NAME_ISMAS_GROVE" Language="zh_Hans_CN">
+			<Text>伊思玛的树林</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_CITY_NAME_JUNK_PIT" Language="zh_Hans_CN">
+			<Text>垃圾坑</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_CITY_NAME_SOUL_SANCTUM" Language="zh_Hans_CN">
+			<Text>灵魂圣所</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_CITY_NAME_TOWER_OF_LOVE" Language="zh_Hans_CN">
+			<Text>爱之塔</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_CITY_NAME_KINGS_STATION" Language="zh_Hans_CN">
+			<Text>国王驿站</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_CITY_NAME_LAND_OF_STORMS" Language="zh_Hans_CN">
+			<Text>风暴之地</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_CITY_NAME_DISTANT_VILLAGE" Language="zh_Hans_CN">
+			<Text>遥远的村庄</Text>
+		</Replace>
+
+		
+		<Replace Tag="LOC_CITY_NAME_HOLLOWNESTS_CROWN" Language="zh_Hans_CN">
+			<Text>圣巢之冠</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_CITY_NAME_CRYSTALLISED_MOUND" Language="zh_Hans_CN">
+			<Text>结晶山丘</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_CITY_NAME_CAST_OFF_SHELL" Language="zh_Hans_CN">
+			<Text>遗弃外壳</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_CITY_NAME_OVERGROWN_MOUND" Language="zh_Hans_CN">
+			<Text>长满植物的山丘</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_CITY_NAME_QUEENS_STATION" Language="zh_Hans_CN">
+			<Text>王后驿站</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_CITY_NAME_FUNGAL_CORE" Language="zh_Hans_CN">
+			<Text>真菌核心</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_0" Language="zh_Hans_CN">
+			<Text>无论什么代价都在所不惜</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_1" Language="zh_Hans_CN">
+			<Text>......</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_2" Language="zh_Hans_CN">
+			<Text>没有可以思考的心智</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_3" Language="zh_Hans_CN">
+			<Text>没有可以屈从的意志</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_4" Language="zh_Hans_CN">
+			<Text>没有为苦难哭泣的声音</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_5" Language="zh_Hans_CN">
+			<Text>生于神与虚空之手</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_6" Language="zh_Hans_CN">
+			<Text>你必封印在众人梦中散布瘟疫的障目之光</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_6_RADIANCE" Language="zh_Hans_CN">
+			<Text>[COLOR_FLOAT_GOLD]你完全臣服并忠于无上之光[ENDCOLOR]</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_7" Language="zh_Hans_CN">
+			<Text>你是容器</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_8" Language="zh_Hans_CN">
+			<Text>你是空洞骑士</Text>
+		</Replace>
+		
+
+		<Replace Tag="LOC_AGENDA_RADIANCE_NAME" Language="zh_Hans_CN">
+			<Text>金光闪耀</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AGENDA_RADIANCE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				喜欢伴随着金色光芒进入黄金时代的文明，
+				略微反感活在普通时代的文明，
+				厌恶活在黑暗时代的文明。
+			</Text>
+		</Replace>
+
+		<![CDATA[
+		<Replace Tag="LOC_AGENDA_RADIANCE_2_NAME" Language="zh_Hans_CN">
+			<Text>光蛾之道</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AGENDA_RADIANCE_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				喜欢信奉相同宗教的文明，并且希望其所有城市都信奉同样宗教。
+				讨厌那些企图在自己国家传播其他宗教的文明。
+			</Text>
+		</Replace>
+		]]>
+
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_RADIANCE_ANY" Language="zh_Hans_CN">
+			<Text>光！芒！</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_RADIANCE_ANY" Language="zh_Hans_CN">
+			<Text>黑！暗！</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_AGENDA_RADIANCE_MODIFIER_GOLD_DES" Language="zh_Hans_CN">
+			<Text>喜欢沐浴在金光中的文明(黄金时代)。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_AGENDA_RADIANCE_A_BIT_HATE_NO_GOLD_AGE_DES" Language="zh_Hans_CN">
+			<Text>略微反感不在金光照耀下的文明(非黄金时代)。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_AGENDA_RADIANCE_MODIFIER_DARK_DES" Language="zh_Hans_CN">
+			<Text>极其厌恶黑暗中的虫虱文明(黑暗时代)。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_RADIANCE_ANY" Language="zh_Hans_CN">
+			<Text>我！是！辐！光！我！不！会！畏！惧！你！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_RADIANCE_ANY" Language="zh_Hans_CN">
+			<Text>吾！境！甚！灿！汝！都！何！如！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_RADIANCE_ANY" Language="zh_Hans_CN">
+			<Text>诚！挚！邀！汝！来！吾！梦！境！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_RADIANCE_ANY" Language="zh_Hans_CN">
+			<Text>有！朋！自！远！方！来！不！亦！乐！乎！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_RADIANCE_ANY" Language="zh_Hans_CN">
+			<Text>感！谢！你！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_RADIANCE_ANY" Language="zh_Hans_CN">
+			<Text>善！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_RADIANCE_ANY" Language="zh_Hans_CN">
+			<Text>否！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_RADIANCE_ANY" Language="zh_Hans_CN">
+			<Text>汝！吾！欲！友！也！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_RADIANCE_ANY" Language="zh_Hans_CN">
+			<Text>不！知！好！歹！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_RADIANCE_ANY" Language="zh_Hans_CN">
+			<Text>光！芒！会！将！你！吞！噬！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_RADIANCE_ANY" Language="zh_Hans_CN">
+			<Text>统！统！消！灭！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_RADIANCE_ANY" Language="zh_Hans_CN">
+			<Text>我！撕！烂！你！的！嘴！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_RADIANCE_ANY" Language="zh_Hans_CN">
+			<Text>虫！虱！[NEWLINE]（谴责你）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_RADIANCE_ANY" Language="zh_Hans_CN">
+			<Text>滚！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_RADIANCE_ANY" Language="zh_Hans_CN">
+			<Text>鄙！也！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_RADIANCE_ANY" Language="zh_Hans_CN">
+			<Text>睿！也！</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_RADIANCE_ANY">
+			<Text>我！不！会！被！遗！忘！</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_AGENDA_GOD_OF_GODS_NAME" Language="zh_Hans_CN">
+			<Text>来自深渊</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AGENDA_GOD_OF_GODS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>更喜欢不处于黄金时代的文明，但并不讨厌处于黄金时代的文明。</Text>
+		</Replace>
+
+		<![CDATA[
+		<Replace Tag="LOC_AGENDA_GOD_OF_GODS_2_NAME" Language="zh_Hans_CN">
+			<Text>磨砺战法</Text>
+		</Replace>
+	
+		<Replace Tag="LOC_AGENDA_GOD_OF_GODS_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一直设法维持强大的常备军。尊重其他拥有庞大军队的文明。</Text>
+		</Replace>
+		]]>
+
+
+		<Replace Tag="LOC_TRAIT_AGENDA_GOD_OF_GODS_LIKE_NO_GOLD_AGE_DES" Language="zh_Hans_CN">
+			<Text>喜欢金色光环隐去而自强不息的文明(非黄金时代)。</Text>
+		</Replace>
+
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_KUDO_EXIT_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(感到愉悦)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_WARNING_EXIT_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(感到不悦)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_FIRST_MEET_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(向你问好)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(希望可以交换首都情报)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(友好邀请)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(愉悦)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(表示感谢)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(同意)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(否决)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(想要宣布友谊)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(表示遗憾)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(自取灭亡！打！)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(向你宣战！杀！)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_GOD_OF_GODS_ANY">
+			<Text>...</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_GOD_OF_GODS_ANY">
+			<Text>...[NEWLINE]（谴责你）</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(认为你要发动战争)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(可惜)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(明智之举)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_GOD_OF_GODS_ANY">
+			<Text>...(你是一位值得尊敬的对手)</Text>
+		</Replace>
+
+
+
+		<Replace Tag="LOC_AGENDA_WANDERER_NAME" Language="zh_Hans_CN">
+			<Text>探索与绘制</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AGENDA_WANDERER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>喜欢探索地图多的文明，讨厌探索地图少的文明。</Text>
+		</Replace>
+
+		<![CDATA[
+		<Replace Tag="LOC_AGENDA_WANDERER_2_NAME" Language="zh_Hans_CN">
+			<Text>开拓与征服</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AGENDA_WANDERER_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>将尽其所能开疆扩土。讨厌国土狭小的文明。</Text>
+		</Replace>
+		]]>
+
+		<Replace Tag="LOC_TRAIT_AGENDA_WANDERER_LIKE_HIGH_EXPLORATION_DES" Language="zh_Hans_CN">
+			<Text>喜欢探索世界更多的文明。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_AGENDA_WANDERER_HATE_LOW_EXPLORATION_DES" Language="zh_Hans_CN">
+			<Text>略微讨厌对世界不够了解的文明。</Text>
+		</Replace>
+
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_KUDO_EXIT_LEADER_WANDERER_ANY">
+			<Text>(*^▽^*) (为你大量的地图探索感到愉悦)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_WARNING_EXIT_LEADER_WANDERER_ANY">
+			<Text>（｀へ´）(为你探索地图过少感到不悦)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_FIRST_MEET_LEADER_WANDERER_ANY">
+			<Text>ヾ(´･ω･｀)ﾉ (向你问好)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_WANDERER_ANY">
+			<Text>(＾－＾) (希望可以交换首都情报)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_WANDERER_ANY">
+			<Text>(。・・)ノ (友好邀请)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_WANDERER_ANY">
+			<Text>o(〃'▽'〃)o (愉悦)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_WANDERER_ANY">
+			<Text>☆⌒(*＾-゜)v (表示感谢)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_WANDERER_ANY">
+			<Text>n(*≧▽≦*)n (同意)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_WANDERER_ANY">
+			<Text>（＃￣～￣＃） (否决)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_WANDERER_ANY">
+			<Text>(≧∇≦)ﾉ (想要宣布友谊)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_WANDERER_ANY">
+			<Text>(°ー°〃) (表示遗憾)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_WANDERER_ANY">
+			<Text>┻━┻︵╰(‵□′)╯︵┻━┻ (自取灭亡！打！)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_WANDERER_ANY">
+			<Text>┻━┻︵╰（‵□′╰） (向你宣战！杀！)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_WANDERER_ANY">
+			<Text>(*￣︿￣)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_WANDERER_ANY">
+			<Text>(╬￣皿￣)[NEWLINE]（谴责你）</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_WANDERER_ANY">
+			<Text>o((⊙﹏⊙))o (认为你要发动战争)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_WANDERER_ANY">
+			<Text>Σ( ° _ °|||)︴ (可惜)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_WANDERER_ANY">
+			<Text>(＾－＾)V (明智之举)</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_WANDERER_ANY">
+			<Text>o(╥﹏╥)o （呜哇~）</Text>
+		</Replace>
+
+
+		<![CDATA[
+		<Replace Tag="LOC_AGENDA_WYRMS_NAME" Language="zh_Hans_CN">
+			<Text>快乐之路</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_AGENDA_WYRMS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>喜欢人民幸福感高的文明，讨厌人民幸福感低的文明</Text>
+		</Replace>
+		]]>
+
+		<Replace Tag="LOC_AGENDA_WYRMS_2_NAME" Language="zh_Hans_CN">
+			<Text>大兴土木</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AGENDA_WYRMS_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				喜欢清除所有地貌并改良所有可以改良的单元格。喜欢被改良的单元格占很高比例的文明。
+				讨厌已改良的单元格占很低比例，或建造国家公园的文明。
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_AGENDA_WYRMS_2_EXPLOITATION_DES" Language="zh_Hans_CN">
+			<Text>喜欢改造单元格多的文明，并讨厌国家公园。</Text>
+		</Replace>
+
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_KUDO_EXIT_LEADER_WYRMS_ANY">
+			<Text>很高兴能看到您境内丰富的改良设施。</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_WARNING_EXIT_LEADER_WYRMS_ANY">
+			<Text>你就是这么规划土地的吗？</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_FIRST_MEET_LEADER_WYRMS_ANY">
+			<Text>你好，我是苍白之王沃姆，圣巢的统治者。</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_WYRMS_ANY">
+			<Text>陌生人，你来自何方？</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_WYRMS_ANY">
+			<Text>希望你可以来我精致装修的白色宫殿走一遭。</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_WYRMS_ANY">
+			<Text>这很好。</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_WYRMS_ANY">
+			<Text>很高兴能看到你城市的繁荣与辉煌。</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_WYRMS_ANY">
+			<Text>圣巢与你国友谊长存。</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_WYRMS_ANY">
+			<Text>经过再三考量，我暂时选择拒绝。</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_WYRMS_ANY">
+			<Text>我们能否加深合作，共创辉煌？</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_WYRMS_ANY">
+			<Text>真是可惜。</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_WYRMS_ANY">
+			<Text>穷兵黩武者，利锯斩之！</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_WYRMS_ANY">
+			<Text>我以圣巢之名，向你宣战！</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_WYRMS_ANY">
+			<Text>哦？有意思。</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_WYRMS_ANY">
+			<Text>你应该为自己的作为付出代价。[NEWLINE]（谴责你）</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_WYRMS_ANY">
+			<Text>你想对圣巢发起战争吗？</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_WYRMS_ANY">
+			<Text>很遗憾。</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_WYRMS_ANY">
+			<Text>合作愉快。</Text>
+		</Replace>
+		<Replace language="zh_Hans_CN" tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_WYRMS_ANY">
+			<Text>终究还是难逃这样的命运吗？</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_RADIANCE_QUOTE" Language="zh_Hans_CN">
+			<Text>...黎！明！将！会！到！来！...</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_RADIANCE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				纠缠着圣巢昆虫尸骸的瘟疫、感染、疯狂……从这个衰败王国的子民眼中尖啸而出的光芒。
+				这是源自何处？我这样的凡夫大概永远不会明白吧。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GOD_OF_GODS_QUOTE" Language="zh_Hans_CN">
+			<Text>......</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GOD_OF_GODS_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				被寻神者称为诸神之神，在游戏文件中被称为暗影之主，常被玩家称呼为虚空之神。
+				它是非常庞大的虚空生物，头上有很多角，有四条手臂，八只发光的白眼睛，
+				背后还有许多抽动的卷须。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WANDERER_QUOTE" Language="zh_Hans_CN">
+			<Text>......</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WANDERER_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				一名神秘的漫游者，以破骨钉为武器，潜入地表之下的圣巢，开始冒险之旅。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WYRMS_QUOTE" Language="zh_Hans_CN">
+			<Text>这里也应该加电锯。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WYRMS_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				圣巢的老国王啊……他一定是太想拯救自己那摇摇欲坠的小世界了。
+				他强加给他人的牺牲……结果都徒劳无功。
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WYRMS_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>
+				我的王啊！你真是个无可救药的混蛋！（无端乱入）
+			</Text>
+		</Replace>
+	</LocalizedText>
+
+</GameData>

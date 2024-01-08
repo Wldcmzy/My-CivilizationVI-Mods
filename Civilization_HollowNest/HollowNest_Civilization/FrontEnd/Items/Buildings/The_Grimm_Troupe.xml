@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The_Grimm_Troupe -->
+<!-- Author: wldcmzy -->
+<!-- DateCreated: 12/28/2023 9:34:40 PM -->
+<GameData>
+	<PlayerItems>
+		<!--Grimm-->
+		<Row
+			Domain="Players:Expansion2_Players"
+			CivilizationType="CIVILIZATION_HOLLOWNEST"
+			LeaderType="LEADER_GRIMM"
+			Type="BUILDING_THE_GRIMM_TROUPE"
+			Icon="ICON_BUILDING_THE_GRIMM_TROUPE"
+			Name="LOC_BUILDING_THE_GRIMM_TROUPE_NAME"
+			Description="LOC_BUILDING_THE_GRIMM_TROUPE_DESCRIPTION"
+			SortIndex="33"
+		/>
+	</PlayerItems>
+</GameData>

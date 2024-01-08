@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Spec_Tower -->
+<!-- Author: wldcmzy -->
+<!-- DateCreated: 12/29/2023 4:36:41 PM -->
+<GameData>
+	
+	<Types>
+		<Row Type="BUILDING_HK_SPEC_TOWER" Kind="KIND_BUILDING"/>
+		<Row Type="ABILITY_BUILDING_HK_SPEC_TOWER_SIGHT_BUFF" Kind="KIND_ABILITY"/>
+	</Types>
+	<Buildings>
+		<Row 
+			BuildingType="BUILDING_HK_SPEC_TOWER" 
+			Name="LOC_BUILDING_HK_SPEC_TOWER_NAME" 
+			Description="LOC_BUILDING_HK_SPEC_TOWER_DESCRIPTION" 
+			PrereqCivic="CIVIC_STATE_WORKFORCE" 
+			Cost="400" 
+			AdvisorType="ADVISOR_CULTURE" 
+			MaxWorldInstances="1"
+			PrereqDistrict="DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE"
+			IsWonder="true" 
+			RequiresPlacement="true" 
+			ObsoleteEra="ERA_MEDIEVAL" 
+			Quote="LOC_BUILDING_HK_SPEC_TOWER_QUOTE"
+			TraitType="TRAIT_CIVILIZATION_BUILDING_HK_SPEC_TOWER"
+			/>
+	</Buildings>
+
+	<Building_ValidTerrains>
+		<Row BuildingType="BUILDING_HK_SPEC_TOWER" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row BuildingType="BUILDING_HK_SPEC_TOWER" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row BuildingType="BUILDING_HK_SPEC_TOWER" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row BuildingType="BUILDING_HK_SPEC_TOWER" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row BuildingType="BUILDING_HK_SPEC_TOWER" TerrainType="TERRAIN_DESERT_HILLS"/>
+	</Building_ValidTerrains>
+
+
+
+	
+	<!--Sight buff to unit-->
+
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_HK_SPEC_TOWER</BuildingType>
+			<ModifierId>MODIFIER_BUILDING_HK_SPEC_TOWER_UNIT_SIGHT_BUFF</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_HK_SPEC_TOWER_UNIT_SIGHT_BUFF</ModifierId>
+			<ModifierType>CUSTOM_MODIFIERTYPE_BUILDING_ADD_ALL_UNIT_ON_IT_SIGHT_BUFF</ModifierType>
+			<SubjectRequirementSetId>REQ_HK_UNIT_ON_OWNER</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_HK_SPEC_TOWER_UNIT_SIGHT_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>12</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- *************** Custom ModifierType *************** -->
+	<Types>
+		<Row Type="CUSTOM_MODIFIERTYPE_BUILDING_ADD_ALL_UNIT_ON_IT_SIGHT_BUFF" Kind="KIND_MODIFIER"/>
+	</Types>
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>CUSTOM_MODIFIERTYPE_BUILDING_ADD_ALL_UNIT_ON_IT_SIGHT_BUFF</ModifierType>
+			<CollectionType>COLLECTION_ALL_UNITS</CollectionType>
+			<EffectType>EFFECT_ADJUST_UNIT_SIGHT</EffectType>
+		</Row>
+	</DynamicModifiers>
+	<!-- =============== RequirementSets =============== -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>REQ_HK_UNIT_ON_OWNER</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>REQ_HK_UNIT_ON_OWNER</RequirementSetId>
+			<RequirementId>REQ_HK_UNIT_ON_OWNER</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
+	<Requirements>
+		<Row>
+			<RequirementId>REQ_HK_UNIT_ON_OWNER</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_TO_OWNER</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQ_HK_UNIT_ON_OWNER</RequirementId>
+			<Name>MaxDistance</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQ_HK_UNIT_ON_OWNER</RequirementId>
+			<Name>MinDistance</Name>
+			<Value>0</Value>
+		</Row>
+	</RequirementArguments>
+
+
+	<!--Sight see through features-->
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_HK_SPEC_TOWER</BuildingType>
+			<ModifierId>MODIFIER_BUILDING_HK_SPEC_TOWER_UNIT_THROUGH_FEATURES</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_HK_SPEC_TOWER_UNIT_THROUGH_FEATURES</ModifierId>
+			<ModifierType>CUSTOM_MODIFIERTYPE_BUILDING_ADD_ALL_UNIT_ON_IT_SEE_THROUGH_FEATURES</ModifierType>
+			<SubjectRequirementSetId>REQ_HK_UNIT_ON_OWNER</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_HK_SPEC_TOWER_UNIT_THROUGH_FEATURES</ModifierId>
+			<Name>CanSee</Name>
+			<Value>true</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- *************** Custom ModifierType *************** -->
+	<Types>
+		<Row Type="CUSTOM_MODIFIERTYPE_BUILDING_ADD_ALL_UNIT_ON_IT_SEE_THROUGH_FEATURES" Kind="KIND_MODIFIER"/>
+	</Types>
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>CUSTOM_MODIFIERTYPE_BUILDING_ADD_ALL_UNIT_ON_IT_SEE_THROUGH_FEATURES</ModifierType>
+			<CollectionType>COLLECTION_ALL_UNITS</CollectionType>
+			<EffectType>EFFECT_ADJUST_UNIT_SEE_THROUGH_FEATURES</EffectType>
+		</Row>
+	</DynamicModifiers>
+
+
+	<!--Sight see through terrain-->
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_HK_SPEC_TOWER</BuildingType>
+			<ModifierId>MODIFIER_BUILDING_HK_SPEC_TOWER_UNIT_THROUGH_TERRAIN</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_HK_SPEC_TOWER_UNIT_THROUGH_TERRAIN</ModifierId>
+			<ModifierType>CUSTOM_MODIFIERTYPE_BUILDING_ADD_ALL_UNIT_ON_IT_SEE_THROUGH_TERRAIN</ModifierType>
+			<SubjectRequirementSetId>REQ_HK_UNIT_ON_OWNER</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_HK_SPEC_TOWER_UNIT_THROUGH_TERRAIN</ModifierId>
+			<Name>SeeHidden</Name>
+			<Value>true</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- *************** Custom ModifierType *************** -->
+	<Types>
+		<Row Type="CUSTOM_MODIFIERTYPE_BUILDING_ADD_ALL_UNIT_ON_IT_SEE_THROUGH_TERRAIN" Kind="KIND_MODIFIER"/>
+	</Types>
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>CUSTOM_MODIFIERTYPE_BUILDING_ADD_ALL_UNIT_ON_IT_SEE_THROUGH_TERRAIN</ModifierType>
+			<CollectionType>COLLECTION_ALL_UNITS</CollectionType>
+			<EffectType>EFFECT_ADJUST_UNIT_SEE_HIDDEN</EffectType>
+		</Row>
+	</DynamicModifiers>
+	
+</GameData>

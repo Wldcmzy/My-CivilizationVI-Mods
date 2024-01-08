@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Grimm -->
+<!-- Author: wldcmzy -->
+<!-- DateCreated: 12/27/2023 10:14:35 PM -->
+<GameData>
+	<Players>
+		<Row
+			Domain="Players:Expansion2_Players"
+			CivilizationType="CIVILIZATION_HOLLOWNEST"
+			LeaderType="LEADER_GRIMM"
+			CivilizationName="LOC_CIVILIZATION_HOLLOWNEST_NAME"
+			CivilizationIcon="ICON_CIVILIZATION_HOLLOWNEST"
+			LeaderName="LOC_LEADER_GRIMM_NAME"
+			LeaderIcon="ICON_LEADER_GRIMM"
+			CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_HOLLOWNEST_NAME"
+			CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_HOLLOWNEST_DESCRIPTION"
+			CivilizationAbilityIcon="ICON_CIVILIZATION_HOLLOWNEST"
+			LeaderAbilityName="LOC_TRAIT_LEADER_GRIMM_NAME"
+			LeaderAbilityDescription="LOC_TRAIT_LEADER_GRIMM_DESCRIPTION"
+			LeaderAbilityIcon="ICON_LEADER_GRIMM"
+		/>
+	</Players>
+
+</GameData>
